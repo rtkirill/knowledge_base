@@ -1,0 +1,6 @@
+<?
+$sSectionName = "kb";
+$arDirProperties = Array(
+
+);
+?>

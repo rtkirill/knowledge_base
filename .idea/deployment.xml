@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="sitebuild" notifyRemoteChanges="true">
+    <serverData>
+      <paths name="fermifi">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="fermifi_bitrix">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sitebuild">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/about" />
+            <excludedPath path="/ajax" />
+            <excludedPath path="/contacts" />
+            <excludedPath path="/dealer_locator" />
+            <excludedPath path="/downloads" />
+            <excludedPath path="/es" />
+            <excludedPath path="/faqxz" />
+            <excludedPath path="/files" />
+            <excludedPath path="/html" />
+            <excludedPath path="/images" />
+            <excludedPath path="/kb" />
+            <excludedPath path="/login" />
+            <excludedPath path="/markets" />
+            <excludedPath path="/MPDF60" />
+            <excludedPath path="/news" />
+            <excludedPath path="/products" />
+            <excludedPath path="/profile" />
+            <excludedPath path="/pt" />
+            <excludedPath path="/ru" />
+            <excludedPath path="/search" />
+            <excludedPath path="/software_files" />
+            <excludedPath path="/solutions" />
+            <excludedPath path="/success" />
+            <excludedPath path="/support" />
+            <excludedPath path="/support_request" />
+            <excludedPath path="/upload" />
+            <excludedPath path="/video" />
+            <excludedPath path="/.access.php" />
+            <excludedPath path="/.bottom1.menu.php" />
+            <excludedPath path="/.bottom2.menu.php" />
+            <excludedPath path="/.bottom2.menu_ext.php" />
+            <excludedPath path="/.bottom3.menu.php" />
+            <excludedPath path="/.bottom3.menu_ext.php" />
+            <excludedPath path="/.bottom4.menu.php" />
+            <excludedPath path="/.bottom4.menu_ext.php" />
+            <excludedPath path="/.feedbackajax2.txt" />
+            <excludedPath path="/.htaccess" />
+            <excludedPath path="/.htaccess.restore" />
+            <excludedPath path="/.htaccess_" />
+            <excludedPath path="/.htaccess__" />
+            <excludedPath path="/.htaccess_orig" />
+            <excludedPath path="/.main.menu.php" />
+            <excludedPath path="/.mobiletop.menu.php" />
+            <excludedPath path="/.section.php" />
+            <excludedPath path="/.top.menu.php" />
+            <excludedPath path="/.trbonetBeforeEventSend.txt" />
+            <excludedPath path="/404.php" />
+            <excludedPath path="/500.html" />
+            <excludedPath path="/apple-touch-icon-114x114.png" />
+            <excludedPath path="/apple-touch-icon-120x120.png" />
+            <excludedPath path="/apple-touch-icon-144x144.png" />
+            <excludedPath path="/apple-touch-icon-152x152.png" />
+            <excludedPath path="/apple-touch-icon-180x180.png" />
+            <excludedPath path="/apple-touch-icon-57x57.png" />
+            <excludedPath path="/apple-touch-icon-72x72.png" />
+            <excludedPath path="/apple-touch-icon-76x76.png" />
+            <excludedPath path="/apple-touch-icon.png" />
+            <excludedPath path="/archive_search.form.tar.gz" />
+            <excludedPath path="/Brochure_August_2015_small.pdf" />
+            <excludedPath path="/components.zip" />
+            <excludedPath path="/download.php" />
+            <excludedPath path="/faq.tar.gz" />
+            <excludedPath path="/faq.zip" />
+            <excludedPath path="/favicon.ico" />
+            <excludedPath path="/googlebc98f1975bec392b.html" />
+            <excludedPath path="/index.php" />
+            <excludedPath path="/MPDF60.zip" />
+            <excludedPath path="/new1.txt" />
+            <excludedPath path="/news.list.zip" />
+            <excludedPath path="/pathLog.txt" />
+            <excludedPath path="/pt.tar.gz" />
+            <excludedPath path="/robots.txt" />
+            <excludedPath path="/search.form.zip" />
+            <excludedPath path="/sitebuild.zip" />
+            <excludedPath path="/sitemap.xml" />
+            <excludedPath path="/sitemap_000.xml" />
+            <excludedPath path="/sitemap_errors.xml" />
+            <excludedPath path="/sitemap_files.xml" />
+            <excludedPath path="/sitemap_iblock_1.xml" />
+            <excludedPath path="/sitemap_iblock_11.xml" />
+            <excludedPath path="/sitemap_iblock_12.xml" />
+            <excludedPath path="/sitemap_iblock_13.xml" />
+            <excludedPath path="/sitemap_iblock_14.xml" />
+            <excludedPath path="/sitemap_iblock_15.xml" />
+            <excludedPath path="/sitemap_iblock_16.xml" />
+            <excludedPath path="/sitemap_iblock_17.xml" />
+            <excludedPath path="/sitemap_iblock_18.xml" />
+            <excludedPath path="/sitemap_iblock_19.xml" />
+            <excludedPath path="/sitemap_iblock_2.xml" />
+            <excludedPath path="/sitemap_iblock_20.xml" />
+            <excludedPath path="/sitemap_iblock_21.xml" />
+            <excludedPath path="/sitemap_iblock_3.xml" />
+            <excludedPath path="/sitemap_iblock_4.xml" />
+            <excludedPath path="/sitemap_iblock_5.xml" />
+            <excludedPath path="/sitemap_iblock_7.xml" />
+            <excludedPath path="/sitemap_iblock_8.xml" />
+            <excludedPath path="/sitemap_iblock_9.xml" />
+            <excludedPath path="/sitemap_index.xml" />
+            <excludedPath path="/software.xml" />
+            <excludedPath path="/test.php" />
+            <excludedPath path="/trbonet_faq.zip" />
+            <excludedPath path="/trbonet_faq_search.zip" />
+            <excludedPath path="/urlrewrite.php" />
+            <excludedPath path="/web.config" />
+            <excludedPath path="/bitrix/activities" />
+            <excludedPath path="/bitrix/admin" />
+            <excludedPath path="/bitrix/backup" />
+            <excludedPath path="/bitrix/blocks" />
+            <excludedPath path="/bitrix/cache" />
+            <excludedPath path="/bitrix/catalog_export" />
+            <excludedPath path="/bitrix/components" />
+            <excludedPath path="/bitrix/css" />
+            <excludedPath path="/bitrix/fonts" />
+            <excludedPath path="/bitrix/gadgets" />
+            <excludedPath path="/bitrix/image_uploader" />
+            <excludedPath path="/bitrix/images" />
+            <excludedPath path="/bitrix/js" />
+            <excludedPath path="/bitrix/managed_cache" />
+            <excludedPath path="/bitrix/modules" />
+            <excludedPath path="/bitrix/otp" />
+            <excludedPath path="/bitrix/panel" />
+            <excludedPath path="/bitrix/php_interface" />
+            <excludedPath path="/bitrix/services" />
+            <excludedPath path="/bitrix/sounds" />
+            <excludedPath path="/bitrix/template" />
+            <excludedPath path="/bitrix/templates/trbonet" />
+            <excludedPath path="/bitrix/templates/trbonet_es" />
+            <excludedPath path="/bitrix/templates/trbonet_pt" />
+            <excludedPath path="/bitrix/templates/trbonet_ru" />
+            <excludedPath path="/bitrix/themes" />
+            <excludedPath path="/bitrix/tmp" />
+            <excludedPath path="/bitrix/tools" />
+            <excludedPath path="/bitrix/updates" />
+            <excludedPath path="/bitrix/wizards" />
+            <excludedPath path="/bitrix/.access.php" />
+            <excludedPath path="/bitrix/.settings.php" />
+            <excludedPath path="/bitrix/activity_limit.php" />
+            <excludedPath path="/bitrix/click.php" />
+            <excludedPath path="/bitrix/coupon_activation.php" />
+            <excludedPath path="/bitrix/footer.php" />
+            <excludedPath path="/bitrix/header.php" />
+            <excludedPath path="/bitrix/index.php" />
+            <excludedPath path="/bitrix/license_key.php" />
+            <excludedPath path="/bitrix/p3p.xml" />
+            <excludedPath path="/bitrix/redirect.php" />
+            <excludedPath path="/bitrix/rk.php" />
+            <excludedPath path="/bitrix/rss.php" />
+            <excludedPath path="/bitrix/site_checker_a1148f579c837b4e95f5db4cf3aaf15b.log" />
+            <excludedPath path="/bitrix/site_checker_e64bd4aad9141f4177c3789d77249d18.log" />
+            <excludedPath path="/bitrix/spread.php" />
+            <excludedPath path="/bitrix/urlrewrite.php" />
+            <excludedPath path="/bitrix/virtual_file_system.php" />
+            <excludedPath path="/bitrix/web.config" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+  </component>
+</project>
