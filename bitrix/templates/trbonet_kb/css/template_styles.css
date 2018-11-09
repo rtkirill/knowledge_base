@@ -1,0 +1,184 @@
+@font-face {
+    font-family: OpenSans-L;
+    src: url('../font/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: OpenSans-B;
+    src: url('../font/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: OpenSans-SB;
+    src: url('../font/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: OpenSans-R;
+    src: url('../font/OpenSans-Regular.ttf');
+}
+
+body {
+    background: #f3f3f3;
+}
+
+.main {
+    width: 1600px;
+    height: 1360px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 10px 50px rgba(0,0,0,.05);
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    width: inherit;
+    height: 70px;
+    background-color: rgb(34, 123, 191);
+    display: flex;
+}
+
+.logo {
+    width: 200px;
+}
+
+.kb_title {
+    text-align: left;
+    width: 590px;
+    height: 40px;
+    border-left: 1px solid #fff;
+    display: flex;
+    align-self: center;
+    padding-left: 20px;
+}
+.kb_title p {
+    margin: 0;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'OpenSans-L', sans-serif!important;
+}
+
+aside {
+    width: 268px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside ul.left_aside {
+    /*height: 414px;*/
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    padding: 10px 0 10px 30px;
+}
+
+aside ul.left_aside li a {
+    line-height: 36px;
+    color: rgb(107, 107, 107);
+    font-size: 14px;
+    font-family: 'OpenSans-SB', sans-serif!important;
+    text-decoration: none;
+}
+
+aside ul.left_aside li a:hover {
+    color:#1e1e1f;
+}
+
+aside ul.left_aside li a#active {
+    color:#278cd9;
+}
+
+aside ul.left_aside li ul.left_aside_inner li a {
+    padding-left: 10px!important;
+    font-family: 'OpenSans-R', sans-serif!important;
+}
+
+aside ul.left_aside li ul.left_aside_inner li a#active {
+    color:#1e1e1f;
+    font-family: 'OpenSans-B', sans-serif!important;
+}
+
+aside ul.left_aside li ul.left_aside_inner li a:hover {
+    color:#000!important;
+}
+
+aside .tech_doc {
+    margin-top: 30px;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+aside .tech_doc a {
+    text-decoration: none;
+    color: rgb(39, 140, 217);
+    font-size: 14px;
+    font-family: 'OpenSans-SB', sans-serif!important;
+}
+
+aside .tech_doc a:hover {
+    color: #000;
+}
+
+aside .tech_doc a:hover svg path {
+    fill: rgb(0,0,0)!important;
+}
+
+aside .tech_doc a p {
+    display: inline-block;
+    opacity: 1;
+    line-height: 36px;
+    margin-left: 10px;
+}
+
+section.index_faq {
+    padding-top: 60px;
+}
+
+section.index_faq h1 {
+    color: rgb(78, 80, 82);
+    font-size: 36px;
+    font-family: 'OpenSans-L', sans-serif!important;
+    text-align: center;
+}
+
+section.index_faq input {
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(224, 224, 224);
+    color: rgb(78, 80, 82);
+    padding: 0px 10px;
+    text-align: left;
+    font-size: 14px;
+    border-radius: 2px;
+    width: 600px;
+    height: 43px;
+    margin-top: 10px;
+    /*background-image: url() no-repeat 4px;*/
+    outline: none;
+}
+
+section.index_faq svg:hover path {
+    fill: rgb(39, 140, 217)!important;
+}
+
+section.index_faq .desc_faq {
+    padding-top: 50px;
+    width: 600px;
+    text-align: center;
+}
+
+section.index_faq .desc_faq p {
+    font-family: 'OpenSans-R', sans-serif!important;
+    color: rgb(78, 80, 82)!important;
+}

@@ -1,409 +1,143 @@
-<?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("FAQ");
-?><h1 class="oversized"><? $APPLICATION->ShowTitle(false); ?></h1>
- <?
-//    Проверка на язык в URL
-echo $_SERVER['HTTP_HOST'];
-    $strUrl = $APPLICATION->GetCurPage(true);
-    $strLang = substr($strUrl,1,2);
-    $arrLang = array("ru","es","pt");
-    if(in_array($strLang,$arrLang)){
-		//$strUrl = "/".$strLang."/faq/index.php";
-	} else {
-		$strUrl = "/faq/index.php";
-    }
-?> <?=$APPLICATION ->GetCurDir();?> <?if($APPLICATION->GetCurPage(true) == $strUrl):?> <?$APPLICATION->IncludeComponent(
-	"sitebuild:faq_search",
-	".default",
-	Array(
-		"COMPONENT_TEMPLATE" => ".default",
-		"PAGE" => "#SITE_DIR#faq/search/index.php",
-		"USE_SUGGEST" => "N"
-	)
-);?> <?endif;?><br>
-<div class="l-constrained l-flow">
-	<div id="overview" class="overview--image">
-		<div class="overview__content faq_content">
-			 <?$APPLICATION->IncludeComponent(
-	"sitebuild:faq",
-	".default",
-	Array(
-		"ADD_ELEMENT_CHAIN" => "Y",
-		"ADD_SECTIONS_CHAIN" => "N",
-		"AJAX_MODE" => "N",
-		"AJAX_OPTION_ADDITIONAL" => "",
-		"AJAX_OPTION_HISTORY" => "N",
-		"AJAX_OPTION_JUMP" => "N",
-		"AJAX_OPTION_STYLE" => "Y",
-		"BROWSER_TITLE" => "-",
-		"CACHE_FILTER" => "N",
-		"CACHE_GROUPS" => "Y",
-		"CACHE_TIME" => "36000000",
-		"CACHE_TYPE" => "A",
-		"CHECK_DATES" => "Y",
-		"COMPONENT_TEMPLATE" => ".default",
-		"DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
-		"DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
-		"DETAIL_DISPLAY_TOP_PAGER" => "N",
-		"DETAIL_FIELD_CODE" => array(0=>"",1=>"",),
-		"DETAIL_PAGER_SHOW_ALL" => "Y",
-		"DETAIL_PAGER_TEMPLATE" => "",
-		"DETAIL_PAGER_TITLE" => "Страница",
-		"DETAIL_PROPERTY_CODE" => array(0=>"ISSUE",1=>"RELATED_ARTICLES",2=>"APPLIES",3=>"",),
-		"DETAIL_SET_CANONICAL_URL" => "N",
-		"DISPLAY_BOTTOM_PAGER" => "Y",
-		"DISPLAY_DATE" => "Y",
-		"DISPLAY_NAME" => "Y",
-		"DISPLAY_PICTURE" => "Y",
-		"DISPLAY_PREVIEW_TEXT" => "Y",
-		"DISPLAY_TOP_PAGER" => "N",
-		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "105",
-		"IBLOCK_TYPE" => "faq",
-		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
-		"LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
-		"LIST_FIELD_CODE" => array(0=>"",1=>"",),
-		"LIST_PROPERTY_CODE" => array(0=>"",1=>"",),
-		"MESSAGE_404" => "",
-		"META_DESCRIPTION" => "-",
-		"META_KEYWORDS" => "-",
-		"NEWS_COUNT" => "20",
-		"PAGER_BASE_LINK_ENABLE" => "N",
-		"PAGER_DESC_NUMBERING" => "N",
-		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
-		"PAGER_SHOW_ALL" => "N",
-		"PAGER_SHOW_ALWAYS" => "N",
-		"PAGER_TEMPLATE" => ".default",
-		"PAGER_TITLE" => "Новости",
-		"PREVIEW_TRUNCATE_LEN" => "",
-		"SEF_FOLDER" => "/faq/",
-		"SEF_MODE" => "Y",
-		"SEF_URL_TEMPLATES" => array("news"=>"/","section"=>"/","detail"=>"#ELEMENT_CODE#/",),
-		"SET_LAST_MODIFIED" => "N",
-		"SET_STATUS_404" => "N",
-		"SET_TITLE" => "Y",
-		"SHOW_404" => "N",
-		"SORT_BY1" => "ACTIVE_FROM",
-		"SORT_BY2" => "SORT",
-		"SORT_ORDER1" => "DESC",
-		"SORT_ORDER2" => "ASC",
-		"STRICT_SECTION_CHECK" => "N",
-		"USE_CATEGORIES" => "N",
-		"USE_FILTER" => "N",
-		"USE_PERMISSIONS" => "N",
-		"USE_RATING" => "N",
-		"USE_RSS" => "N",
-		"USE_SEARCH" => "N",
-		"USE_SHARE" => "N"
-	)
-);?> <?if($APPLICATION->GetCurPage(true) != $strUrl):?>
-			<div class="faq-rew">
-				 <?$APPLICATION->IncludeComponent(
-	"sitebuild:faq_rew_feedback",
-	".default",
-	Array(
-		"COMPONENT_TEMPLATE" => ".default",
-		"EMAIL_TO" => "e.balyabin@trbonet.com",
-		"EVENT_MESSAGE_ID" => array(0=>"169",),
-		"OK_TEXT" => "Спасибо, ваше сообщение принято.",
-		"REQUIRED_FIELDS" => array(0=>"NONE",),
-		"USE_CAPTCHA" => "Y"
-	)
-);?>
-			</div>
-			 <?endif;?>
-		</div>
-		<div class="overview__meta">
-			 <?if($APPLICATION->GetCurPage(true) == $strUrl):?>
-			<div class="faq_aside_block">
-				<h3>New Articles1</h3>
-				 <?$APPLICATION->IncludeComponent(
-	"sitebuild:faq_list",
-	"trbonet_faq_aside",
-	Array(
-		"ACTIVE_DATE_FORMAT" => "m/d/Y",
-		"ADD_SECTIONS_CHAIN" => "N",
-		"AJAX_MODE" => "N",
-		"AJAX_OPTION_ADDITIONAL" => "",
-		"AJAX_OPTION_HISTORY" => "N",
-		"AJAX_OPTION_JUMP" => "N",
-		"AJAX_OPTION_STYLE" => "Y",
-		"CACHE_FILTER" => "N",
-		"CACHE_GROUPS" => "Y",
-		"CACHE_TIME" => "36000000",
-		"CACHE_TYPE" => "A",
-		"CHECK_DATES" => "Y",
-		"COMPONENT_TEMPLATE" => "trbonet_faq_aside",
-		"DETAIL_URL" => "",
-		"DISPLAY_BOTTOM_PAGER" => "N",
-		"DISPLAY_DATE" => "Y",
-		"DISPLAY_NAME" => "Y",
-		"DISPLAY_PICTURE" => "N",
-		"DISPLAY_PREVIEW_TEXT" => "Y",
-		"DISPLAY_TOP_PAGER" => "N",
-		"FIELD_CODE" => array(0=>"",1=>"",),
-		"FILTER_NAME" => "",
-		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "105",
-		"IBLOCK_TYPE" => "faq",
-		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
-		"INCLUDE_SUBSECTIONS" => "Y",
-		"MESSAGE_404" => "",
-		"NEWS_COUNT" => "1",
-		"PAGER_BASE_LINK_ENABLE" => "N",
-		"PAGER_DESC_NUMBERING" => "N",
-		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
-		"PAGER_SHOW_ALL" => "N",
-		"PAGER_SHOW_ALWAYS" => "N",
-		"PAGER_TEMPLATE" => ".default",
-		"PAGER_TITLE" => "News",
-		"PARENT_SECTION" => "",
-		"PARENT_SECTION_CODE" => "",
-		"PREVIEW_TRUNCATE_LEN" => "",
-		"PROPERTY_CODE" => array(0=>"",1=>"",),
-		"SET_BROWSER_TITLE" => "N",
-		"SET_LAST_MODIFIED" => "N",
-		"SET_META_DESCRIPTION" => "N",
-		"SET_META_KEYWORDS" => "N",
-		"SET_STATUS_404" => "N",
-		"SET_TITLE" => "N",
-		"SHOW_404" => "N",
-		"SORT_BY1" => "ACTIVE_FROM",
-		"SORT_BY2" => "SORT",
-		"SORT_ORDER1" => "DESC",
-		"SORT_ORDER2" => "ASC",
-		"STRICT_SECTION_CHECK" => "N"
-	)
-);?>
-			</div>
-			<div class="faq_aside_block">
-				<h3>Last Edits</h3>
-				 <?$APPLICATION->IncludeComponent(
-	"sitebuild:faq_list",
-	"trbonet_faq_aside",
-	Array(
-		"ACTIVE_DATE_FORMAT" => "m/d/Y",
-		"ADD_SECTIONS_CHAIN" => "N",
-		"AJAX_MODE" => "N",
-		"AJAX_OPTION_ADDITIONAL" => "",
-		"AJAX_OPTION_HISTORY" => "N",
-		"AJAX_OPTION_JUMP" => "N",
-		"AJAX_OPTION_STYLE" => "Y",
-		"CACHE_FILTER" => "N",
-		"CACHE_GROUPS" => "Y",
-		"CACHE_TIME" => "36000000",
-		"CACHE_TYPE" => "A",
-		"CHECK_DATES" => "Y",
-		"COMPONENT_TEMPLATE" => "trbonet_faq_aside",
-		"DETAIL_URL" => "",
-		"DISPLAY_BOTTOM_PAGER" => "N",
-		"DISPLAY_DATE" => "Y",
-		"DISPLAY_NAME" => "Y",
-		"DISPLAY_PICTURE" => "N",
-		"DISPLAY_PREVIEW_TEXT" => "Y",
-		"DISPLAY_TOP_PAGER" => "N",
-		"FIELD_CODE" => array(0=>"",1=>"",),
-		"FILTER_NAME" => "",
-		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "105",
-		"IBLOCK_TYPE" => "faq",
-		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
-		"INCLUDE_SUBSECTIONS" => "Y",
-		"MESSAGE_404" => "",
-		"NEWS_COUNT" => "4",
-		"PAGER_BASE_LINK_ENABLE" => "N",
-		"PAGER_DESC_NUMBERING" => "N",
-		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
-		"PAGER_SHOW_ALL" => "N",
-		"PAGER_SHOW_ALWAYS" => "N",
-		"PAGER_TEMPLATE" => ".default",
-		"PAGER_TITLE" => "News",
-		"PARENT_SECTION" => "",
-		"PARENT_SECTION_CODE" => "",
-		"PREVIEW_TRUNCATE_LEN" => "",
-		"PROPERTY_CODE" => array(0=>"",1=>"",),
-		"SET_BROWSER_TITLE" => "N",
-		"SET_LAST_MODIFIED" => "N",
-		"SET_META_DESCRIPTION" => "N",
-		"SET_META_KEYWORDS" => "N",
-		"SET_STATUS_404" => "N",
-		"SET_TITLE" => "N",
-		"SHOW_404" => "N",
-		"SORT_BY1" => "TIMESTAMP_X",
-		"SORT_BY2" => "SORT",
-		"SORT_ORDER1" => "DESC",
-		"SORT_ORDER2" => "ASC",
-		"STRICT_SECTION_CHECK" => "N"
-	)
-);?>
-			</div>
-			<div class="faq_aside_block">
-				<h3>Top 10 articles</h3>
-				 <?$APPLICATION->IncludeComponent(
-	"sitebuild:faq_list",
-	"trbonet_faq_aside",
-	Array(
-		"ACTIVE_DATE_FORMAT" => "m/d/Y",
-		"ADD_SECTIONS_CHAIN" => "N",
-		"AJAX_MODE" => "N",
-		"AJAX_OPTION_ADDITIONAL" => "",
-		"AJAX_OPTION_HISTORY" => "N",
-		"AJAX_OPTION_JUMP" => "N",
-		"AJAX_OPTION_STYLE" => "Y",
-		"CACHE_FILTER" => "N",
-		"CACHE_GROUPS" => "Y",
-		"CACHE_TIME" => "36000000",
-		"CACHE_TYPE" => "A",
-		"CHECK_DATES" => "Y",
-		"COMPONENT_TEMPLATE" => "trbonet_faq_aside",
-		"DETAIL_URL" => "",
-		"DISPLAY_BOTTOM_PAGER" => "N",
-		"DISPLAY_DATE" => "Y",
-		"DISPLAY_NAME" => "Y",
-		"DISPLAY_PICTURE" => "N",
-		"DISPLAY_PREVIEW_TEXT" => "Y",
-		"DISPLAY_TOP_PAGER" => "N",
-		"FIELD_CODE" => array(0=>"",1=>"",),
-		"FILTER_NAME" => "",
-		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "105",
-		"IBLOCK_TYPE" => "faq",
-		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
-		"INCLUDE_SUBSECTIONS" => "Y",
-		"MESSAGE_404" => "",
-		"NEWS_COUNT" => "4",
-		"PAGER_BASE_LINK_ENABLE" => "N",
-		"PAGER_DESC_NUMBERING" => "N",
-		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
-		"PAGER_SHOW_ALL" => "N",
-		"PAGER_SHOW_ALWAYS" => "N",
-		"PAGER_TEMPLATE" => ".default",
-		"PAGER_TITLE" => "News",
-		"PARENT_SECTION" => "",
-		"PARENT_SECTION_CODE" => "",
-		"PREVIEW_TRUNCATE_LEN" => "",
-		"PROPERTY_CODE" => array(0=>"",1=>"",),
-		"SET_BROWSER_TITLE" => "N",
-		"SET_LAST_MODIFIED" => "N",
-		"SET_META_DESCRIPTION" => "N",
-		"SET_META_KEYWORDS" => "N",
-		"SET_STATUS_404" => "N",
-		"SET_TITLE" => "N",
-		"SHOW_404" => "N",
-		"SORT_BY1" => "TIMESTAMP_X",
-		"SORT_BY2" => "SORT",
-		"SORT_ORDER1" => "DESC",
-		"SORT_ORDER2" => "ASC",
-		"STRICT_SECTION_CHECK" => "N"
-	)
-);?>
-			</div>
-			 <?else:?> <?$APPLICATION->IncludeComponent(
-	"sitebuild:faq_list",
-	"trbonet_faq",
-	Array(
-		"ACTIVE_DATE_FORMAT" => "m/d/Y",
-		"ADD_SECTIONS_CHAIN" => "Y",
-		"AJAX_MODE" => "N",
-		"AJAX_OPTION_ADDITIONAL" => "",
-		"AJAX_OPTION_HISTORY" => "N",
-		"AJAX_OPTION_JUMP" => "N",
-		"AJAX_OPTION_STYLE" => "Y",
-		"CACHE_FILTER" => "N",
-		"CACHE_GROUPS" => "Y",
-		"CACHE_TIME" => "36000000",
-		"CACHE_TYPE" => "A",
-		"CHECK_DATES" => "Y",
-		"COMPONENT_TEMPLATE" => "trbonet_faq",
-		"DETAIL_URL" => "/faq/#ELEMENT_CODE#/",
-		"DISPLAY_BOTTOM_PAGER" => "Y",
-		"DISPLAY_DATE" => "Y",
-		"DISPLAY_NAME" => "Y",
-		"DISPLAY_PICTURE" => "N",
-		"DISPLAY_PREVIEW_TEXT" => "Y",
-		"DISPLAY_TOP_PAGER" => "N",
-		"FIELD_CODE" => array(0=>"",1=>"",),
-		"FILTER_NAME" => "",
-		"HIDE_LINK_WHEN_NO_DETAIL" => "N",
-		"IBLOCK_ID" => "105",
-		"IBLOCK_TYPE" => "faq",
-		"INCLUDE_IBLOCK_INTO_CHAIN" => "N",
-		"INCLUDE_SUBSECTIONS" => "Y",
-		"MESSAGE_404" => "",
-		"NEWS_COUNT" => "20",
-		"PAGER_BASE_LINK_ENABLE" => "N",
-		"PAGER_DESC_NUMBERING" => "N",
-		"PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
-		"PAGER_SHOW_ALL" => "N",
-		"PAGER_SHOW_ALWAYS" => "N",
-		"PAGER_TEMPLATE" => ".default",
-		"PAGER_TITLE" => "News",
-		"PARENT_SECTION" => "",
-		"PARENT_SECTION_CODE" => "",
-		"PREVIEW_TRUNCATE_LEN" => "",
-		"PROPERTY_CODE" => array(0=>"",1=>"",),
-		"SET_BROWSER_TITLE" => "Y",
-		"SET_LAST_MODIFIED" => "N",
-		"SET_META_DESCRIPTION" => "Y",
-		"SET_META_KEYWORDS" => "Y",
-		"SET_STATUS_404" => "N",
-		"SET_TITLE" => "Y",
-		"SHOW_404" => "N",
-		"SORT_BY1" => "ACTIVE_FROM",
-		"SORT_BY2" => "SORT",
-		"SORT_ORDER1" => "DESC",
-		"SORT_ORDER2" => "ASC",
-		"STRICT_SECTION_CHECK" => "N"
-	)
-);?> <?endif;?>
-		</div>
-	</div>
-</div>
- <?if($APPLICATION->GetCurPage(true) == $strUrl):?>
-<h1 class="oversized l-constrained l-flow">Couldn`t find an answer?</h1>
-<div class="tn-text l-constrained l-flow">
-	<p class="xl" style="text-align: center;">
-		 Contact us to get direct support, for you issue.&nbsp;
-	</p>
- <br>
-</div>
- <? $productNames = CIBlockElement::GetList(
-			array('sort' => 'ASC'), 
-			array('IBLOCK_ID' => 2, 'ACTIVE_DATE' => 'Y', 'ACTIVE' => 'Y'),
-			false, false,
-			array('ID', 'IBLOCK_ID', 'NAME')
-		);
-		$productArr = array();
-		while($item = $productNames->GetNextElement()){ 
-			$item = $item->GetFields();
-			$productArr[] = $item['NAME'];
-		} ?> <? $email = COption::GetOptionString("main", "email_from") ?> <? $countries = GetCountryArray() ?> <?$APPLICATION->IncludeComponent(
-	"informunity:feedbackajax",
-	"trbonet_support",
-	Array(
-		"AFTER_TEXT" => "",
-		"AJAX_FORM" => "support_popup",
-		"COMPONENT_TEMPLATE" => "trbonet_support",
-		"EMAIL_TO" => array(0=>$email,1=>"",),
-		"EM_THEME" => "#SITE#: Форма \"Support\"",
-		"EVENT_MESSAGE_ID" => "74",
-		"EVENT_TYPE_ID" => "TRBONET_SUPPORT",
-		"FIELD_FOR_EMAIL" => "EMAIL",
-		"FIELD_FOR_NAME" => "FIRST_NAME",
-		"FIELD_FOR_THEME" => "iu_none",
-		"OK_TEXT" => "Thank you. We have received your message and will respond shortly",
-		"REQUIRED_FIELDS" => array(0=>"FIRST_NAME",1=>"LAST_NAME",2=>"COMPANY",3=>"EMAIL",4=>"COUNTRY",5=>"",),
-		"SELECT_VALUES" => array('COUNTRY'=>$countries['reference'],'PRODUCT'=>$productArr,),
-		"TEXTAREA_FIELDS" => array(0=>"MESSAGE",),
-		"USE_ATTACH" => "N",
-		"USE_CAPTCHA" => "Y",
-		"USE_EMAIL_USER" => "N",
-		"USE_IU_IB" => "N",
-		"USE_IU_PAT" => "N"
-	),
-false,
-Array(
-	'HIDE_ICONS' => 'Y'
-)
-);?> <?endif;?><br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
+$APPLICATION->SetTitle("TRBOnet Knowledge Base");
+?>
+<section class="index_faq">
+    <h1 class="oversized"><? $APPLICATION->ShowTitle(false); ?></h1>
+    <input type="text" value="" placeholder="Search our Knowledge Base...">
+    <svg version="1.2" preserveAspectRatio="none" viewBox="0 0 24 24" class="ng-element"
+         style="fill: rgb(107, 107, 107); width: 32px; height: 32px; position: relative;left: -43px;top: 11px; cursor: pointer;">
+        <g>
+            <path xmlns:default="http://www.w3.org/2000/svg"
+                  d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                  style="fill: rgb(107, 107, 107);"></path>
+        </g>
+    </svg>
+    <div class="desc_faq">
+        <svg version="1.2" preserveAspectRatio="none" viewBox="0 0 64 65.5" class="ng-element"
+             style="opacity: 1; mix-blend-mode: normal; overflow: visible; width: 84px; height: 85px;">
+            <style type="text/css">
+                .st0_1537378854447 {
+                    fill: #FFCA8A;
+                }
+
+                .st1_1537378854447 {
+                    fill: #9C9EA0;
+                }
+
+                .st2_1537378854447 {
+                    fill: #227BBF;
+                }
+            </style>
+            <circle r="13.3" cy="23" cx="35.4" class="st0_1537378854447" vector-effect="non-scaling-stroke"></circle>
+            <path d="M25.6,36.1l0.1,0.1l0.8,1.3c-1.4,0.8-1.9,2.6-1.1,4.1c0.1,0.2,0.2,0.4,0.4,0.5c-1.1,1.2-1,3.1,0.2,4.2
+	c0.6,0.5,1.3,0.8,2,0.8h8c1.6,0,3-1.3,3-3c0-0.7-0.3-1.5-0.8-2c1.1-1.2,1-3.1-0.2-4.2c-0.2-0.1-0.3-0.3-0.5-0.4l0.8-1.3l0.1-0.1
+	c5.3-2.1,8.7-7.3,8.6-12.9C47,15.3,40.3,9,32,9s-15,6.3-15,14.1C16.9,28.8,20.3,33.9,25.6,36.1z M36,45h-8c-0.6,0-1-0.4-1-1
+	s0.4-1,1-1h8c0.6,0,1,0.4,1,1S36.6,45,36,45z M36,41h-8c-0.6,0-1-0.4-1-1s0.4-1,1-1h8c0.6,0,1,0.4,1,1S36.6,41,36,41z M32,11
+	c7.2,0,13,5.4,13,12.1c0.1,4.9-2.9,9.3-7.4,11.1c0,0-0.1,0-0.1,0l-0.4,0.2c-0.2,0.1-0.3,0.2-0.4,0.4L35.4,37H35v-7.6l4.7-4.7
+	l-1.4-1.4l-5,5C33.1,28.5,33,28.7,33,29v8h-2v-8c0-0.3-0.1-0.5-0.3-0.7l-5-5l-1.4,1.4l4.7,4.7V37h-0.4l-1.3-2.1
+	c-0.1-0.2-0.2-0.3-0.4-0.4l-0.4-0.2c0,0-0.1,0-0.1,0c-4.5-1.8-7.5-6.2-7.4-11.1C19,16.4,24.8,11,32,11z"
+                  class="st1_1537378854447" vector-effect="non-scaling-stroke"></path>
+            <rect height="6.7" width="2" class="st1_1537378854447"
+                  transform="matrix(0.4472 -0.8944 0.8944 0.4472 -2.5469 18.8789)" y="8.1" x="13"
+                  vector-effect="non-scaling-stroke"></rect>
+            <rect height="2" width="6.7" class="st1_1537378854447"
+                  transform="matrix(0.9486 -0.3164 0.3164 0.9486 -1.0793 16.3521)" y="10.5" x="46.5"
+                  vector-effect="non-scaling-stroke"></rect>
+            <rect height="2" width="6" class="st1_1537378854447" y="22" x="7" vector-effect="non-scaling-stroke"></rect>
+            <rect height="2" width="6" class="st1_1537378854447" y="22" x="51"
+                  vector-effect="non-scaling-stroke"></rect>
+            <rect height="2" width="6.7" class="st1_1537378854447"
+                  transform="matrix(0.8944 -0.4472 0.4472 0.8944 -14.8451 10.1144)" y="35.5" x="10.6"
+                  vector-effect="non-scaling-stroke"></rect>
+            <rect height="6.7" width="2" class="st1_1537378854447"
+                  transform="matrix(0.4472 -0.8944 0.8944 0.4472 -5.007 64.8983)" y="33.1" x="49"
+                  vector-effect="non-scaling-stroke"></rect>
+            <rect height="5" width="2" class="st1_1537378854447" y="2" x="31" vector-effect="non-scaling-stroke"></rect>
+            <path d="M28,56H3v2h58v-2H36c0.1-3.3,10.3-7,25-7v-2c-13,0-26.9,3.2-27,9h-4c-0.1-5.8-14-9-27-9v2
+	C17.6,49,27.9,52.7,28,56z" class="st2_1537378854447" vector-effect="non-scaling-stroke"></path>
+            <rect height="19" width="2" class="st2_1537378854447"
+                  transform="matrix(5.256255e-02 -0.9986 0.9986 5.256255e-02 -41.5834 63.1711)" y="44" x="11.5"
+                  vector-effect="non-scaling-stroke"></rect>
+            <rect height="2" width="19" class="st2_1537378854447"
+                  transform="matrix(0.9986 -5.273683e-02 5.273683e-02 0.9986 -2.7497 2.7904)" y="52.5" x="42"
+                  vector-effect="non-scaling-stroke"></rect>
+        </svg>
+        <p>
+            Welcome to the TRBOnet Knowledge Base.<br><br>
+            Here you can find the answers to frequently asked questions, information about workarounds, known issues and
+            their solutions.<br><br>
+            Use the search bar above or choose a product category from the dropdown menu on the left.
+        </p>
+    </div>
+
+    <div class="feedbackForm_faq">
+        <?
+        if (CModule::IncludeModule("iblock")) {
+
+            $productNames = CIBlockElement::GetList(
+                array('sort' => 'ASC'),
+                array('IBLOCK_ID' => 2, 'ACTIVE_DATE' => 'Y', 'ACTIVE' => 'Y'),
+                false, false,
+                array('ID', 'IBLOCK_ID', 'NAME')
+            );
+            $productArr = array();
+            while ($item = $productNames->GetNextElement()) {
+                $item = $item->GetFields();
+                $productArr[] = $item['NAME'];
+            } ?>
+            <? $email = COption::GetOptionString("main", "email_from") ?>
+            <? $countries = GetCountryArray() ?>
+
+            <? $APPLICATION->IncludeComponent(
+                "informunity:feedbackajax",
+                "trbonet_support",
+                Array(
+                    "AFTER_TEXT" => "",
+                    "AJAX_FORM" => "support_popup",
+                    "COMPONENT_TEMPLATE" => "trbonet_support",
+                    "EMAIL_TO" => array(0 => $email, 1 => "",),
+                    "EM_THEME" => "#SITE#: Форма \"Support\"",
+                    "EVENT_MESSAGE_ID" => "74",
+                    "EVENT_TYPE_ID" => "TRBONET_SUPPORT",
+                    "FIELD_FOR_EMAIL" => "EMAIL",
+                    "FIELD_FOR_NAME" => "FIRST_NAME",
+                    "FIELD_FOR_THEME" => "iu_none",
+                    "OK_TEXT" => "Thank you. We have received your message and will respond shortly",
+                    "REQUIRED_FIELDS" => array(0 => "FIRST_NAME", 1 => "LAST_NAME", 2 => "COMPANY", 3 => "EMAIL", 4 => "COUNTRY", 5 => "",),
+                    "SELECT_VALUES" => array('COUNTRY' => $countries['reference'], 'PRODUCT' => $productArr,),
+                    "TEXTAREA_FIELDS" => array(0 => "MESSAGE",),
+                    "USE_ATTACH" => "N",
+                    "USE_CAPTCHA" => "Y",
+                    "USE_EMAIL_USER" => "N",
+                    "USE_IU_IB" => "N",
+                    "USE_IU_PAT" => "N"
+                ),
+                false,
+                Array(
+                    'HIDE_ICONS' => 'Y'
+                )
+            );
+
+        }
+        ?>
+    </div>
+</section>
+
+<aside>
+    <ul class="left_aside">
+        <li><a href="#">Test</a></li>
+        <li><a href="#">Test</a></li>
+        <li><a href="#" id="active">Test</a></li>
+        <li>
+            <ul class="left_aside_inner">
+                <li><a href="#" id="active">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+                <li><a href="#">Test</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Test</a></li>
+        <li><a href="#">Test</a></li>
+        <li><a href="#">Test</a></li>
+    </ul>
+</aside>
