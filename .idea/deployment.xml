@@ -132,7 +132,6 @@
             <excludedPath path="/bitrix/blocks" />
             <excludedPath path="/bitrix/cache" />
             <excludedPath path="/bitrix/catalog_export" />
-            <excludedPath path="/bitrix/components" />
             <excludedPath path="/bitrix/css" />
             <excludedPath path="/bitrix/fonts" />
             <excludedPath path="/bitrix/gadgets" />
@@ -175,6 +174,15 @@
             <excludedPath path="/bitrix/urlrewrite.php" />
             <excludedPath path="/bitrix/virtual_file_system.php" />
             <excludedPath path="/bitrix/web.config" />
+            <excludedPath path="/bitrix/components/asd" />
+            <excludedPath path="/bitrix/components/bitrix" />
+            <excludedPath path="/bitrix/components/informunity" />
+            <excludedPath path="/bitrix/components/sitebuild/faq" />
+            <excludedPath path="/bitrix/components/sitebuild/faq_list" />
+            <excludedPath path="/bitrix/components/sitebuild/faq_rew_feedback" />
+            <excludedPath path="/bitrix/components/sitebuild/faq_search" />
+            <excludedPath path="/bitrix/components/sitebuild/menu.elements" />
+            <excludedPath path="/bitrix/components/.access.php" />
           </excludedPaths>
         </serverdata>
       </paths>

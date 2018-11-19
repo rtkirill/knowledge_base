@@ -62,7 +62,7 @@ header {
     font-size: 20px;
     font-weight: normal;
     font-style: normal;
-    font-family: 'OpenSans-L', sans-serif!important;
+    font-family: 'OpenSans-L', sans-serif;
 }
 
 aside {
@@ -81,15 +81,30 @@ aside ul.left_aside {
     /*height: 414px;*/
     border-left: 1px solid #e0e0e0;
     border-right: 1px solid #e0e0e0;
+    padding: 10px 0 10px 0;
+}
+
+aside ul.right_aside {
+    border-left: 1px solid #e0e0e0;
     padding: 10px 0 10px 30px;
 }
 
 aside ul.left_aside li a {
-    line-height: 36px;
+    /*line-height: 36px;*/
+    display: block;
     color: rgb(107, 107, 107);
     font-size: 14px;
-    font-family: 'OpenSans-SB', sans-serif!important;
+    font-family: 'OpenSans-SB', sans-serif;
     text-decoration: none;
+}
+
+aside ul.left_aside li {
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+aside ul.left_aside li:last-child {
+    margin-bottom: 0;
 }
 
 aside ul.left_aside li a:hover {
@@ -98,20 +113,35 @@ aside ul.left_aside li a:hover {
 
 aside ul.left_aside li a#active {
     color:#278cd9;
+    border-left: 5px solid #fff;
+
+    box-shadow: -1px 0 0 #ffbf0e;
+}
+
+aside ul.left_aside li ul.left_aside_inner li {
+    padding-left: 10px;
 }
 
 aside ul.left_aside li ul.left_aside_inner li a {
-    padding-left: 10px!important;
-    font-family: 'OpenSans-R', sans-serif!important;
+    display: block;
+    font-family: 'OpenSans-R', sans-serif;
 }
 
-aside ul.left_aside li ul.left_aside_inner li a#active {
+aside ul.left_aside li ul.left_aside_inner li:first-child {
+    margin-top: 15px;
+}
+
+aside ul.left_aside li ul.left_aside_inner li:last-child {
+    margin-bottom: 15px;
+}
+
+aside ul.left_aside li ul.left_aside_inner li a#active_inner {
     color:#1e1e1f;
-    font-family: 'OpenSans-B', sans-serif!important;
+    font-family: 'OpenSans-B', sans-serif;
 }
 
 aside ul.left_aside li ul.left_aside_inner li a:hover {
-    color:#000!important;
+    color:#000;
 }
 
 aside .tech_doc {
@@ -124,7 +154,7 @@ aside .tech_doc a {
     text-decoration: none;
     color: rgb(39, 140, 217);
     font-size: 14px;
-    font-family: 'OpenSans-SB', sans-serif!important;
+    font-family: 'OpenSans-SB', sans-serif;
 }
 
 aside .tech_doc a:hover {
@@ -149,11 +179,28 @@ section.index_faq {
 section.index_faq h1 {
     color: rgb(78, 80, 82);
     font-size: 36px;
-    font-family: 'OpenSans-L', sans-serif!important;
+    font-family: 'OpenSans-L', sans-serif;
     text-align: center;
 }
 
-section.index_faq input {
+section.index_faq label.search_label {
+    position: relative;
+}
+
+section.index_faq label.search_label svg {
+    position: absolute;
+    fill: rgb(107, 107, 107);
+    width: 32px; height: 32px;
+    right: 5px;
+    top: -5px;
+    cursor: pointer;
+}
+
+section.index_faq label.search_label svg:hover {
+    fill: rgb(39, 140, 217)!important;
+}
+
+section.index_faq .search {
     background-color: rgb(250, 250, 250);
     border: 1px solid rgb(224, 224, 224);
     color: rgb(78, 80, 82);
@@ -168,10 +215,6 @@ section.index_faq input {
     outline: none;
 }
 
-section.index_faq svg:hover path {
-    fill: rgb(39, 140, 217)!important;
-}
-
 section.index_faq .desc_faq {
     padding-top: 50px;
     width: 600px;
@@ -179,6 +222,58 @@ section.index_faq .desc_faq {
 }
 
 section.index_faq .desc_faq p {
-    font-family: 'OpenSans-R', sans-serif!important;
-    color: rgb(78, 80, 82)!important;
+    font-family: 'OpenSans-R', sans-serif;
+    color: rgb(78, 80, 82);
+}
+
+.feedbackForm_faq p.couldnt_find_answer {
+    text-align: center;
+    color: rgb(30, 30, 31);
+    font-size: 24px;
+    font-family: 'OpenSans-R', sans-serif;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.feedbackForm_faq p.contact_us {
+    color: rgb(78, 80, 82);
+    font-size: 16px;
+    text-align: center;
+    font-family: 'OpenSans-R', sans-serif;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.feedbackForm_faq .l-form .l-form__right_center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+aside ul.right_aside li .title {
+    text-transform: uppercase;
+    color: rgb(30, 30, 31);
+    font-size: 13px;
+    font-family: 'OpenSans-B', sans-serif;
+}
+
+aside ul.right_aside li ul {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+aside ul.right_aside li ul li {
+    margin-bottom: 15px;
+}
+
+aside ul.right_aside li ul li a {
+    color: rgb(78, 80, 82);
+    font-size: 13px;
+    font-family: 'OpenSans-R', sans-serif;
+    text-decoration: none;
+}
+
+aside ul.right_aside li ul li a:hover {
+    color: #278cd9;
 }

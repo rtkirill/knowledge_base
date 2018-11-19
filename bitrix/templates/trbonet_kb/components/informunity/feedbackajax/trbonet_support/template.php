@@ -66,9 +66,9 @@
 				</div>
 			<? endif; ?>
 
-			<div class="l-form__right">
+			<div class="l-form__right l-form__right_center">
 				<div class="tn_form__item tn_form__submit l-right">
-					<input type="submit" value="Send Request" name="submit" class="tn_button">
+					<input type="submit" value="Get Support" name="submit" class="tn_button">
 				</div>
 			</div>
 		<? endif ?>
