@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8100166-1591-4aa0-8141-73099d4a8feb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/result_modifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/faq/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,22 +34,23 @@
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="15" />
           <entry key="js" value="1" />
-          <entry key="php" value="40" />
+          <entry key="php" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="15" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="40" />
+          <entry key="PHP" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -80,7 +75,26 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;82db4595-0796-4214-849c-2883e5400754&gt;/faq/urlrewrite.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;82db4595-0796-4214-849c-2883e5400754&gt;/urlrewrite.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="236" column="29" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -119,6 +133,7 @@
         <option value="$PROJECT_DIR$/faq/index.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/template.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/header.php" />
+        <option value="&lt;82db4595-0796-4214-849c-2883e5400754&gt;/faq/urlrewrite.php" />
       </list>
     </option>
   </component>
@@ -187,16 +202,6 @@
             <path>
               <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
               <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="news.list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
               <item name="faq" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -259,16 +264,18 @@
       <workItem from="1541758277761" duration="8434000" />
       <workItem from="1542017094791" duration="9088000" />
       <workItem from="1542195991667" duration="11437000" />
+      <workItem from="1542628940185" duration="191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35017000" />
+    <option name="totallyTimeSpent" value="35208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15884861" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16044776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -287,7 +294,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.32995737" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
     </layout>
   </component>
@@ -400,25 +407,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="742">
           <caret line="108" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="e#473#4353#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_up_section/result_modifier.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_up_section/result_modifier.php" />
     <entry file="file://$PROJECT_DIR$/faq/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
           <caret line="206" column="46" selection-start-line="206" selection-start-column="46" selection-end-line="206" selection-end-column="46" />
-          <folding>
-            <element signature="e#2728#2903#0#HTML" expanded="true" />
-            <element signature="e#3674#3706#0#HTML" expanded="true" />
-            <element signature="e#4110#4142#0#HTML" expanded="true" />
-            <element signature="e#5232#5321#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -429,28 +425,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/component.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/banners_list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4469" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/component 2.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/.parameters.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="308" column="33" selection-start-line="308" selection-start-column="33" selection-end-line="308" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/component.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/banners_list.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/component 2.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/.parameters.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/header.php" />
   </component>
 </project>
