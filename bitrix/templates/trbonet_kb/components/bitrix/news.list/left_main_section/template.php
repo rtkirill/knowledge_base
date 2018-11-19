@@ -15,8 +15,8 @@ $this->setFrameMode(true);
 
 <? foreach ($arResult["SECTION"] as $arSec): ?>
     <ul class="left_aside">
-        <li>
-            <a href="#"><?=$arSec["NAME"]?></a>
+        <li class="left_aside__sec-title_js">
+            <span class="left_aside__sec-title"><?=$arSec["NAME"]?></span>
             <ul class="left_aside_inner">
                 <? foreach ($arSec["ELEMENTS"] as $arElem): ?>
                     <li><a href="<?=$arElem["DETAIL_PAGE_URL"]?>"><?=$arElem["NAME"]?></a></li>

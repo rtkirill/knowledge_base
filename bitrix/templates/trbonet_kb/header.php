@@ -11,6 +11,11 @@ IncludeTemplateLangFile(__FILE__);
     $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/components.css");
     $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/layouts.css");
     $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/template_styles.css");
+
+    $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery.min.js');
+    $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/main.js');
+
+
     ?>
 
     <title><? $APPLICATION->ShowTitle() ?></title>
