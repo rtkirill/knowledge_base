@@ -101,8 +101,8 @@
             <?
             $APPLICATION->SetTitle("FAQ"); ?><? $APPLICATION->IncludeComponent(
                 "bitrix:news.detail",
-                "",
-                Array(
+                "kb",
+                array(
                     "ACTIVE_DATE_FORMAT" => "d.m.Y",
                     "ADD_ELEMENT_CHAIN" => "N",
                     "ADD_SECTIONS_CHAIN" => "Y",
@@ -118,14 +118,17 @@
                     "CHECK_DATES" => "Y",
                     "DETAIL_URL" => "",
                     "DISPLAY_BOTTOM_PAGER" => "Y",
-                    "DISPLAY_DATE" => "Y",
+                    "DISPLAY_DATE" => "N",
                     "DISPLAY_NAME" => "Y",
                     "DISPLAY_PICTURE" => "Y",
                     "DISPLAY_PREVIEW_TEXT" => "Y",
                     "DISPLAY_TOP_PAGER" => "N",
                     "ELEMENT_CODE" => "",
                     "ELEMENT_ID" => $_REQUEST["ELEMENT_ID"],
-                    "FIELD_CODE" => array("", ""),
+                    "FIELD_CODE" => array(
+                        0 => "",
+                        1 => "",
+                    ),
                     "IBLOCK_ID" => "105",
                     "IBLOCK_TYPE" => "faq",
                     "IBLOCK_URL" => "",
@@ -137,7 +140,10 @@
                     "PAGER_SHOW_ALL" => "N",
                     "PAGER_TEMPLATE" => ".default",
                     "PAGER_TITLE" => "Страница",
-                    "PROPERTY_CODE" => array("", ""),
+                    "PROPERTY_CODE" => array(
+                        0 => "ISSUE",
+                        1 => "RELATED_ARTICLES",
+                    ),
                     "SET_BROWSER_TITLE" => "Y",
                     "SET_CANONICAL_URL" => "N",
                     "SET_LAST_MODIFIED" => "N",
@@ -148,22 +154,30 @@
                     "SHOW_404" => "N",
                     "STRICT_SECTION_CHECK" => "N",
                     "USE_PERMISSIONS" => "N",
-                    "USE_SHARE" => "N"
-                )
+                    "USE_SHARE" => "N",
+                    "COMPONENT_TEMPLATE" => "kb"
+                ),
+                false
             ); ?>
-
-            <?$APPLICATION->IncludeComponent(
-                "sitebuild:faq_rew_feedback",
-                ".default",
-                Array(
-                    "COMPONENT_TEMPLATE" => ".default",
-                    "EMAIL_TO" => "e.balyabin@trbonet.com",
-                    "EVENT_MESSAGE_ID" => array(0=>"169",),
-                    "OK_TEXT" => "Спасибо, ваше сообщение принято.",
-                    "REQUIRED_FIELDS" => array(0=>"NONE",),
-                    "USE_CAPTCHA" => "Y"
-                )
-            );?>
+            <div class="faq-rew">
+                <? $APPLICATION->IncludeComponent(
+                    "sitebuild:faq_rew_feedback",
+                    "kb",
+                    array(
+                        "COMPONENT_TEMPLATE" => "kb",
+                        "EMAIL_TO" => "e.balyabin@trbonet.com",
+                        "EVENT_MESSAGE_ID" => array(
+                            0 => "169",
+                        ),
+                        "OK_TEXT" => "Спасибо, ваше сообщение принято.",
+                        "REQUIRED_FIELDS" => array(
+                            0 => "NONE",
+                        ),
+                        "USE_CAPTCHA" => "Y"
+                    ),
+                    false
+                ); ?>
+            </div>
         </section>
         <aside>
             <ul class="right_aside">

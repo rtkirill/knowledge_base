@@ -4,17 +4,6 @@ $APPLICATION->SetTitle("TRBOnet Knowledge Base");
     <article>
         <!--left main section-->
         <aside>
-            <? /* if ($APPLICATION->GetCurPage(false) != "/"): ?>
-                <? $APPLICATION->IncludeComponent(
-                    "bitrix:search.form",
-                    "kb_mini",
-                    Array(
-                        "PAGE" => "#SITE_DIR#search/index.php",
-                        "USE_SUGGEST" => "N"
-                    )
-                ); ?>
-            <? endif; */ ?>
-
             <? $APPLICATION->IncludeComponent(
                 "bitrix:news.list",
                 "left_main_section",

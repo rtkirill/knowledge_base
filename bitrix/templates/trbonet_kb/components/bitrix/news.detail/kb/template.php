@@ -12,7 +12,7 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-<div class="news-detail">
+<div class="news-detail news-detail_id" id="<?=$arResult["ID"]?>">
     <? if ($arResult["NAME"]): ?>
         <div class="tn_form__title">
             <h1><?= $arResult["NAME"] ?></h1>

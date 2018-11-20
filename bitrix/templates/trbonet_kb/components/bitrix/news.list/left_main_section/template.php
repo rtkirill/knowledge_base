@@ -16,10 +16,15 @@ $this->setFrameMode(true);
 <? foreach ($arResult["SECTION"] as $arSec): ?>
     <ul class="left_aside">
         <li class="left_aside__sec-title_js">
-            <span class="left_aside__sec-title"><?=$arSec["NAME"]?></span>
+            <span class="left_aside__sec-title"><?= $arSec["NAME"] ?></span>
             <ul class="left_aside_inner">
                 <? foreach ($arSec["ELEMENTS"] as $arElem): ?>
-                    <li><a href="<?=$arElem["DETAIL_PAGE_URL"]?>"><?=$arElem["NAME"]?></a></li>
+                    <li>
+                        <a href="<?= $arElem["DETAIL_PAGE_URL"] ?>" class="left_aside__inner_js"
+                           data-id="<?= $arElem["ID"] ?>">
+                            <?= $arElem["NAME"] ?>
+                        </a>
+                    </li>
                 <? endforeach; ?>
             </ul>
         </li>
