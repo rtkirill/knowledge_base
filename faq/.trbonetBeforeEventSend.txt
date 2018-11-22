@@ -1,0 +1,534 @@
+array (
+  'MESSAGE' => 'How to get the Hardware ID',
+  'LINK' => '/detail/',
+  'EMAIL' => '',
+)array (
+  'ID' => '170',
+  'TIMESTAMP_X' => 
+  Bitrix\Main\Type\DateTime::__set_state(array(
+     'value' => 
+    DateTime::__set_state(array(
+       'date' => '2018-06-28 20:53:57.000000',
+       'timezone_type' => 3,
+       'timezone' => 'Europe/Moscow',
+    )),
+  )),
+  'EVENT_NAME' => 'SEND LINK',
+  'LID' => 's1',
+  'ACTIVE' => 'Y',
+  'EMAIL_FROM' => 'faq@trbonet.com',
+  'EMAIL_TO' => '#EMAIL#',
+  'SUBJECT' => 'Request from #SITE_NAME#. FAQ article.',
+  'MESSAGE' => '<a href="#LINK#">#MESSAGE#</a>',
+  'MESSAGE_PHP' => '<a href="<?=$arParams["LINK"];?>"><?=$arParams["MESSAGE"];?></a>',
+  'BODY_TYPE' => 'html',
+  'BCC' => '',
+  'REPLY_TO' => '',
+  'CC' => '',
+  'IN_REPLY_TO' => '',
+  'PRIORITY' => '',
+  'FIELD1_NAME' => NULL,
+  'FIELD1_VALUE' => NULL,
+  'FIELD2_NAME' => NULL,
+  'FIELD2_VALUE' => NULL,
+  'SITE_TEMPLATE_ID' => '',
+  'ADDITIONAL_FIELD' => 
+  array (
+  ),
+  'LANGUAGE_ID' => '',
+  'FILES' => 
+  array (
+  ),
+)array (
+  'MESSAGE' => 'How to get the Hardware ID',
+  'LINK' => '/detail/',
+  'EMAIL' => '',
+)array (
+  'ID' => '170',
+  'TIMESTAMP_X' => 
+  Bitrix\Main\Type\DateTime::__set_state(array(
+     'value' => 
+    DateTime::__set_state(array(
+       'date' => '2018-06-28 20:53:57.000000',
+       'timezone_type' => 3,
+       'timezone' => 'Europe/Moscow',
+    )),
+  )),
+  'EVENT_NAME' => 'SEND LINK',
+  'LID' => 's1',
+  'ACTIVE' => 'Y',
+  'EMAIL_FROM' => 'faq@trbonet.com',
+  'EMAIL_TO' => '#EMAIL#',
+  'SUBJECT' => 'Request from #SITE_NAME#. FAQ article.',
+  'MESSAGE' => '<a href="#LINK#">#MESSAGE#</a>',
+  'MESSAGE_PHP' => '<a href="<?=$arParams["LINK"];?>"><?=$arParams["MESSAGE"];?></a>',
+  'BODY_TYPE' => 'html',
+  'BCC' => '',
+  'REPLY_TO' => '',
+  'CC' => '',
+  'IN_REPLY_TO' => '',
+  'PRIORITY' => '',
+  'FIELD1_NAME' => NULL,
+  'FIELD1_VALUE' => NULL,
+  'FIELD2_NAME' => NULL,
+  'FIELD2_VALUE' => NULL,
+  'SITE_TEMPLATE_ID' => '',
+  'ADDITIONAL_FIELD' => 
+  array (
+  ),
+  'LANGUAGE_ID' => '',
+  'FILES' => 
+  array (
+  ),
+)array (
+  'MESSAGE' => 'How to get the Hardware ID',
+  'LINK' => '/detail/',
+  'EMAIL' => '',
+)array (
+  'ID' => '170',
+  'TIMESTAMP_X' => 
+  Bitrix\Main\Type\DateTime::__set_state(array(
+     'value' => 
+    DateTime::__set_state(array(
+       'date' => '2018-06-28 20:53:57.000000',
+       'timezone_type' => 3,
+       'timezone' => 'Europe/Moscow',
+    )),
+  )),
+  'EVENT_NAME' => 'SEND LINK',
+  'LID' => 's1',
+  'ACTIVE' => 'Y',
+  'EMAIL_FROM' => 'faq@trbonet.com',
+  'EMAIL_TO' => '#EMAIL#',
+  'SUBJECT' => 'Request from #SITE_NAME#. FAQ article.',
+  'MESSAGE' => '<a href="#LINK#">#MESSAGE#</a>',
+  'MESSAGE_PHP' => '<a href="<?=$arParams["LINK"];?>"><?=$arParams["MESSAGE"];?></a>',
+  'BODY_TYPE' => 'html',
+  'BCC' => '',
+  'REPLY_TO' => '',
+  'CC' => '',
+  'IN_REPLY_TO' => '',
+  'PRIORITY' => '',
+  'FIELD1_NAME' => NULL,
+  'FIELD1_VALUE' => NULL,
+  'FIELD2_NAME' => NULL,
+  'FIELD2_VALUE' => NULL,
+  'SITE_TEMPLATE_ID' => '',
+  'ADDITIONAL_FIELD' => 
+  array (
+  ),
+  'LANGUAGE_ID' => '',
+  'FILES' => 
+  array (
+  ),
+)array (
+  'MESSAGE' => 'How to get the Hardware ID',
+  'LINK' => '/detail/',
+  'EMAIL' => '',
+)array (
+  'ID' => '170',
+  'TIMESTAMP_X' => 
+  Bitrix\Main\Type\DateTime::__set_state(array(
+     'value' => 
+    DateTime::__set_state(array(
+       'date' => '2018-06-28 20:53:57.000000',
+       'timezone_type' => 3,
+       'timezone' => 'Europe/Moscow',
+    )),
+  )),
+  'EVENT_NAME' => 'SEND LINK',
+  'LID' => 's1',
+  'ACTIVE' => 'Y',
+  'EMAIL_FROM' => 'faq@trbonet.com',
+  'EMAIL_TO' => '#EMAIL#',
+  'SUBJECT' => 'Request from #SITE_NAME#. FAQ article.',
+  'MESSAGE' => '<a href="#LINK#">#MESSAGE#</a>',
+  'MESSAGE_PHP' => '<a href="<?=$arParams["LINK"];?>"><?=$arParams["MESSAGE"];?></a>',
+  'BODY_TYPE' => 'html',
+  'BCC' => '',
+  'REPLY_TO' => '',
+  'CC' => '',
+  'IN_REPLY_TO' => '',
+  'PRIORITY' => '',
+  'FIELD1_NAME' => NULL,
+  'FIELD1_VALUE' => NULL,
+  'FIELD2_NAME' => NULL,
+  'FIELD2_VALUE' => NULL,
+  'SITE_TEMPLATE_ID' => '',
+  'ADDITIONAL_FIELD' => 
+  array (
+  ),
+  'LANGUAGE_ID' => '',
+  'FILES' => 
+  array (
+  ),
+)array (
+  'MESSAGE' => 'How to get the Hardware ID',
+  'LINK' => '/detail/',
+  'EMAIL' => '',
+)array (
+  'ID' => '170',
+  'TIMESTAMP_X' => 
+  Bitrix\Main\Type\DateTime::__set_state(array(
+     'value' => 
+    DateTime::__set_state(array(
+       'date' => '2018-06-28 20:53:57.000000',
+       'timezone_type' => 3,
+       'timezone' => 'Europe/Moscow',
+    )),
+  )),
+  'EVENT_NAME' => 'SEND LINK',
+  'LID' => 's1',
+  'ACTIVE' => 'Y',
+  'EMAIL_FROM' => 'faq@trbonet.com',
+  'EMAIL_TO' => '#EMAIL#',
+  'SUBJECT' => 'Request from #SITE_NAME#. FAQ article.',
+  'MESSAGE' => '<a href="#LINK#">#MESSAGE#</a>',
+  'MESSAGE_PHP' => '<a href="<?=$arParams["LINK"];?>"><?=$arParams["MESSAGE"];?></a>',
+  'BODY_TYPE' => 'html',
+  'BCC' => '',
+  'REPLY_TO' => '',
+  'CC' => '',
+  'IN_REPLY_TO' => '',
+  'PRIORITY' => '',
+  'FIELD1_NAME' => NULL,
+  'FIELD1_VALUE' => NULL,
+  'FIELD2_NAME' => NULL,
+  'FIELD2_VALUE' => NULL,
+  'SITE_TEMPLATE_ID' => '',
+  'ADDITIONAL_FIELD' => 
+  array (
+  ),
+  'LANGUAGE_ID' => '',
+  'FILES' => 
+  array (
+  ),
+)array (
+  'MESSAGE' => 'How to get the Hardware ID',
+  'LINK' => '/detail/',
+  'EMAIL' => '',
+)array (
+  'ID' => '170',
+  'TIMESTAMP_X' => 
+  Bitrix\Main\Type\DateTime::__set_state(array(
+     'value' => 
+    DateTime::__set_state(array(
+       'date' => '2018-06-28 20:53:57.000000',
+       'timezone_type' => 3,
+       'timezone' => 'Europe/Moscow',
+    )),
+  )),
+  'EVENT_NAME' => 'SEND LINK',
+  'LID' => 's1',
+  'ACTIVE' => 'Y',
+  'EMAIL_FROM' => 'faq@trbonet.com',
+  'EMAIL_TO' => '#EMAIL#',
+  'SUBJECT' => 'Request from #SITE_NAME#. FAQ article.',
+  'MESSAGE' => '<a href="#LINK#">#MESSAGE#</a>',
+  'MESSAGE_PHP' => '<a href="<?=$arParams["LINK"];?>"><?=$arParams["MESSAGE"];?></a>',
+  'BODY_TYPE' => 'html',
+  'BCC' => '',
+  'REPLY_TO' => '',
+  'CC' => '',
+  'IN_REPLY_TO' => '',
+  'PRIORITY' => '',
+  'FIELD1_NAME' => NULL,
+  'FIELD1_VALUE' => NULL,
+  'FIELD2_NAME' => NULL,
+  'FIELD2_VALUE' => NULL,
+  'SITE_TEMPLATE_ID' => '',
+  'ADDITIONAL_FIELD' => 
+  array (
+  ),
+  'LANGUAGE_ID' => '',
+  'FILES' => 
+  array (
+  ),
+)array (
+  'MESSAGE' => 'How to get the Hardware ID',
+  'LINK' => '/detail/',
+  'EMAIL' => '',
+)array (
+  'ID' => '170',
+  'TIMESTAMP_X' => 
+  Bitrix\Main\Type\DateTime::__set_state(array(
+     'value' => 
+    DateTime::__set_state(array(
+       'date' => '2018-06-28 20:53:57.000000',
+       'timezone_type' => 3,
+       'timezone' => 'Europe/Moscow',
+    )),
+  )),
+  'EVENT_NAME' => 'SEND LINK',
+  'LID' => 's1',
+  'ACTIVE' => 'Y',
+  'EMAIL_FROM' => 'faq@trbonet.com',
+  'EMAIL_TO' => '#EMAIL#',
+  'SUBJECT' => 'Request from #SITE_NAME#. FAQ article.',
+  'MESSAGE' => '<a href="#LINK#">#MESSAGE#</a>',
+  'MESSAGE_PHP' => '<a href="<?=$arParams["LINK"];?>"><?=$arParams["MESSAGE"];?></a>',
+  'BODY_TYPE' => 'html',
+  'BCC' => '',
+  'REPLY_TO' => '',
+  'CC' => '',
+  'IN_REPLY_TO' => '',
+  'PRIORITY' => '',
+  'FIELD1_NAME' => NULL,
+  'FIELD1_VALUE' => NULL,
+  'FIELD2_NAME' => NULL,
+  'FIELD2_VALUE' => NULL,
+  'SITE_TEMPLATE_ID' => '',
+  'ADDITIONAL_FIELD' => 
+  array (
+  ),
+  'LANGUAGE_ID' => '',
+  'FILES' => 
+  array (
+  ),
+)array (
+  'MESSAGE' => 'How to get the Hardware ID',
+  'LINK' => '/detail/',
+  'EMAIL' => '',
+)array (
+  'ID' => '170',
+  'TIMESTAMP_X' => 
+  Bitrix\Main\Type\DateTime::__set_state(array(
+     'value' => 
+    DateTime::__set_state(array(
+       'date' => '2018-06-28 20:53:57.000000',
+       'timezone_type' => 3,
+       'timezone' => 'Europe/Moscow',
+    )),
+  )),
+  'EVENT_NAME' => 'SEND LINK',
+  'LID' => 's1',
+  'ACTIVE' => 'Y',
+  'EMAIL_FROM' => 'faq@trbonet.com',
+  'EMAIL_TO' => '#EMAIL#',
+  'SUBJECT' => 'Request from #SITE_NAME#. FAQ article.',
+  'MESSAGE' => '<a href="#LINK#">#MESSAGE#</a>',
+  'MESSAGE_PHP' => '<a href="<?=$arParams["LINK"];?>"><?=$arParams["MESSAGE"];?></a>',
+  'BODY_TYPE' => 'html',
+  'BCC' => '',
+  'REPLY_TO' => '',
+  'CC' => '',
+  'IN_REPLY_TO' => '',
+  'PRIORITY' => '',
+  'FIELD1_NAME' => NULL,
+  'FIELD1_VALUE' => NULL,
+  'FIELD2_NAME' => NULL,
+  'FIELD2_VALUE' => NULL,
+  'SITE_TEMPLATE_ID' => '',
+  'ADDITIONAL_FIELD' => 
+  array (
+  ),
+  'LANGUAGE_ID' => '',
+  'FILES' => 
+  array (
+  ),
+)array (
+  'MESSAGE' => 'How to get the Hardware ID',
+  'LINK' => '/detail/',
+  'EMAIL' => '',
+)array (
+  'ID' => '170',
+  'TIMESTAMP_X' => 
+  Bitrix\Main\Type\DateTime::__set_state(array(
+     'value' => 
+    DateTime::__set_state(array(
+       'date' => '2018-06-28 20:53:57.000000',
+       'timezone_type' => 3,
+       'timezone' => 'Europe/Moscow',
+    )),
+  )),
+  'EVENT_NAME' => 'SEND LINK',
+  'LID' => 's1',
+  'ACTIVE' => 'Y',
+  'EMAIL_FROM' => 'faq@trbonet.com',
+  'EMAIL_TO' => '#EMAIL#',
+  'SUBJECT' => 'Request from #SITE_NAME#. FAQ article.',
+  'MESSAGE' => '<a href="#LINK#">#MESSAGE#</a>',
+  'MESSAGE_PHP' => '<a href="<?=$arParams["LINK"];?>"><?=$arParams["MESSAGE"];?></a>',
+  'BODY_TYPE' => 'html',
+  'BCC' => '',
+  'REPLY_TO' => '',
+  'CC' => '',
+  'IN_REPLY_TO' => '',
+  'PRIORITY' => '',
+  'FIELD1_NAME' => NULL,
+  'FIELD1_VALUE' => NULL,
+  'FIELD2_NAME' => NULL,
+  'FIELD2_VALUE' => NULL,
+  'SITE_TEMPLATE_ID' => '',
+  'ADDITIONAL_FIELD' => 
+  array (
+  ),
+  'LANGUAGE_ID' => '',
+  'FILES' => 
+  array (
+  ),
+)array (
+  'MESSAGE' => 'How to get the Hardware ID',
+  'LINK' => '/detail/',
+  'EMAIL' => 'kirill0897@mail.ru',
+)array (
+  'ID' => '172',
+  'TIMESTAMP_X' => 
+  Bitrix\Main\Type\DateTime::__set_state(array(
+     'value' => 
+    DateTime::__set_state(array(
+       'date' => '2018-11-20 21:40:07.000000',
+       'timezone_type' => 3,
+       'timezone' => 'Europe/Moscow',
+    )),
+  )),
+  'EVENT_NAME' => 'SEND_KB_TO_USER',
+  'LID' => 's1',
+  'ACTIVE' => 'Y',
+  'EMAIL_FROM' => '#DEFAULT_EMAIL_FROM#',
+  'EMAIL_TO' => '#EMAIL#',
+  'SUBJECT' => 'Request from #SITE_NAME#',
+  'MESSAGE' => '<a href="#LINK#">#MESSAGE#</a>',
+  'MESSAGE_PHP' => '<a href="<?=$arParams["LINK"];?>"><?=$arParams["MESSAGE"];?></a>',
+  'BODY_TYPE' => 'html',
+  'BCC' => '',
+  'REPLY_TO' => '',
+  'CC' => '',
+  'IN_REPLY_TO' => '',
+  'PRIORITY' => '',
+  'FIELD1_NAME' => NULL,
+  'FIELD1_VALUE' => NULL,
+  'FIELD2_NAME' => NULL,
+  'FIELD2_VALUE' => NULL,
+  'SITE_TEMPLATE_ID' => '',
+  'ADDITIONAL_FIELD' => 
+  array (
+  ),
+  'LANGUAGE_ID' => '',
+  'FILES' => 
+  array (
+  ),
+)array (
+  'MESSAGE' => 'How to get the Hardware ID',
+  'LINK' => '/detail/',
+  'EMAIL' => 'kirill0897@mail.ru',
+)array (
+  'ID' => '172',
+  'TIMESTAMP_X' => 
+  Bitrix\Main\Type\DateTime::__set_state(array(
+     'value' => 
+    DateTime::__set_state(array(
+       'date' => '2018-11-20 21:40:07.000000',
+       'timezone_type' => 3,
+       'timezone' => 'Europe/Moscow',
+    )),
+  )),
+  'EVENT_NAME' => 'SEND_KB_TO_USER',
+  'LID' => 's1',
+  'ACTIVE' => 'Y',
+  'EMAIL_FROM' => '#DEFAULT_EMAIL_FROM#',
+  'EMAIL_TO' => '#EMAIL#',
+  'SUBJECT' => 'Request from #SITE_NAME#',
+  'MESSAGE' => '<a href="#LINK#">#MESSAGE#</a>',
+  'MESSAGE_PHP' => '<a href="<?=$arParams["LINK"];?>"><?=$arParams["MESSAGE"];?></a>',
+  'BODY_TYPE' => 'html',
+  'BCC' => '',
+  'REPLY_TO' => '',
+  'CC' => '',
+  'IN_REPLY_TO' => '',
+  'PRIORITY' => '',
+  'FIELD1_NAME' => NULL,
+  'FIELD1_VALUE' => NULL,
+  'FIELD2_NAME' => NULL,
+  'FIELD2_VALUE' => NULL,
+  'SITE_TEMPLATE_ID' => '',
+  'ADDITIONAL_FIELD' => 
+  array (
+  ),
+  'LANGUAGE_ID' => '',
+  'FILES' => 
+  array (
+  ),
+)array (
+  'MESSAGE' => 'How to get the Hardware ID',
+  'LINK' => '/detail/',
+  'EMAIL' => 'kirill0897@mail.ru',
+)array (
+  'ID' => '172',
+  'TIMESTAMP_X' => 
+  Bitrix\Main\Type\DateTime::__set_state(array(
+     'value' => 
+    DateTime::__set_state(array(
+       'date' => '2018-11-20 21:40:07.000000',
+       'timezone_type' => 3,
+       'timezone' => 'Europe/Moscow',
+    )),
+  )),
+  'EVENT_NAME' => 'SEND_KB_TO_USER',
+  'LID' => 's1',
+  'ACTIVE' => 'Y',
+  'EMAIL_FROM' => '#DEFAULT_EMAIL_FROM#',
+  'EMAIL_TO' => '#EMAIL#',
+  'SUBJECT' => 'Request from #SITE_NAME#',
+  'MESSAGE' => '<a href="#LINK#">#MESSAGE#</a>',
+  'MESSAGE_PHP' => '<a href="<?=$arParams["LINK"];?>"><?=$arParams["MESSAGE"];?></a>',
+  'BODY_TYPE' => 'html',
+  'BCC' => '',
+  'REPLY_TO' => '',
+  'CC' => '',
+  'IN_REPLY_TO' => '',
+  'PRIORITY' => '',
+  'FIELD1_NAME' => NULL,
+  'FIELD1_VALUE' => NULL,
+  'FIELD2_NAME' => NULL,
+  'FIELD2_VALUE' => NULL,
+  'SITE_TEMPLATE_ID' => '',
+  'ADDITIONAL_FIELD' => 
+  array (
+  ),
+  'LANGUAGE_ID' => '',
+  'FILES' => 
+  array (
+  ),
+)array (
+  'MESSAGE' => 'How to get the Hardware ID',
+  'LINK' => '/detail/',
+  'EMAIL' => 'kirill0897@mail.ru',
+)array (
+  'ID' => '172',
+  'TIMESTAMP_X' => 
+  Bitrix\Main\Type\DateTime::__set_state(array(
+     'value' => 
+    DateTime::__set_state(array(
+       'date' => '2018-11-20 21:40:07.000000',
+       'timezone_type' => 3,
+       'timezone' => 'Europe/Moscow',
+    )),
+  )),
+  'EVENT_NAME' => 'SEND_KB_TO_USER',
+  'LID' => 's1',
+  'ACTIVE' => 'Y',
+  'EMAIL_FROM' => '#DEFAULT_EMAIL_FROM#',
+  'EMAIL_TO' => '#EMAIL#',
+  'SUBJECT' => 'Request from #SITE_NAME#',
+  'MESSAGE' => '<a href="#LINK#">#MESSAGE#</a>',
+  'MESSAGE_PHP' => '<a href="<?=$arParams["LINK"];?>"><?=$arParams["MESSAGE"];?></a>',
+  'BODY_TYPE' => 'html',
+  'BCC' => '',
+  'REPLY_TO' => '',
+  'CC' => '',
+  'IN_REPLY_TO' => '',
+  'PRIORITY' => '',
+  'FIELD1_NAME' => NULL,
+  'FIELD1_VALUE' => NULL,
+  'FIELD2_NAME' => NULL,
+  'FIELD2_VALUE' => NULL,
+  'SITE_TEMPLATE_ID' => '',
+  'ADDITIONAL_FIELD' => 
+  array (
+  ),
+  'LANGUAGE_ID' => '',
+  'FILES' => 
+  array (
+  ),
+)

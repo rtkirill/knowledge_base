@@ -1,6 +1,7 @@
 <?
 $sSectionName = "FAQ1";
 $arDirProperties = Array(
-   "TITLE" => "TRBOnet Dispatch Systems - FAQ"
+   "description" => "TRBOnet support is here to help. Learn more about popular topics and find resources that will help you with all of your TRBOnet products.",
+   "TITLE" => "TRBOnet Knowledge Base"
 );
 ?>

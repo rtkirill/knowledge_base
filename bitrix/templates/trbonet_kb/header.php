@@ -6,19 +6,26 @@ IncludeTemplateLangFile(__FILE__);
 <head>
     <? $APPLICATION->ShowHead(); ?>
 
+    <title><? $APPLICATION->ShowTitle() ?></title>
+
     <?
     $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/reset.css");
+    $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/default.css");
+    $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/magnific-popup.css");
     $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/components.css");
     $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/layouts.css");
     $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/template_styles.css");
 
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery.min.js');
+    $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/highlight.pack.js');
+    $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery.magnific-popup.min.js');
+    $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/scrollspy.min.js');
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/main.js');
 
 
     ?>
 
-    <title><? $APPLICATION->ShowTitle() ?></title>
+
 </head>
 
 <body>

@@ -20,4 +20,59 @@ $(document).ready(function () {
     if(sec.hasClass("active") && elem.length>0) {
         elem.closest('.left_aside__sec-title_js').find("ul").show();
     }
+
+    // Open email popup on detail
+    $("#faq-send-link-to-email").click(function () {
+        $(".faq-popup-email-wrap").show();
+    });
+
+    //Create page to print
+    $("#print").click(function () {
+        var html_to_print = $('.print_version').html();
+        var iframe = $('<iframe id="print_frame">');
+        $('body').append(iframe);
+        var doc = $('#print_frame')[0].contentDocument || $('#print_frame')[0].contentWindow.document;
+        var win = $('#print_frame')[0].contentWindow || $('#print_frame')[0];
+        doc.getElementsByTagName('body')[0].innerHTML = html_to_print;
+        win.print();
+        $(iframe).remove();
+    });
+
+    //Scrollspy right menu on detail
+    // $("#spy_menu").scrollspy();
+
+    //Init highlightCode
+    hljs.initHighlightingOnLoad();
+    hljs.configure({useBR: true});
+
+    $('div.code-block').each(function(i, block) {
+        hljs.highlightBlock(block);
+    });
+
+    //Init magnific popup (lightbox)
+    $(document).ready(function() {
+        $('.image-lightbox').magnificPopup({
+            type: 'image',
+            closeOnContentClick: true,
+            mainClass: 'mfp-img-mobile',
+            image: {
+                verticalFit: true
+            }
+        });
+    });
+    //For lightbox get img src to put in <a> href wrapper
+    $('.image-lightbox').attr("href", $('.image-lightbox').find("img").attr("src"));
+
+
+    //Show and hide block for property in visual editor
+    $(".full_text").click(function () {
+        if (!$(this).hasClass("open")) {
+            $(this).find("p").slideDown(200);
+            $(this).addClass("open");
+        } else {
+            $(this).find("p").slideUp(200);
+            $(this).removeClass("open");
+        }
+    });
+
 });

@@ -1,0 +1,123 @@
+.list-style-img {
+    list-style: none;
+    padding: 0;
+}
+
+.list-style-img li:before {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 5px;
+    width: 6px;
+    height: 9px;
+    background: url(/images/sprite.png) no-repeat -141px -72px;
+}
+
+.list-style-num {
+    counter-reset:li; /* Инициализируем счетчик */
+    list-style:none; /* Отменяем нумерацию установленную по умолчанию */
+    padding: 18px;
+    border: 1px dashed #999;
+}
+
+.list-style-num li {
+    position:relative; /* Создаем контекст для позиционирования элементов */
+    margin:0 0 6px 2em; /* Даем каждому элементу списка отступ слева, что бы освободить пространство для нумерации */
+}
+.list-style-num li:before {
+    content:counter(li); /* В качестве данных используем счетчик */
+    counter-increment:li; /* Увеличиваем значение счетчика на 1 */
+    /* Позиционируем и оформляем цифры */
+    position:absolute;
+    left:-2em;
+    width:2em;
+    color: #999;
+}
+
+.note-block {
+    padding: 20px 15px;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: #e3f2fc;
+    border: 1px solid #c2e2f9;
+}
+
+.note-heading {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-size: 1.07em;
+}
+
+.note-block p {
+    margin: 0;
+}
+
+.heading-blue {
+    color: #2c95dd;
+    font-size: 1em;
+}
+
+.code-block {
+    background-color: #fafafa;
+    border: 1px solid #f4f4f4;
+    padding: 25px;
+    line-height: 2;
+}
+
+table.table_bootstrap {
+    color: #fff;
+    background-color: #212529;
+}
+
+table.table_bootstrap th {
+    border-bottom: 2px solid #dee2e6;
+}
+
+table.table_bootstrap tr:hover {
+    background-color: rgba(255,255,255,.075);
+}
+
+.path, .hotkeys {
+    font-weight: bold;
+    background-color: #f2f2f2;
+    padding: 3px;
+    display: table;
+    font-size: 12px;
+}
+
+.hotkeys {
+    color: #2c95dd;
+}
+
+.image-lightbox {
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
+}
+
+/*.downloads {
+    background-color: #f2f2f2;
+    padding: 3px;
+    display: table;
+    font-size: 12px;
+    cursor: pointer;
+}*/
+
+.ext_link_svg,
+.clip_svg {
+    display: table;
+    padding-right: 15px;
+}
+
+.ext_link_svg {
+    background: url(img/external-link-symbol.svg) 100% 50% no-repeat;
+    background-size: 10px;
+}
+
+.clip_svg {
+    background: url(img/paper-clip.svg) 100% 50% no-repeat;
+    background-size: 10px;
+}

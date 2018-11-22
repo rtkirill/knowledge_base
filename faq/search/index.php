@@ -1,18 +1,15 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("Search");
-$APPLICATION->AddChainItem("FAQ", "/faq/");
-$APPLICATION->AddChainItem("Search");
-?><div class="search_list l-constrained l-flow">
-</div>
-<div class="search_list l-constrained l-flow">
- <br>
-</div>
-<div class="search_list l-constrained l-flow">
-	 <?$APPLICATION->IncludeComponent(
-	"bitrix:search.page",
-	"trbonet_faq_search",
-	Array(
+?>
+
+    <article>
+        <section class="index_faq">
+            <div class="search_list l-constrained l-flow">
+                <? $APPLICATION->IncludeComponent(
+	"bitrix:search.page", 
+	"trbonet_faq_search", 
+	array(
 		"AJAX_MODE" => "Y",
 		"AJAX_OPTION_ADDITIONAL" => "",
 		"AJAX_OPTION_HISTORY" => "Y",
@@ -53,40 +50,31 @@ $APPLICATION->AddChainItem("Search");
 		"USE_SUGGEST" => "N",
 		"USE_TITLE_RANK" => "Y",
 		"WIDTH" => "100%",
-		"arrFILTER" => array(0=>"iblock_faq",),
-		"arrFILTER_iblock_catalog" => array(0=>"2",),
-		"arrFILTER_iblock_faq" => array(0=>"105",),
-		"arrFILTER_iblock_markets" => array(0=>"3",),
-		"arrFILTER_iblock_news" => array(0=>"1",),
-		"arrFILTER_iblock_solutions" => array(0=>"7",),
-		"arrFILTER_main" => "",
-		"arrWHERE" => ""
-	)
-);?>
-</div>
- <br>
- <?$APPLICATION->IncludeComponent(
-	"bitrix:search.title", 
-	".default", 
-	array(
-		"CATEGORY_0" => array(
+		"arrFILTER" => array(
 			0 => "iblock_faq",
 		),
-		"CATEGORY_0_TITLE" => "",
-		"CHECK_DATES" => "N",
-		"CONTAINER_ID" => "title-search",
-		"INPUT_ID" => "title-search-input",
-		"NUM_CATEGORIES" => "1",
-		"ORDER" => "date",
-		"PAGE" => "#SITE_DIR#search/index.php",
-		"SHOW_INPUT" => "Y",
-		"SHOW_OTHERS" => "N",
-		"TOP_COUNT" => "5",
-		"USE_LANGUAGE_GUESS" => "Y",
-		"COMPONENT_TEMPLATE" => ".default",
-		"CATEGORY_0_iblock_faq" => array(
+		"arrFILTER_iblock_catalog" => array(
+			0 => "2",
+		),
+		"arrFILTER_iblock_faq" => array(
 			0 => "105",
-		)
+		),
+		"arrFILTER_iblock_markets" => array(
+			0 => "3",
+		),
+		"arrFILTER_iblock_news" => array(
+			0 => "1",
+		),
+		"arrFILTER_iblock_solutions" => array(
+			0 => "7",
+		),
+		"arrFILTER_main" => "",
+		"arrWHERE" => ""
 	),
 	false
-);?><br><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+); ?>
+            </div>
+        </section>
+    </article>
+
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
