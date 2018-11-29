@@ -3,7 +3,7 @@ $(document).ready(function () {
     var sec = $(".left_aside__sec-title_js");
 
     sec.on("click", function () {
-        if(!$(this).hasClass("active")) {
+        if (!$(this).hasClass("active")) {
             $(this).addClass("active");
             $(this).find("ul").slideDown(200);
         } else {
@@ -14,10 +14,10 @@ $(document).ready(function () {
 
     // Open active section and highlighting
     var detailId = $(".news-detail_id").attr("id");
-    var elem = $("[data-id="+detailId+"]");
+    var elem = $("[data-id=" + detailId + "]");
     elem.addClass("active_inner");
     elem.closest('.left_aside__sec-title_js').addClass("active");
-    if(sec.hasClass("active") && elem.length>0) {
+    if (sec.hasClass("active") && elem.length > 0) {
         elem.closest('.left_aside__sec-title_js').find("ul").show();
     }
 
@@ -38,19 +38,16 @@ $(document).ready(function () {
         $(iframe).remove();
     });
 
-    //Scrollspy right menu on detail
-    // $("#spy_menu").scrollspy();
-
     //Init highlightCode
     hljs.initHighlightingOnLoad();
     hljs.configure({useBR: true});
 
-    $('div.code-block').each(function(i, block) {
+    $('div.code-block').each(function (i, block) {
         hljs.highlightBlock(block);
     });
 
     //Init magnific popup (lightbox)
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.image-lightbox').magnificPopup({
             type: 'image',
             closeOnContentClick: true,
@@ -74,5 +71,53 @@ $(document).ready(function () {
             $(this).removeClass("open");
         }
     });
+
+    //Set list right menu on detail
+    arTitles = [];
+    $(".news-detail").find("h2").each(
+        function (i, elem) {
+            $(elem).attr("id", "title" + i);
+            $(".right_aside_list_js").append(
+                "<li class='list_link'>" +
+                "<a href='#title" + i + "'>" + $(elem).text() + "</a>" +
+                "</li>"
+            );
+            arTitles.push(elem);
+            $(".right_aside_list_js").addClass("nav");
+        }
+    );
+
+    //Scrollspy right menu on detail
+    var menu_selector = "#spy_menu"; //Menu id
+    var menu_offset_top = 70; // Top offset
+    function onScroll() {
+        var scroll_top = $(document).scrollTop() + menu_offset_top;
+        $(menu_selector + " li").each(function () {
+            var hash = $(this).find("a").attr("href");
+            var target = $(hash);
+            if (target.position().top <= scroll_top) {
+                $(menu_selector + " li.active").removeClass("active");
+                $(this).addClass("active");
+            } else {
+                $(this).removeClass("active");
+            }
+        });
+    };
+    $(document).on("scroll", onScroll);
+    $(".list_link").click(function(e){
+        e.preventDefault();
+        $(document).off("scroll");
+        $(menu_selector + " li.active").removeClass("active");
+        $(this).addClass("active");
+        var hash = $(this).find("a").attr("href");
+        var target = $(hash);
+        $("html, body").animate({
+            scrollTop: (target.offset().top - menu_offset_top)
+        }, 500, function(){
+            window.location.hash = hash;
+            $(document).on("scroll", onScroll);
+        });
+    });
+
 
 });

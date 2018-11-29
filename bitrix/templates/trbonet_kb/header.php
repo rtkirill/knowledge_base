@@ -19,7 +19,6 @@ IncludeTemplateLangFile(__FILE__);
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery.min.js');
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/highlight.pack.js');
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery.magnific-popup.min.js');
-    $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/scrollspy.min.js');
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/main.js');
 
 
@@ -34,7 +33,7 @@ IncludeTemplateLangFile(__FILE__);
 
 <div class="main">
     <header>
-        <div class="logo">
+        <a href="/" class="logo">
             <svg version="1.2" preserveAspectRatio="none" viewBox="0 0 1181.4 256" class="ng-element"
                  style="opacity: 1; mix-blend-mode: normal; overflow: visible; width: 148px; height: 32px; transform: rotate(0deg) translate(26px, 19px) rotate(0deg);">
                 <style type="text/css">
@@ -93,7 +92,7 @@ IncludeTemplateLangFile(__FILE__);
                     </g>
                 </g>
             </svg>
-        </div>
+        </a>
         <div class="kb_title"><p>Knowledge Base</p></div>
     </header>
 

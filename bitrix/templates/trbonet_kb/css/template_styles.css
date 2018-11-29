@@ -20,6 +20,7 @@
 
 body {
     background: #f3f3f3;
+    position: relative;
 }
 
 .main {
@@ -48,6 +49,8 @@ header {
 
 .logo {
     width: 200px;
+    display: block;
+    outline: none;
 }
 
 .kb_title {
@@ -344,12 +347,12 @@ aside ul.right_aside li ul li a {
     position: relative;
 }
 
-aside ul.right_aside li ul li a.active {
+aside ul.right_aside li ul li.active a {
     font-family: 'OpenSans-B', sans-serif;
     color: #000;
 }
 
-aside ul.right_aside li ul li a.active:before {
+aside ul.right_aside li ul li.active a:before {
     content: "\2022";
     font-size: 18px;
     line-height: 1px;
@@ -703,10 +706,12 @@ ul.faq-print li a img {
     margin-bottom: 30px;
 }
 
-.full_text h2 {
+.full_text div {
     cursor: pointer;
     display: table;
-    margin-left: 35px;
+    margin: 20px 0 20px 35px;
+    font-family: OpenSans-B;
+    font-size: 20px;
 }
 
 .full_text p {
@@ -714,8 +719,8 @@ ul.faq-print li a img {
     margin-left: 35px;
 }
 
-.full_text h2:before, .full_text.open h2:before {
-    display: block;
+.full_text div:before, .full_text.open div:before {
+    display: inline-block;
     height: 25px;
     width: 25px;
     text-align: center;
@@ -724,15 +729,15 @@ ul.faq-print li a img {
     /*color: #2c95dd;*/
     position: absolute;
     left: 0;
-    top: -2px;
+    top: 0;
     font-size: 16px;
 }
 
-.full_text h2:before {
+.full_text div:before {
     content: "+";
 }
 
-.full_text.open h2:before {
+.full_text.open div:before {
     content: "-";
 }
 
