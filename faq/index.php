@@ -94,7 +94,7 @@ $APPLICATION->SetTitle("TRBOnet Knowledge Base");
         </aside>
 
         <section class="index_faq">
-            <h1 class="oversized"><? $APPLICATION->ShowTitle(false); ?></h1>
+            <h1 class="oversized"><? $APPLICATION->ShowTitle(); ?></h1>
             <? $APPLICATION->IncludeComponent(
                 "bitrix:search.form",
                 "kb",

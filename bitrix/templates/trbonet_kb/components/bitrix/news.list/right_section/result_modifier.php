@@ -16,6 +16,3 @@ foreach ($arResult["SECTION"] as &$sec) {
     }
 }
 ?>
-
-<!--<pre>--><?// var_dump($arResult["SECTION"]); ?><!--</pre>-->
-
