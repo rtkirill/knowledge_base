@@ -5,6 +5,7 @@ IncludeTemplateLangFile(__FILE__);
 <html>
 <head>
     <? $APPLICATION->ShowHead(); ?>
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
 
     <title><? $APPLICATION->ShowTitle() ?></title>
 
@@ -33,9 +34,18 @@ IncludeTemplateLangFile(__FILE__);
 
 <div class="main">
     <header>
+        <a class="mobile_menu_button">
+            <svg version="1.2" preserveAspectRatio="none" viewBox="0 0 24 24" class="ng-element"
+                 style="opacity: 1; mix-blend-mode: normal; fill: rgb(255, 255, 255); width: 32px; height: 32px;">
+                <g>
+                    <path xmlns:default="http://www.w3.org/2000/svg" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+                          style="fill: rgb(255, 255, 255);"></path>
+                </g>
+            </svg>
+        </a>
         <a href="/" class="logo">
             <svg version="1.2" preserveAspectRatio="none" viewBox="0 0 1181.4 256" class="ng-element"
-                 style="opacity: 1; mix-blend-mode: normal; overflow: visible; width: 148px; height: 32px; transform: rotate(0deg) translate(26px, 19px) rotate(0deg);">
+                 style="opacity: 1; mix-blend-mode: normal; overflow: visible; width: 148px; height: 32px;">
                 <style type="text/css">
                     .Arched_x0020_Green {
                         fill: url(#SVGID_1__1536919947847);
@@ -96,5 +106,78 @@ IncludeTemplateLangFile(__FILE__);
         <div class="kb_title"><p>Knowledge Base</p></div>
     </header>
 
+    <div class="mobile_menu">
+        <div class="aside__wrapper">
+            <? $APPLICATION->IncludeComponent(
+                "bitrix:news.list",
+                "left_main_section",
+                array(
+                    "DISPLAY_DATE" => "Y",
+                    "DISPLAY_NAME" => "Y",
+                    "DISPLAY_PICTURE" => "Y",
+                    "DISPLAY_PREVIEW_TEXT" => "Y",
+                    "AJAX_MODE" => "N",
+                    "IBLOCK_TYPE" => "faq",
+                    "IBLOCK_ID" => "105",
+                    "NEWS_COUNT" => "20",
+                    "SORT_BY1" => "ACTIVE_FROM",
+                    "SORT_ORDER1" => "DESC",
+                    "SORT_BY2" => "SORT",
+                    "SORT_ORDER2" => "ASC",
+                    "FILTER_NAME" => "",
+                    "FIELD_CODE" => array(
+                        0 => "ID",
+                        1 => "",
+                    ),
+                    "PROPERTY_CODE" => array(
+                        0 => "",
+                        1 => "DESCRIPTION",
+                        2 => "",
+                    ),
+                    "CHECK_DATES" => "Y",
+                    "DETAIL_URL" => "",
+                    "PREVIEW_TRUNCATE_LEN" => "",
+                    "ACTIVE_DATE_FORMAT" => "d.m.Y",
+                    "SET_TITLE" => "Y",
+                    "SET_BROWSER_TITLE" => "Y",
+                    "SET_META_KEYWORDS" => "Y",
+                    "SET_META_DESCRIPTION" => "Y",
+                    "SET_LAST_MODIFIED" => "Y",
+                    "INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
+                    "ADD_SECTIONS_CHAIN" => "Y",
+                    "HIDE_LINK_WHEN_NO_DETAIL" => "Y",
+                    "PARENT_SECTION" => "",
+                    "PARENT_SECTION_CODE" => "",
+                    "INCLUDE_SUBSECTIONS" => "Y",
+                    "CACHE_TYPE" => "A",
+                    "CACHE_TIME" => "3600",
+                    "CACHE_FILTER" => "Y",
+                    "CACHE_GROUPS" => "Y",
+                    "DISPLAY_TOP_PAGER" => "Y",
+                    "DISPLAY_BOTTOM_PAGER" => "Y",
+                    "PAGER_TITLE" => "Новости",
+                    "PAGER_SHOW_ALWAYS" => "Y",
+                    "PAGER_TEMPLATE" => "",
+                    "PAGER_DESC_NUMBERING" => "Y",
+                    "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+                    "PAGER_SHOW_ALL" => "Y",
+                    "PAGER_BASE_LINK_ENABLE" => "Y",
+                    "SET_STATUS_404" => "Y",
+                    "SHOW_404" => "Y",
+                    "MESSAGE_404" => "",
+                    "PAGER_BASE_LINK" => "",
+                    "PAGER_PARAMS_NAME" => "arrPager",
+                    "AJAX_OPTION_JUMP" => "N",
+                    "AJAX_OPTION_STYLE" => "Y",
+                    "AJAX_OPTION_HISTORY" => "N",
+                    "AJAX_OPTION_ADDITIONAL" => "",
+                    "COMPONENT_TEMPLATE" => "left_main_section",
+                    "STRICT_SECTION_CHECK" => "N",
+                    "FILE_404" => ""
+                ),
+                false
+            ); ?>
+        </div>
+    </div>
 
 

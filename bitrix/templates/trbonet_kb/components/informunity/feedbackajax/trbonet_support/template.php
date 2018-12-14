@@ -60,7 +60,7 @@
 				<div class="l-form__left">
 					<div class="tn_form__item tn_form__captcha">
 						<div class="tn_form__item">
-							<div class="g-recaptcha" data-sitekey="<?=GoogleReCaptcha::getPublicKey()?>"></div>
+							<div class="g-recaptcha" data-size="normal" data-sitekey="<?=GoogleReCaptcha::getPublicKey()?>"></div>
 						</div>
 					</div>
 				</div>

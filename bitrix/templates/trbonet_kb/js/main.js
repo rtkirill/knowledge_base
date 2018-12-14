@@ -88,7 +88,12 @@ $(document).ready(function () {
     );
 
     //Scrollspy right menu on detail
-    var menu_selector = "#spy_menu"; //Menu id
+    var menu_selector = "";
+    if($(".aside_right_responsive").is(":visible"))
+        menu_selector = "#spy_menu"; //Menu id
+    else
+        menu_selector = "#spy_menu2"; //Menu id мобильная версия
+
     var menu_offset_top = 70; // Top offset
     function onScroll() {
         var scroll_top = $(document).scrollTop() + menu_offset_top;
@@ -103,6 +108,7 @@ $(document).ready(function () {
             }
         });
     };
+
     $(document).on("scroll", onScroll);
     $(".list_link").click(function(e){
         e.preventDefault();
@@ -118,6 +124,26 @@ $(document).ready(function () {
             $(document).on("scroll", onScroll);
         });
     });
+
+
+    // Toggle mobile menu
+    $(".mobile_menu_button").on("click", function () {
+        $(".mobile_menu").toggle();
+    });
+    // Toggle mobile menu on detail
+    $(".mobile_menu_detail_button").on("click", function () {
+        $(".mobile_menu_detail").toggle();
+    });
+
+    // Close button action
+    $(".close_menu_btn").on("click", function () {
+        $(this).parent().hide();
+    });
+
+    // Resize reCAPTCHA
+    if($(window).width() < 768) {
+        $(".g-recaptcha").attr("data-size","compact");
+    }
 
 
 });

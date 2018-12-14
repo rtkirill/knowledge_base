@@ -1,6 +1,6 @@
 <a href="https://trbonet.com/kb/technical-documentation">
     <svg version="1.2" preserveAspectRatio="none" viewBox="0 0 85.1 68" class="ng-element"
-         style="opacity: 1; mix-blend-mode: normal; overflow: visible; width: 32px; height: 26px; transform: rotate(0deg) translate(-31px, -560px) translate(31px, 565px) rotate(0deg);">
+         style="opacity: 1; mix-blend-mode: normal; overflow: visible; width: 10%; transform: rotate(0deg) translate(-25px, -560px) translate(25px, 565px) rotate(0deg);">
         <g transform="translate(0,-952.36218)">
             <g transform="translate(-2281.5645,1290)">
                 <path d="M2282.6-337.6c-0.6,0-1,0.5-1,1.1v10.9h14v-10.9c0-0.6-0.4-1.1-1-1.1H2282.6z M2326.6-337.6c-0.6,0-1,0.5-1,1.1v10.9h14

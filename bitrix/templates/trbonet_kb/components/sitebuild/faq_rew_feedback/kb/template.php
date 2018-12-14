@@ -45,7 +45,7 @@ if(strlen($arResult["OK_MESSAGE"]) > 0)
             <textarea type="text" name="MESSAGE" id="faq_improved_text" value="<?=$arResult["MESSAGE"]?>"></textarea>
         </div>
         <?if($arParams["USE_CAPTCHA"] == "Y"):?>
-			<div class="g-recaptcha" data-sitekey="<?=GoogleReCaptcha::getPublicKey()?>"></div>
+			<div class="g-recaptcha" data-size="normal" data-sitekey="<?=GoogleReCaptcha::getPublicKey()?>"></div>
 		<?endif;?>
         <div class="faq-button-center">
         	<input type="submit" name="submit"  class="tn_button" value="Send Feedback">
