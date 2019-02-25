@@ -4,6 +4,8 @@ $(document).ready(function () {
 
     sec.on("click", function () {
         if (!$(this).hasClass("active")) {
+            sec.removeClass("active");
+            sec.find("ul").hide(200);
             $(this).addClass("active");
             $(this).find("ul").slideDown(200);
         } else {
@@ -119,7 +121,7 @@ $(document).ready(function () {
         var target = $(hash);
         $("html, body").animate({
             scrollTop: (target.offset().top - menu_offset_top)
-        }, 500, function(){
+        }, 0, function(){
             window.location.hash = hash;
             $(document).on("scroll", onScroll);
         });

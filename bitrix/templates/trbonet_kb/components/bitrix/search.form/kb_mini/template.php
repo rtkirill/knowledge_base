@@ -13,7 +13,7 @@
 $this->setFrameMode(true);?>
 <form action="<?=$arResult["FORM_ACTION"]?>">
     <label class="search_label_mini">
-        <input type="text" name="q" value="" maxlength="50" class="search_mini" id="search" placeholder="Search..">
+        <input type="text" name="q" value="" maxlength="50" class="search_mini" id="search" placeholder="Search...">
         <button name="s" type="submit">
             <svg version="1.2" preserveAspectRatio="none" viewBox="0 0 24 24">
                 <g>

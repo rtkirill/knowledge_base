@@ -3,7 +3,7 @@
 
     <article>
         <aside>
-            <div class="aside__wrapper">
+            <div class="aside__wrapper aside__wrapper_left">
                 <? $APPLICATION->IncludeComponent(
                     "bitrix:search.form",
                     "kb_mini",
@@ -100,7 +100,7 @@
                 </div>
             </div>
         </aside>
-        <section class="index_faq index_faq_marginTop">
+        <section class="index_faq index_faq_marginTop index_faq_width">
             <div class="wrapper_mobile">
                 <div class="mobile_search">
                     <? $APPLICATION->IncludeComponent(

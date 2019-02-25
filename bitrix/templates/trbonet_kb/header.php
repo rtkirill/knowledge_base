@@ -102,8 +102,9 @@ IncludeTemplateLangFile(__FILE__);
                     </g>
                 </g>
             </svg>
+
+            <div class="kb_title"><p>Knowledge Base</p></div>
         </a>
-        <div class="kb_title"><p>Knowledge Base</p></div>
     </header>
 
     <div class="mobile_menu">
