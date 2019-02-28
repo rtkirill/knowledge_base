@@ -24,12 +24,15 @@ $(document).ready(function () {
     }
 
     // Open email popup on detail
-    $("#faq-send-link-to-email").click(function () {
+    $("#faq-send-link-to-email").click(function (e) {
+        e.preventDefault();
         $(".faq-popup-email-wrap").show();
     });
 
     //Create page to print
-    $("#print").click(function () {
+    $("#print").click(function (e) {
+        e.preventDefault();
+        console.log(123);
         var html_to_print = $('.print_version').html();
         var iframe = $('<iframe id="print_frame">');
         $('body').append(iframe);
@@ -91,7 +94,7 @@ $(document).ready(function () {
 
     //Scrollspy right menu on detail
     var menu_selector = "";
-    if($(".aside_right_responsive").is(":visible"))
+    if ($(".aside_right_responsive").is(":visible"))
         menu_selector = "#spy_menu"; //Menu id
     else
         menu_selector = "#spy_menu2"; //Menu id мобильная версия
@@ -112,7 +115,7 @@ $(document).ready(function () {
     };
 
     $(document).on("scroll", onScroll);
-    $(".list_link").click(function(e){
+    $(".list_link").click(function (e) {
         e.preventDefault();
         $(document).off("scroll");
         $(menu_selector + " li.active").removeClass("active");
@@ -121,7 +124,7 @@ $(document).ready(function () {
         var target = $(hash);
         $("html, body").animate({
             scrollTop: (target.offset().top - menu_offset_top)
-        }, 0, function(){
+        }, 0, function () {
             window.location.hash = hash;
             $(document).on("scroll", onScroll);
         });
@@ -143,9 +146,23 @@ $(document).ready(function () {
     });
 
     // Resize reCAPTCHA
-    if($(window).width() < 768) {
-        $(".g-recaptcha").attr("data-size","compact");
+    if ($(window).width() < 768) {
+        $(".g-recaptcha").attr("data-size", "compact");
     }
 
+    // Open review form on detail
+    $('.answer_radio input').on('click', function () {
+        var radioID = $(this).attr('id'),
+            goodBlock = $('.faq_rew_field__good'),
+            badBlock = $('.faq_rew_field__bad');
+        if (radioID === 'faq_good') {
+            goodBlock.addClass('open');
+            badBlock.removeClass('open');
+        } else if (radioID === 'faq_bad') {
+            badBlock.addClass('open');
+            goodBlock.removeClass('open');
+        }
+        console.log(radioID);
+    });
 
 });

@@ -70,5 +70,10 @@ return array(
             'tag' => 'div',
             'title' => 'SVG для заголовка',
         ),
+    'download_link_svg' =>
+        array(
+            'tag' => 'div',
+            'title' => 'SVG для скачивания',
+        ),
 );
 ?>
