@@ -94,7 +94,7 @@ $APPLICATION->SetTitle("TRBOnet Knowledge Base");
         </aside>
 
         <section class="index_faq">
-<!--            <h1 class="oversized">--><?// $APPLICATION->ShowTitle(); ?><!--</h1>-->
+            <!--            <h1 class="oversized">--><? // $APPLICATION->ShowTitle(); ?><!--</h1>-->
             <? $APPLICATION->IncludeComponent(
                 "bitrix:search.form",
                 "kb",
@@ -169,58 +169,60 @@ $APPLICATION->SetTitle("TRBOnet Knowledge Base");
                 </p>
             </div>
 
-            <div class="feedbackForm_faq">
-                <p class="couldnt_find_answer">Couldn’t find the answer?</p>
-                <p class="contact_us">Contact us</p>
-                <?
-                if (CModule::IncludeModule("iblock")) {
+            <div class="feedbackForm_faq_wrapper">
+                <div class="feedbackForm_faq">
+                    <p class="couldnt_find_answer">Couldn’t find the answer?</p>
+                    <p class="contact_us">Contact us</p>
+                    <?
+                    if (CModule::IncludeModule("iblock")) {
 
-                    $productNames = CIBlockElement::GetList(
-                        array('sort' => 'ASC'),
-                        array('IBLOCK_ID' => 2, 'ACTIVE_DATE' => 'Y', 'ACTIVE' => 'Y'),
-                        false, false,
-                        array('ID', 'IBLOCK_ID', 'NAME')
-                    );
-                    $productArr = array();
-                    while ($item = $productNames->GetNextElement()) {
-                        $item = $item->GetFields();
-                        $productArr[] = $item['NAME'];
-                    } ?>
-                    <? $email = COption::GetOptionString("main", "email_from") ?>
-                    <? $countries = GetCountryArray() ?>
+                        $productNames = CIBlockElement::GetList(
+                            array('sort' => 'ASC'),
+                            array('IBLOCK_ID' => 2, 'ACTIVE_DATE' => 'Y', 'ACTIVE' => 'Y'),
+                            false, false,
+                            array('ID', 'IBLOCK_ID', 'NAME')
+                        );
+                        $productArr = array();
+                        while ($item = $productNames->GetNextElement()) {
+                            $item = $item->GetFields();
+                            $productArr[] = $item['NAME'];
+                        } ?>
+                        <? $email = COption::GetOptionString("main", "email_from") ?>
+                        <? $countries = GetCountryArray() ?>
 
-                    <? $APPLICATION->IncludeComponent(
-                        "informunity:feedbackajax",
-                        "trbonet_support",
-                        Array(
-                            "AFTER_TEXT" => "",
-                            "AJAX_FORM" => "support_popup",
-                            "COMPONENT_TEMPLATE" => "trbonet_support",
-                            "EMAIL_TO" => array(0 => $email, 1 => "",),
-                            "EM_THEME" => "#SITE#: Форма \"Support\"",
-                            "EVENT_MESSAGE_ID" => "74",
-                            "EVENT_TYPE_ID" => "TRBONET_SUPPORT",
-                            "FIELD_FOR_EMAIL" => "EMAIL",
-                            "FIELD_FOR_NAME" => "FIRST_NAME",
-                            "FIELD_FOR_THEME" => "iu_none",
-                            "OK_TEXT" => "Thank you. We have received your message and will respond shortly",
-                            "REQUIRED_FIELDS" => array(0 => "FIRST_NAME", 1 => "LAST_NAME", 2 => "COMPANY", 3 => "EMAIL", 4 => "COUNTRY", 5 => "",),
-                            "SELECT_VALUES" => array('COUNTRY' => $countries['reference'], 'PRODUCT' => $productArr,),
-                            "TEXTAREA_FIELDS" => array(0 => "MESSAGE",),
-                            "USE_ATTACH" => "N",
-                            "USE_CAPTCHA" => "Y",
-                            "USE_EMAIL_USER" => "N",
-                            "USE_IU_IB" => "N",
-                            "USE_IU_PAT" => "N"
-                        ),
-                        false,
-                        Array(
-                            'HIDE_ICONS' => 'N'
-                        )
-                    );
+                        <? $APPLICATION->IncludeComponent(
+                            "informunity:feedbackajax",
+                            "trbonet_support",
+                            Array(
+                                "AFTER_TEXT" => "",
+                                "AJAX_FORM" => "support_popup",
+                                "COMPONENT_TEMPLATE" => "trbonet_support",
+                                "EMAIL_TO" => array(0 => $email, 1 => "",),
+                                "EM_THEME" => "#SITE#: Форма \"Support\"",
+                                "EVENT_MESSAGE_ID" => "74",
+                                "EVENT_TYPE_ID" => "TRBONET_SUPPORT",
+                                "FIELD_FOR_EMAIL" => "EMAIL",
+                                "FIELD_FOR_NAME" => "FIRST_NAME",
+                                "FIELD_FOR_THEME" => "iu_none",
+                                "OK_TEXT" => "Thank you. We have received your message and will respond shortly",
+                                "REQUIRED_FIELDS" => array(0 => "FIRST_NAME", 1 => "LAST_NAME", 2 => "COMPANY", 3 => "EMAIL", 4 => "COUNTRY", 5 => "",),
+                                "SELECT_VALUES" => array('COUNTRY' => $countries['reference'], 'PRODUCT' => $productArr,),
+                                "TEXTAREA_FIELDS" => array(0 => "MESSAGE",),
+                                "USE_ATTACH" => "N",
+                                "USE_CAPTCHA" => "Y",
+                                "USE_EMAIL_USER" => "N",
+                                "USE_IU_IB" => "N",
+                                "USE_IU_PAT" => "N"
+                            ),
+                            false,
+                            Array(
+                                'HIDE_ICONS' => 'N'
+                            )
+                        );
 
-                }
-                ?>
+                    }
+                    ?>
+                </div>
             </div>
         </section>
 

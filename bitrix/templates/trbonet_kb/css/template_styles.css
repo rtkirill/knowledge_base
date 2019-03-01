@@ -431,12 +431,29 @@ section.index_faq .desc_faq p {
     color: rgb(78, 80, 82);
 }
 
+.feedbackForm_faq_wrapper {
+    margin-top: 80px;
+}
+
+.feedbackForm_faq {
+    background: #FCFCFC;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border: 0.25px solid #ADB1B7;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 8px rgba(27, 31, 35, 0.15);
+    border-radius: 5px;
+    max-width: 779px;
+    margin: auto;
+    padding: 0 20px;
+}
+
 .feedbackForm_faq p.couldnt_find_answer {
     text-align: center;
     color: rgb(30, 30, 31);
     font-size: 24px;
     font-family: 'OpenSans-R', sans-serif;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
@@ -454,6 +471,44 @@ section.index_faq .desc_faq p {
     justify-content: center;
     width: 100%;
     margin-top: 30px;
+}
+
+.feedbackForm_faq_detail_wrapper {
+    border-top: 1px solid #d9d9d9;
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+.tn_form input[type="text"], .tn_form input[type="email"], .tn_form input[type="password"], .tn_form select, .tn_form textarea {
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border: 0.5px solid #ADB1B7;
+    box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.tn_form__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tn_form__left, .tn_form__right {
+    width: 50%;
+}
+
+.tn_form__left {
+    margin-right: 20px;
+}
+
+.tn_form__right {
+    margin-left: 20px;
+}
+
+.tn_form_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .aside__wrapper ul.right_aside li .title {
@@ -972,6 +1027,13 @@ ul.faq-print li a img {
     aside .tech_doc a {
         font-size: 13px;
     }
+    .tn_form_btn {
+        display: block;
+        text-align: center;
+    }
+    .tn_form__captcha {
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -989,6 +1051,16 @@ ul.faq-print li a img {
     }
     table {
         font-size: 10px;
+    }
+    .tn_form__wrapper {
+        display: block;
+    }
+    .tn_form__left, .tn_form__right {
+        width: 100%;
+        margin: 0;
+    }
+    .tn_form__captcha {
+        margin-bottom: 0;
     }
 }
 
