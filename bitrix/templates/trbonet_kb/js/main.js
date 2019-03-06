@@ -26,7 +26,41 @@ $(document).ready(function () {
     // Open email popup on detail
     $("#faq-send-link-to-email").click(function (e) {
         e.preventDefault();
-        $(".faq-popup-email-wrap").show();
+        $(".faq-popup-email-wrap").toggle(200);
+    });
+
+    //Send Email
+    $('#faq-send-email').on('submit', function (e) {
+        e.preventDefault();
+
+        var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+        var address = $(this).find("input[name=faq_email]").val();
+
+        if (reg.test(address) == false) {
+            $('.faq-email--error').show(100);
+            return false;
+        } else {
+            $.ajax({
+                type: "POST",
+                url: "/includes/faq-mail.php",
+                dataType: "json",
+                data: {
+                    'faq_name': $('input[name=faq_name]').val(),
+                    'faq_link': $('input[name=faq_link]').val(),
+                    'faq_email': $('input[name=faq_email]').val(),
+                },
+                success: function (response) {
+                    if(response) {
+                        $('#faq-send-email').hide();
+                        $('.faq-email--success').show(100);
+                    }
+                },
+                error: function (xhr, ajaxOptions, thrownError) {
+                    console.log(thrownError);
+                }
+            });
+        }
+
     });
 
     //Create page to print

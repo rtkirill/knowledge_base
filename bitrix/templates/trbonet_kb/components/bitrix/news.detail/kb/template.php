@@ -75,16 +75,19 @@ $this->setFrameMode(true);
     <!-- POPUP -->
     <div class="faq-popup-email-wrap">
         <div class="faq-popup-email">
-            <form action="/includes/faq-mail.php" method="post" id="faq-send-email">
+<!--            <form action="/includes/faq-mail.php" method="post" id="faq-send-email">-->
+            <form action="" method="post" id="faq-send-email">
                 <input type="hidden" name="faq_name" value="<?=$arResult["NAME"]?>">
                 <input type="hidden" name="faq_link" value="<?=$APPLICATION->GetCurDir()?>">
                 <div class="send_input">
                     <input type="email" placeholder="Your Email" autocomplete="off" name="faq_email" id="email" required>
+                    <p class="faq-email--error">Incorrect email!</p>
                 </div>
                 <div class="send_submit">
                     <input type="submit" name="faq_submit" value="Send">
                 </div>
             </form>
+            <p class="faq-email--success">The article was successfully sent to the email</p>
         </div>
     </div>
     <!--    END POPUP-->

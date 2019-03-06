@@ -9,4 +9,10 @@ $arEventFields = array(
     "LINK" => $link,
     "EMAIL" => $email
 );
-CEvent::Send("SEND_KB_TO_USER", "s1", $arEventFields);
+
+if(CEvent::Send("SEND_KB_TO_USER", "s1", $arEventFields))
+    $result = 1;
+else
+    $result = 0;
+
+echo json_encode($result);

@@ -1016,6 +1016,19 @@ ul.faq-print li a img {
     content: "-";
 }
 
+.faq-email--error {
+    display: none;
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.faq-email--success {
+    display: none;
+    color: green;
+    margin: 0;
+}
+
 /*END DETAIL*/
 
 /*Responsive*/
