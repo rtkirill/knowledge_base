@@ -18,6 +18,7 @@ IncludeTemplateLangFile(__FILE__);
     $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/template_styles.css");
 
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery.min.js');
+    $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/printThis.js');
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/highlight.pack.js');
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery.magnific-popup.min.js');
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/main.js');
@@ -25,6 +26,14 @@ IncludeTemplateLangFile(__FILE__);
 
     ?>
 
+    <!--[if IE]>
+    <style type="text/css">
+        header {
+            position: fixed!important;
+        }
+.main {background: #000;}
+    </style>
+    <![endif]-->
 
 </head>
 

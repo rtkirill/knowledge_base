@@ -142,7 +142,6 @@
             <excludedPath path="/bitrix/modules" />
             <excludedPath path="/bitrix/otp" />
             <excludedPath path="/bitrix/panel" />
-            <excludedPath path="/bitrix/php_interface" />
             <excludedPath path="/bitrix/services" />
             <excludedPath path="/bitrix/sounds" />
             <excludedPath path="/bitrix/template" />
@@ -183,7 +182,23 @@
             <excludedPath path="/bitrix/components/sitebuild/faq_search" />
             <excludedPath path="/bitrix/components/sitebuild/menu.elements" />
             <excludedPath path="/bitrix/components/.access.php" />
+            <excludedPath path="/bitrix/php_interface/include" />
+            <excludedPath path="/bitrix/php_interface/subscribe" />
+            <excludedPath path="/bitrix/php_interface/.htaccess" />
+            <excludedPath path="/bitrix/php_interface/after_connect.php" />
+            <excludedPath path="/bitrix/php_interface/after_connect_d7.php" />
+            <excludedPath path="/bitrix/php_interface/cron_events.php" />
+            <excludedPath path="/bitrix/php_interface/cron_events.php_" />
+            <excludedPath path="/bitrix/php_interface/dbconn.php" />
+            <excludedPath path="/bitrix/php_interface/dbconn.php.bak" />
           </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="stolen">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
         </serverdata>
       </paths>
     </serverData>

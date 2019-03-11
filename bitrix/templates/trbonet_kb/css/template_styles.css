@@ -1,21 +1,21 @@
 @font-face {
     font-family: OpenSans-L;
-    src: url('../font/OpenSans-Light.ttf');
+    src: url('../font/opensanslight.woff');
 }
 
 @font-face {
     font-family: OpenSans-B;
-    src: url('../font/OpenSans-Bold.ttf');
+    src: url('../font/opensansbold.woff');
 }
 
 @font-face {
     font-family: OpenSans-SB;
-    src: url('../font/OpenSans-SemiBold.ttf');
+    src: url('../font/opensanssemibold.woff');
 }
 
 @font-face {
     font-family: OpenSans-R;
-    src: url('../font/OpenSans-Regular.ttf');
+    src: url('../font/opensans.woff');
 }
 
 body {
@@ -1182,3 +1182,33 @@ ul.faq-print li a img {
     }
 }
 /*END Responsive*/
+
+/*IE*/
+@media all and (-ms-high-contrast:none)
+{
+    header {
+        width: 100%;
+        position: fixed;
+    }
+    *::-ms-backdrop,header {
+        width: 100%;
+        position: fixed;
+    }
+    article {
+        padding-top: 70px;
+    }
+    *::-ms-backdrop,article {
+        padding-top: 70px;
+    }
+}
+
+/*Edge*/
+@supports (-ms-ime-align:auto) {
+    header {
+        width: 100%;
+        position: fixed;
+    }
+    article {
+        padding-top: 70px;
+    }
+}

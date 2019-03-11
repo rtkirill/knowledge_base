@@ -66,15 +66,34 @@ $(document).ready(function () {
     //Create page to print
     $("#print").click(function (e) {
         e.preventDefault();
-        console.log(123);
-        var html_to_print = $('.print_version').html();
+        // console.log(123);
+        /*var html_to_print = $('.print_version').html();
         var iframe = $('<iframe id="print_frame">');
         $('body').append(iframe);
         var doc = $('#print_frame')[0].contentDocument || $('#print_frame')[0].contentWindow.document;
         var win = $('#print_frame')[0].contentWindow || $('#print_frame')[0];
         doc.getElementsByTagName('body')[0].innerHTML = html_to_print;
         win.print();
-        $(iframe).remove();
+        $(iframe).remove();*/
+
+        $('.print_version').printThis({
+            debug: false,               // show the iframe for debugging
+            importCSS: true,            // import parent page css
+            importStyle: false,         // import style tags
+            printContainer: true,       // print outer container/$.selector
+            loadCSS: "",                // path to additional css file - use an array [] for multiple
+            pageTitle: "",              // add title to print page
+            removeInline: true,        // remove inline styles from print elements
+            removeInlineSelector: "*",  // custom selectors to filter inline styles. removeInline must be true
+            base: false,                // preserve the BASE tag or accept a string for the URL
+            formValues: true,           // preserve input/form values
+            canvas: false,              // copy canvas content
+            removeScripts: false,       // remove script tags from print content
+            copyTagClasses: false,      // copy classes from the html & body tag
+            beforePrintEvent: null,     // function for printEvent in iframe
+            beforePrint: null,          // function called before iframe is filled
+            afterPrint: null            // function called before iframe is removed
+        });
     });
 
     //Init highlightCode
