@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="sitebuild" notifyRemoteChanges="true">
+  <component name="PublishConfigData" autoUpload="Always" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="demo_.sitebuild" autoUploadExternalChanges="true" notifyRemoteChanges="true">
     <serverData>
-      <paths name="fermifi">
+      <paths name="b24">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
-      <paths name="fermifi_bitrix">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="sitebuild">
+      <paths name="demo_.sitebuild">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
@@ -35,7 +28,6 @@
             <excludedPath path="/kb" />
             <excludedPath path="/login" />
             <excludedPath path="/markets" />
-            <excludedPath path="/MPDF60" />
             <excludedPath path="/news" />
             <excludedPath path="/products" />
             <excludedPath path="/profile" />
@@ -145,10 +137,6 @@
             <excludedPath path="/bitrix/services" />
             <excludedPath path="/bitrix/sounds" />
             <excludedPath path="/bitrix/template" />
-            <excludedPath path="/bitrix/templates/trbonet" />
-            <excludedPath path="/bitrix/templates/trbonet_es" />
-            <excludedPath path="/bitrix/templates/trbonet_pt" />
-            <excludedPath path="/bitrix/templates/trbonet_ru" />
             <excludedPath path="/bitrix/themes" />
             <excludedPath path="/bitrix/tmp" />
             <excludedPath path="/bitrix/tools" />
@@ -176,12 +164,12 @@
             <excludedPath path="/bitrix/components/asd" />
             <excludedPath path="/bitrix/components/bitrix" />
             <excludedPath path="/bitrix/components/informunity" />
+            <excludedPath path="/bitrix/components/.access.php" />
             <excludedPath path="/bitrix/components/sitebuild/faq" />
             <excludedPath path="/bitrix/components/sitebuild/faq_list" />
             <excludedPath path="/bitrix/components/sitebuild/faq_rew_feedback" />
             <excludedPath path="/bitrix/components/sitebuild/faq_search" />
             <excludedPath path="/bitrix/components/sitebuild/menu.elements" />
-            <excludedPath path="/bitrix/components/.access.php" />
             <excludedPath path="/bitrix/php_interface/include" />
             <excludedPath path="/bitrix/php_interface/subscribe" />
             <excludedPath path="/bitrix/php_interface/.htaccess" />
@@ -191,7 +179,25 @@
             <excludedPath path="/bitrix/php_interface/cron_events.php_" />
             <excludedPath path="/bitrix/php_interface/dbconn.php" />
             <excludedPath path="/bitrix/php_interface/dbconn.php.bak" />
+            <excludedPath path="/bitrix/templates/trbonet" />
+            <excludedPath path="/bitrix/templates/trbonet_es" />
+            <excludedPath path="/bitrix/templates/trbonet_pt" />
+            <excludedPath path="/bitrix/templates/trbonet_ru" />
           </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="fermifi">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="hummel">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
         </serverdata>
       </paths>
       <paths name="stolen">
@@ -201,7 +207,21 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="test.4fresh.ru">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="test_ex">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
-    <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

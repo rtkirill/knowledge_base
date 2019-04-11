@@ -75,12 +75,13 @@ $this->setFrameMode(true);
     <!-- POPUP -->
     <div class="faq-popup-email-wrap">
         <div class="faq-popup-email">
-<!--            <form action="/includes/faq-mail.php" method="post" id="faq-send-email">-->
+            <!--            <form action="/includes/faq-mail.php" method="post" id="faq-send-email">-->
             <form action="" method="post" id="faq-send-email">
-                <input type="hidden" name="faq_name" value="<?=$arResult["NAME"]?>">
-                <input type="hidden" name="faq_link" value="<?=$APPLICATION->GetCurDir()?>">
+                <input type="hidden" name="faq_name" value="<?= $arResult["NAME"] ?>">
+                <input type="hidden" name="faq_link" value="<?= $APPLICATION->GetCurDir() ?>">
                 <div class="send_input">
-                    <input type="email" placeholder="Your Email" autocomplete="off" name="faq_email" id="email" required>
+                    <input type="email" placeholder="Your Email" autocomplete="off" name="faq_email" id="email"
+                           required>
                     <p class="faq-email--error">Incorrect email!</p>
                 </div>
                 <div class="send_submit">
@@ -97,18 +98,17 @@ $this->setFrameMode(true);
     <? else: ?>
         <div class="faq_detail_text"><? echo $arResult["PREVIEW_TEXT"]; ?></div>
     <? endif ?>
-    <div class="related-articles">
-        <? if (!empty($arResult["DISPLAY_PROPERTIES"]["RELATED_ARTICLES"]["DISPLAY_VALUE"])): ?>
+    <? if (!empty($arResult["DISPLAY_PROPERTIES"]["RELATED_ARTICLES"]["DISPLAY_VALUE"])): ?>
+        <div class="related-articles">
             <div class="faq_subtitle">Related articles</div>
             <ul class="faq_related_list">
                 <? foreach ($arResult["DISPLAY_PROPERTIES"]["RELATED_ARTICLES"]["DISPLAY_VALUE"] as $arProp): ?>
                     <li><?= $arProp; ?></li>
                 <? endforeach; ?>
             </ul>
-        <? endif; ?>
-    </div>
+        </div>
+    <? endif; ?>
 </div>
-
 
 
 <!--ONLY FOR PRINT-->

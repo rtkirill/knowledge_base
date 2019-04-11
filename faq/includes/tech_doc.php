@@ -1,4 +1,4 @@
-<a href="https://trbonet.com/kb/technical-documentation">
+<a href="/techdoc/">
     <svg version="1.2" preserveAspectRatio="none" viewBox="0 0 85.1 68" class="ng-element"
          style="opacity: 1; mix-blend-mode: normal; overflow: visible; width: 10%; transform: rotate(0deg) translate(-25px, -560px) translate(25px, 565px) rotate(0deg);">
         <g transform="translate(0,-952.36218)">

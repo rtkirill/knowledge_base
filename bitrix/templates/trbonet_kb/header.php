@@ -15,6 +15,7 @@ IncludeTemplateLangFile(__FILE__);
     $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/magnific-popup.css");
     $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/components.css");
     $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/layouts.css");
+    $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/plugins.css");
     $APPLICATION->SetAdditionalCSS(SITE_TEMPLATE_PATH . "/css/template_styles.css");
 
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery.min.js');
@@ -22,18 +23,7 @@ IncludeTemplateLangFile(__FILE__);
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/highlight.pack.js');
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery.magnific-popup.min.js');
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/main.js');
-
-
     ?>
-
-    <!--[if IE]>
-    <style type="text/css">
-        header {
-            position: fixed!important;
-        }
-.main {background: #000;}
-    </style>
-    <![endif]-->
 
 </head>
 
@@ -114,6 +104,7 @@ IncludeTemplateLangFile(__FILE__);
 
             <div class="kb_title"><p>Knowledge Base</p></div>
         </a>
+        <a href="#get_support" class="support_button js-popup">Contact Support</a>
     </header>
 
     <div class="mobile_menu">

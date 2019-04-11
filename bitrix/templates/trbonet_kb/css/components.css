@@ -3521,7 +3521,7 @@ background: none;
   content: '';
   position: absolute;
   z-index: 1;
-  background-image: url('../images/sprite.png?1467972018');
+  background-image: url('../img/sprite.png?1467972018');
   background-repeat: no-repeat;
 }
 .ico--support:after {

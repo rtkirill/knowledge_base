@@ -138,7 +138,12 @@ table.table_bootstrap tr:hover {
     background-size: 10px;
 }
 
+.download_link_svg a {
+    color: rgb(78, 80, 82);
+}
+
 .download_link_svg {
     background: url(img/download.svg) 100% 50% no-repeat;
     background-size: 10px;
+    cursor: pointer;
 }

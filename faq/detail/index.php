@@ -228,11 +228,11 @@
                     false
                 ); ?>
             </div>
-            <div class="feedbackForm_faq_wrapper feedbackForm_faq_detail_wrapper">
+            <!--<div class="feedbackForm_faq_wrapper feedbackForm_faq_detail_wrapper">
                 <div class="feedbackForm_faq">
                     <p class="couldnt_find_answer">Couldn’t find the answer?</p>
-                    <p class="contact_us">Contact us</p>
-                    <?
+                    <p class="contact_us">Create a ticket</p>
+                    <?/*
                     if (CModule::IncludeModule("iblock")) {
 
                         $productNames = CIBlockElement::GetList(
@@ -245,11 +245,11 @@
                         while ($item = $productNames->GetNextElement()) {
                             $item = $item->GetFields();
                             $productArr[] = $item['NAME'];
-                        } ?>
-                        <? $email = COption::GetOptionString("main", "email_from") ?>
-                        <? $countries = GetCountryArray() ?>
+                        } */?>
+                        <?/* $email = COption::GetOptionString("main", "email_from") */?>
+                        <?/* $countries = GetCountryArray() */?>
 
-                        <? $APPLICATION->IncludeComponent(
+                        <?/* $APPLICATION->IncludeComponent(
                             "informunity:feedbackajax",
                             "trbonet_support",
                             Array(
@@ -280,11 +280,11 @@
                         );
 
                     }
-                    ?>
+                    */?>
                 </div>
-            </div>
+            </div>-->
         </section>
-        <aside class="aside_right_responsive">
+        <aside class="aside_right aside_right_responsive">
             <div class="aside__wrapper">
                 <ul class="right_aside">
                     <li>
