@@ -286,7 +286,7 @@
         </section>
         <aside class="aside_right aside_right_responsive">
             <div class="aside__wrapper">
-                <ul class="right_aside">
+                <ul class="right_aside title_list_js">
                     <li>
                         <span class="title">In this article</span>
                         <nav id="spy_menu">

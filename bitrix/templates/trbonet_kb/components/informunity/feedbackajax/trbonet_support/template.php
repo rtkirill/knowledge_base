@@ -2,7 +2,7 @@
 <div id="get_support" class="tn_popup mfp-hide1">
     <div class="feedbackForm_faq">
         <p class="couldnt_find_answer">Couldn’t find the answer?</p>
-        <p class="contact_us">Please read our <a href="http://s3.trbonet.com/web/guides/TRBOnet_SLA.pdf">Service Level Agreement</a> and create ticket</p>
+        <p class="contact_us">Please read our <a href="http://s3.trbonet.com/web/guides/TRBOnet_SLA.pdf">Service Level Agreement</a> and create a ticket.</p>
         <div class="tn_form__wrapper l-constrained l-flow">
             <? if (strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest' && $_REQUEST['AJAX_FORM'] == 'support_popup') $APPLICATION->RestartBuffer(); ?>
             <? $auto_focus = 0;

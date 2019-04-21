@@ -2,449 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8100166-1591-4aa0-8141-73099d4a8feb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/.description.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/.description.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/component.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/component.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/help/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/help/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/en/.description.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/en/.description.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/en/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/en/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/en/help/.tooltips.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/en/help/.tooltips.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/ru/.description.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/ru/.description.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/ru/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/ru/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/ru/help/.tooltips.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/ru/help/.tooltips.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/newstools.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/newstools.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/catalog.filter/.default/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/catalog.filter/.default/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/catalog.filter/.default/lang/la/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/catalog.filter/.default/lang/la/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/catalog.filter/.default/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/catalog.filter/.default/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/catalog.filter/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/catalog.filter/.default/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/component_epilog.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/component_epilog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/lang/la/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/lang/la/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/result_modifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/ru/script.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/ru/script.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/script.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/script.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/.default/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/.default/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/.default/lang/la/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/.default/lang/la/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/.default/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/.default/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/.default/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/lang/la/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/lang/la/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/result_modifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/en/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/en/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/la/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/la/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/ru/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/ru/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.index/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.index/.default/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/en/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/en/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/la/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/la/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/la/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/la/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/ru/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/ru/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/list/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/list/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/photo/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/photo/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/rss.out/.default/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/rss.out/.default/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/rss.out/.default/lang/la/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/rss.out/.default/lang/la/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/rss.out/.default/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/rss.out/.default/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/rss.out/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/rss.out/.default/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.form/flat/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.form/flat/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.form/flat/lang/la/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.form/flat/lang/la/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.form/flat/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.form/flat/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.form/flat/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.form/flat/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/chain_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/chain_template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/lang/la/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/lang/la/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/section.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/section.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/section.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/news.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/rss.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/rss.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/rss_section.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/rss_section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/search.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/section.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/section.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitrix/php_interface/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/php_interface/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/test/.styles.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/test/.styles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/test/description.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/test/description.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/.styles.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/.styles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/lang/la/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/lang/la/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/en/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/en/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/la/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/la/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/ru/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/ru/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/en/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/en/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/la/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/la/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/la/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/la/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/ru/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/ru/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/result_modifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/en/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/en/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/la/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/la/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/la/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/la/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/ru/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/ru/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/en/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/en/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/la/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/la/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/la/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/la/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/ru/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/ru/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/ru/template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/en/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/en/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/la/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/la/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/la/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/la/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/ru/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/ru/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/lang/en/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/lang/en/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/lang/ru/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/lang/ru/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/result_modifier.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/result_modifier.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/chain_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/chain_template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/lang/en/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/lang/en/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/lang/ru/.parameters.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/lang/ru/.parameters.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_contacts/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_contacts/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_contacts/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_contacts/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_contacts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_contacts/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_contacts/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_contacts/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_dealer/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_dealer/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_dealer/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_dealer/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_quote_popup/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_quote_popup/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_quote_popup/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_quote_popup/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_quote_popup/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_quote_popup/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_quote_popup/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_quote_popup/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_popup/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_popup/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_popup/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_popup/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_popup/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_popup/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_popup/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_popup/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_request/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_request/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_request/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_request/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_request/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_request/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_request/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_request/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/lang/en/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/lang/en/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/lang/la/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/lang/la/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/lang/ru/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/lang/ru/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/bootstrap-grid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/components.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/layouts.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/layouts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/reset.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/description.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/description.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/img/external-link-symbol.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/img/external-link-symbol.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/img/paper-clip.svg" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/img/paper-clip.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/highlight.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/highlight.pack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/jquery.magnific-popup.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/jquery.magnific-popup.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/ISSUE_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/assets/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/assets/css/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/assets/css/skeleton.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/assets/css/skeleton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/changelog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/printThis.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/printThis.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/.access.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/.access.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/.feedbackajax2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/faq/.feedbackajax2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/faq/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/.section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/.trbonetBeforeEventSend.txt" beforeDir="false" afterPath="$PROJECT_DIR$/faq/.trbonetBeforeEventSend.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/bitrix_server_test.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/bitrix_server_test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/detail/.access.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/detail/.access.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/faq/detail/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/detail/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/images/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/images/.section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/images/800031/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/images/800031/.section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/images/800084/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/images/800084/.section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Afrikaans_South_Africa.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Afrikaans_South_Africa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Albanian_Albania.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Albanian_Albania.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Alsatian_France.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Alsatian_France.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Algeria.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Algeria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Bahrain.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Bahrain.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Egypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Egypt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Iraq.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Iraq.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Jordan.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Jordan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Kuwait.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Kuwait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Lebanon.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Lebanon.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Libya.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Libya.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Morocco.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Morocco.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Oman.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Oman.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Pseudo_RTL.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Pseudo_RTL.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Qatar.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Qatar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Saudi_Arabia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Saudi_Arabia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Syria.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Syria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Tunisia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Tunisia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Yemen.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Yemen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Azeri_(Cyrillic)_Azerbaijan.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Azeri_(Cyrillic)_Azerbaijan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Azeri_(Latin)_Azerbaijan.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Azeri_(Latin)_Azerbaijan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Bashkir_Russia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Bashkir_Russia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Basque_Spain.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Basque_Spain.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Belarusian_Belarus.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Belarusian_Belarus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Bosnian_(Cyrillic)_Bosnia_and_Herzegovina.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Bosnian_(Cyrillic)_Bosnia_and_Herzegovina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Bosnian_(Latin)_Bosnia_and_Herzegovina.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Bosnian_(Latin)_Bosnia_and_Herzegovina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Breton_France.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Breton_France.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Bulgarian_Bulgaria.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Bulgarian_Bulgaria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Catalan_Spain.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Catalan_Spain.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Corsican_France.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Corsican_France.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Croatian_(Latin)_Bosnia_and_Herzegovina.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Croatian_(Latin)_Bosnia_and_Herzegovina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Croatian_Croatia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Croatian_Croatia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Czech_Czech_Republic.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Czech_Czech_Republic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Danish_Denmark.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Danish_Denmark.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Dari_Afghanistan.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Dari_Afghanistan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Dutch_Belgium.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Dutch_Belgium.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Dutch_Netherlands.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Dutch_Netherlands.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Australia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Australia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Belize.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Belize.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Canada.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Canada.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Caribbean.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Caribbean.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_India.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_India.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Ireland.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Ireland.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Jamaica.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Jamaica.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Malaysia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Malaysia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_New_Zealand.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_New_Zealand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Republic_of_the_Philippines.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Republic_of_the_Philippines.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Singapore.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Singapore.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_South_Africa.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_South_Africa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Trinidad_and_Tobago.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Trinidad_and_Tobago.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Zimbabwe.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Zimbabwe.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Estonian_Estonia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Estonian_Estonia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Faroese_Faroe_Islands.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Faroese_Faroe_Islands.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Filipino_Philippines.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Filipino_Philippines.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Finnish_Finland.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Finnish_Finland.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Belgium.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Belgium.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Canada.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Canada.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_France.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_France.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Luxembourg.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Luxembourg.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Principality_of_Monaco.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Principality_of_Monaco.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Switzerland.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Switzerland.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Frisian_Netherlands.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Frisian_Netherlands.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Galician_Spain.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Galician_Spain.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Austria.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Austria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Germany.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Germany.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Liechtenstein.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Liechtenstein.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Luxembourg.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Luxembourg.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Switzerland.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Switzerland.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Greek_Greece.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Greek_Greece.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Greenlandic_Greenland.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Greenlandic_Greenland.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Hausa_(Latin)_Nigeria.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Hausa_(Latin)_Nigeria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Hebrew_Israel.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Hebrew_Israel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Hungarian_Hungary.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Hungarian_Hungary.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Icelandic_Iceland.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Icelandic_Iceland.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Igbo_Nigeria.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Igbo_Nigeria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Indonesian_Indonesia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Indonesian_Indonesia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Inuktitut_(Latin)_Canada.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Inuktitut_(Latin)_Canada.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Invariant_Language_Invariant_Country.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Invariant_Language_Invariant_Country.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Irish_Ireland.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Irish_Ireland.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Italian_Italy.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Italian_Italy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Italian_Switzerland.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Italian_Switzerland.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Kinyarwanda_Rwanda.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Kinyarwanda_Rwanda.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Kiswahili_Kenya.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Kiswahili_Kenya.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Kyrgyz_Kyrgyzstan.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Kyrgyz_Kyrgyzstan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Latvian_Latvia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Latvian_Latvia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Lithuanian_Lithuania.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Lithuanian_Lithuania.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Lower_Sorbian_Germany.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Lower_Sorbian_Germany.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Luxembourgish_Luxembourg.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Luxembourgish_Luxembourg.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Macedonian_(FYROM)_Macedonia_(FYROM).php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Macedonian_(FYROM)_Macedonia_(FYROM).php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Malay_Brunei_Darussalam.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Malay_Brunei_Darussalam.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Malay_Malaysia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Malay_Malaysia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Mapudungun_Chile.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Mapudungun_Chile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Mohawk_Canada.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Mohawk_Canada.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Mongolian_(Cyrillic)_Mongolia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Mongolian_(Cyrillic)_Mongolia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Norwegian_(Nynorsk)_Norway.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Norwegian_(Nynorsk)_Norway.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Occitan_France.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Occitan_France.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Persian_Iran.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Persian_Iran.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Polish_Poland.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Polish_Poland.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Portuguese_Brazil.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Portuguese_Brazil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Portuguese_Portugal.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Portuguese_Portugal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Quechua_Bolivia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Quechua_Bolivia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Quechua_Ecuador.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Quechua_Ecuador.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Quechua_Peru.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Quechua_Peru.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Romanian_Romania.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Romanian_Romania.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Romansh_Switzerland.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Romansh_Switzerland.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Russian_Russia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Russian_Russia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Inari)_Finland.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Inari)_Finland.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Lule)_Norway.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Lule)_Norway.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Lule)_Sweden.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Lule)_Sweden.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Northern)_Finland.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Northern)_Finland.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Northern)_Norway.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Northern)_Norway.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Northern)_Sweden.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Northern)_Sweden.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Skolt)_Finland.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Skolt)_Finland.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Southern)_Norway.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Southern)_Norway.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Southern)_Sweden.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Southern)_Sweden.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Serbian_(Cyrillic)_Bosnia_and_Herzegovina.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Serbian_(Cyrillic)_Bosnia_and_Herzegovina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Serbian_(Cyrillic)_Serbia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Serbian_(Cyrillic)_Serbia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Serbian_(Latin)_Bosnia_and_Herzegovina.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Serbian_(Latin)_Bosnia_and_Herzegovina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Serbian_(Latin)_Serbia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Serbian_(Latin)_Serbia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sesotho_sa_Leboa_South_Africa.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sesotho_sa_Leboa_South_Africa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Setswana_South_Africa.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Setswana_South_Africa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Slovak_Slovakia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Slovak_Slovakia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Slovenian_Slovenia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Slovenian_Slovenia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Argentina.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Argentina.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Bolivia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Bolivia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Chile.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Chile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Colombia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Colombia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Costa_Rica.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Costa_Rica.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Dominican_Republic.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Dominican_Republic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Ecuador.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Ecuador.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_El_Salvador.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_El_Salvador.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Guatemala.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Guatemala.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Honduras.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Honduras.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Mexico.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Mexico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Nicaragua.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Nicaragua.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Panama.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Panama.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Paraguay.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Paraguay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Peru.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Peru.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Puerto_Rico.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Puerto_Rico.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Spain.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Spain.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_United_States.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_United_States.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Uruguay.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Uruguay.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Venezuela.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Venezuela.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Swedish_Finland.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Swedish_Finland.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Swedish_Sweden.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Swedish_Sweden.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Tajik_(Cyrillic)_Tajikistan.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Tajik_(Cyrillic)_Tajikistan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Tamazight_(Latin)_Algeria.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Tamazight_(Latin)_Algeria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Tatar_Russia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Tatar_Russia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Turkish_Turkey.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Turkish_Turkey.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Turkmen_Turkmenistan.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Turkmen_Turkmenistan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Ukrainian_Ukraine.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Ukrainian_Ukraine.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Upper_Sorbian_Germany.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Upper_Sorbian_Germany.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Urdu_Islamic_Republic_of_Pakistan.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Urdu_Islamic_Republic_of_Pakistan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Uzbek_(Cyrillic)_Uzbekistan.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Uzbek_(Cyrillic)_Uzbekistan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Uzbek_(Latin)_Uzbekistan.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Uzbek_(Latin)_Uzbekistan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Vietnamese_Vietnam.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Vietnamese_Vietnam.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Welsh_United_Kingdom.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Welsh_United_Kingdom.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Wolof_Senegal.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Wolof_Senegal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Yakut_Russia.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Yakut_Russia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Yoruba_Nigeria.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Yoruba_Nigeria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/isiXhosa_South_Africa.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/isiXhosa_South_Africa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/isiZulu_South_Africa.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/collations/isiZulu_South_Africa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/mpdfi/filters/FilterASCII85.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/mpdfi/filters/FilterASCII85.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/mpdfi/filters/FilterLZW.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/mpdfi/filters/FilterLZW.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr10.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr10.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr11.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr11.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr12.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr12.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr13.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr13.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr14.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr14.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr15.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr15.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr16.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr16.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr17.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr17.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr18.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr18.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr19.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr19.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr2.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr2.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr20.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr21.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr21.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr22.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr22.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr23.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr23.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr24.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr24.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr25.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr25.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr26.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr26.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr27.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr27.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr28.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr28.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr29.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr29.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr3.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr3.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr30.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr30.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr31.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr32.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr32.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr33.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr33.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr34.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr34.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr35.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr35.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr36.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr36.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr37.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr37.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr38.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr38.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr39.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr39.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr4.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr4.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr40.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr40.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr5.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr5.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr6.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr6.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr7.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr7.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr8.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr8.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr9.dat" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr9.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensed.mtx.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensed.mtx.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensedB.mtx.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensedB.mtx.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensedBI.cw127.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensedBI.cw127.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensedBI.mtx.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensedBI.mtx.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/includes/tech_doc.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/includes/tech_doc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/faq/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/index.php_orig" beforeDir="false" afterPath="$PROJECT_DIR$/faq/index.php_orig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/index_old.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/index_old.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/kb/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/kb/.section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/kb/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/kb/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/search/.section.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/search/.section.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/search/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/search/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/faq/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/sitemap_iblock_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/faq/sitemap_iblock_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/urlrewrite.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/urlrewrite.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -467,53 +35,87 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faq/techdoc/index.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faq/includes/tech_doc_article.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faq/includes/tech_doc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="140" column="19" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="19" />
+            <state relative-caret-position="615">
+              <caret line="293" column="55" selection-start-line="293" selection-start-column="32" selection-end-line="293" selection-end-column="55" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/components/sitebuild/kb/component.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2046" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/faq/includes/faq-mail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="753" selection-start-line="753" selection-end-line="753" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/faq/detail/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="36" lean-forward="true" selection-end-line="302" selection-end-column="64" />
+            <state relative-caret-position="462">
+              <caret line="288" column="52" selection-start-line="288" selection-start-column="52" selection-end-line="288" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/faq/includes/support_btn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="69" lean-forward="true" selection-start-column="69" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/php_interface/init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="154" column="86" lean-forward="true" selection-start-line="154" selection-start-column="86" selection-end-line="154" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -529,17 +131,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>list-style-num</find>
-      <find>full_text</find>
-      <find>full</find>
-      <find>box-sha</find>
-      <find>spy</find>
-      <find>padding-left:</find>
-      <find>mobile_menu_detail_button</find>
-      <find>wrapper_mobile_menu</find>
-      <find>mobile_search</find>
-      <find>mobile_menu_detail</find>
-      <find>btn</find>
       <find>aside__wrapper</find>
       <find>logo</find>
       <find>aside .tech_doc</find>
@@ -553,12 +144,23 @@
       <find>rew_ti</find>
       <find>.faq-rew</find>
       <find>.faq-rew .improved-text textarea</find>
-      <find>faq_rew_field</find>
       <find>$index</find>
       <find>feedbackForm_faq</find>
       <find>faq-send-email</find>
       <find>win</find>
       <find>.aside__wrapper_left</find>
+      <find>display: none;</find>
+      <find>support_button</find>
+      <find>faq_rew_field</find>
+      <find>input</find>
+      <find>radio</find>
+      <find>faq_rew_field__group</find>
+      <find>textarea</find>
+      <find>faq-button-center</find>
+      <find>faq_good</find>
+      <find>faq_article_name</find>
+      <find>faq-rew</find>
+      <find>faq_rew_field__good-text</find>
     </findStrings>
     <replaceStrings>
       <replace>left_aside__sec-title_js</replace>
@@ -577,7 +179,6 @@
         <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/reset.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/lang/en/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/lang/ru/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/footer.php" />
         <option value="$PROJECT_DIR$/bitrix/components/sitebuild/kb/.description.php" />
         <option value="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/ru/.description.php" />
         <option value="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/en/.description.php" />
@@ -604,19 +205,23 @@
         <option value="&lt;82db4595-0796-4214-849c-2883e5400754&gt;/bitrix/.settings.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/.styles.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/styles.css" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/template.php" />
-        <option value="$PROJECT_DIR$/faq/detail/index.php" />
-        <option value="$PROJECT_DIR$/faq/index.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/result_modifier.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/template.php" />
         <option value="$PROJECT_DIR$/faq/includes/faq-mail.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js" />
-        <option value="$PROJECT_DIR$/bitrix/php_interface/init.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php" />
         <option value="$PROJECT_DIR$/faq/techdoc/index.php" />
         <option value="$PROJECT_DIR$/faq/includes/tech_doc_article.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/template.php" />
+        <option value="$PROJECT_DIR$/faq/includes/privacy_policy.php" />
+        <option value="$PROJECT_DIR$/faq/index.php" />
+        <option value="$PROJECT_DIR$/faq/includes/welcome.php" />
+        <option value="$PROJECT_DIR$/faq/detail/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/footer.php" />
+        <option value="$PROJECT_DIR$/faq/includes/support_btn.php" />
+        <option value="$PROJECT_DIR$/bitrix/php_interface/init.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js" />
+        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css" />
       </list>
     </option>
@@ -646,6 +251,18 @@
               <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
               <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
               <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="php_interface" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
@@ -713,30 +330,23 @@
               <item name="bitrix" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="sitebuild" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
+              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="sitebuild" type="462c0819:PsiDirectoryNode" />
+              <item name="faq_rew_feedback" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
               <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
               <item name="faq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="faq" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="faq" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="faq" type="462c0819:PsiDirectoryNode" />
-              <item name="techdoc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -822,17 +432,18 @@
       <workItem from="1551438124396" duration="9600000" />
       <workItem from="1551861458436" duration="7944000" />
       <workItem from="1552303253000" duration="4720000" />
+      <workItem from="1555846017274" duration="8895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145861000" />
+    <option name="totallyTimeSpent" value="155151000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -882,24 +493,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bitrix/components/sitebuild/kb/.description.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/news.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_up_section/result_modifier.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/component.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/banners_list.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/component 2.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/.parameters.php" />
     <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -961,13 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/faq/urlrewrite.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/component_epilog.php" />
     <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/result_modifier.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1013,30 +599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/template.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="62" column="130" selection-start-line="62" selection-start-column="130" selection-end-line="62" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/result_modifier.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/includes/faq-mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1060,13 +626,6 @@
     <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/faq/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="171" column="48" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-547">
@@ -1074,62 +633,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="119" column="105" selection-start-line="119" selection-start-column="105" selection-end-line="119" selection-end-column="105" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/font/opensans.woff">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="140" column="19" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="114" selection-start-line="15" selection-start-column="114" selection-end-line="15" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="126" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/includes/tech_doc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/detail/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="36" lean-forward="true" selection-end-line="302" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -1139,14 +649,137 @@
     <entry file="file://$PROJECT_DIR$/faq/includes/tech_doc_article.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/includes/tech_doc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/urlrewrite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="126" selection-start-line="15" selection-start-column="126" selection-end-line="15" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/includes/privacy_policy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/includes/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="173" column="16" selection-start-line="173" selection-start-column="16" selection-end-line="173" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/includes/support_btn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="69" lean-forward="true" selection-start-column="69" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="154" column="86" lean-forward="true" selection-start-line="154" selection-start-column="86" selection-end-line="154" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-555" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/detail/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="288" column="52" selection-start-line="288" selection-start-column="52" selection-end-line="288" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="293" column="55" selection-start-line="293" selection-start-column="32" selection-end-line="293" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/ajax/feedback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-783" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/faq/includes/faq-mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/components/sitebuild/kb/component.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2046" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="498">
+          <caret line="753" selection-start-line="753" selection-end-line="753" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
         </state>
       </provider>
     </entry>

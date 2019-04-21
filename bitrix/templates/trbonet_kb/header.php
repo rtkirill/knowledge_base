@@ -2,7 +2,7 @@
 IncludeTemplateLangFile(__FILE__);
 ?>
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <? $APPLICATION->ShowHead(); ?>
     <meta name="viewport" content="width=device-width, user-scalable=no"/>
@@ -104,7 +104,6 @@ IncludeTemplateLangFile(__FILE__);
 
             <div class="kb_title"><p>Knowledge Base</p></div>
         </a>
-        <a href="#get_support" class="support_button js-popup">Contact Support</a>
     </header>
 
     <div class="mobile_menu">

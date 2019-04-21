@@ -147,13 +147,12 @@ function BeforeIndexHandler($arFields)
         $arFields["BODY"] = '';
         //добавляем поиск по сво-ву ISSUE и ARTICLE_KEYWORDS
         $arSelect = Array("IBLOCK_ID", "ID", "TAGS", "PROPERTY_ISSUE");
-        $arFilter = Array("IBLOCK_ID"=>$arFields["PARAM2"], "ID"=>$arFields["ITEM_ID"]);
+        $arFilter = Array("IBLOCK_ID" => $arFields["PARAM2"], "ID" => $arFields["ITEM_ID"]);
         $res = CIBlockElement::GetList(Array(), $arFilter, false, Array(), $arSelect);
-        if($ob = $res->GetNext())
-        {
+        if ($ob = $res->GetNext()) {
             //формируем поисковой индекс
-            $arFields["TITLE"] .= " (" . $ob["PROPERTY_ISSUE_VALUE"] . ")";
-            $arFields["BODY"] = "# ".$ob["TAGS"];
+//            $arFields["TITLE"] .= " (" . $ob["PROPERTY_ISSUE_VALUE"] . ")";
+            $arFields["BODY"] = $ob["PROPERTY_ISSUE_VALUE"] . "(" . $ob["TAGS"] . ")";
         }
     }
     return $arFields;

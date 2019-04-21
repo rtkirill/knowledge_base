@@ -158,15 +158,19 @@ $APPLICATION->SetTitle("TRBOnet Knowledge Base");
                           x="42"
                           vector-effect="non-scaling-stroke"></rect>
                 </svg>-->
-                <p>
-                    Welcome to the TRBOnet Knowledge Base.<br><br>
-                    Here you can find the answers to frequently asked questions, information about workarounds,
-                    known
-                    issues
-                    and
-                    their solutions.<br><br>
-                    Use the search bar above or choose a product category from the dropdown menu on the left.
-                </p>
+                <? $APPLICATION->IncludeComponent(
+                    "bitrix:main.include",
+                    ".default",
+                    array(
+                        "AREA_FILE_SHOW" => "file",
+                        "AREA_FILE_SUFFIX" => "inc",
+                        "AREA_FILE_RECURSIVE" => "Y",
+                        "EDIT_TEMPLATE" => "standard.php",
+                        "COMPONENT_TEMPLATE" => ".default",
+                        "PATH" => "/includes/welcome.php"
+                    ),
+                    false
+                ); ?>
             </div>
 
             <!--<div class="feedbackForm_faq_wrapper">
