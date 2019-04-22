@@ -2,7 +2,8 @@
 <div id="get_support" class="tn_popup mfp-hide1">
     <div class="feedbackForm_faq">
         <p class="couldnt_find_answer">Couldn’t find the answer?</p>
-        <p class="contact_us">Please read our <a href="http://s3.trbonet.com/web/guides/TRBOnet_SLA.pdf">Service Level Agreement</a> and create a ticket.</p>
+        <p class="contact_us">Please read our <a href="http://s3.trbonet.com/web/guides/TRBOnet_SLA.pdf">Service Level
+                Agreement</a> and create a ticket.</p>
         <div class="tn_form__wrapper l-constrained l-flow">
             <? if (strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest' && $_REQUEST['AJAX_FORM'] == 'support_popup') $APPLICATION->RestartBuffer(); ?>
             <? $auto_focus = 0;
@@ -26,7 +27,7 @@
                         if (!empty($errors['captcha'])) echo '<div class="tn_form__error l-center">' . $errors['captcha'] . '</div>';
                         $auto_focus = 1;
                     } ?>
-                    <div class="tn_form__wrapper">
+                    <div class="tn_form__wrapper tn_form__main">
                         <div class="tn_form__left">
                             <? foreach ($arParams["NEW_EXT_FIELDS"] as $i => $field): ?>
                                 <? $field['error'] = ($errors && is_array($errors) && in_array($field[0], $errors)) ? ' error' : '' ?>
@@ -98,6 +99,63 @@
                             <? endforeach ?>
                         </div>
                     </div>
+                    <!--Mobile version-->
+                    <div class="tn_form__wrapper tn_form__mobile">
+                        <div class="tn_form__left">
+                            <? foreach ($arParams["NEW_EXT_FIELDS"] as $i => $field): ?>
+                                <? $field['error'] = ($errors && is_array($errors) && in_array($field[0], $errors)) ? ' error' : '' ?>
+                                <? if ($i == 'FIRST_NAME' || $i == 'LAST_NAME' || $i == 'COMPANY'): ?>
+                                    <div class="tn_form__item">
+                                        <label for="dealer_<?= $i ?>"><?= $field[0] ?><? if ($field[1]) : if ($FL_req == 0) $FL_req = 1; ?>
+                                                <span class="tn_form__required"><?= GetMessage("MFT_REQ") ?></span><? endif ?>
+                                        </label>
+                                        <input class="<?= $field['error'] ?>" type="text" name="custom[<?= $i ?>]"
+                                               value="<?= $arResult["custom_$i"] ?>" id="dealer_<?= $i ?>"
+                                               <? if ($cp == 0 && $arResult["custom_$i"] == '' && $auto_focus):
+                                               $cp = 1; ?>autofocus <? endif ?>>
+                                    </div>
+                                <? elseif ($i == 'COUNTRY' || $i == 'PRODUCT'): ?>
+                                    <div class="tn_form__item tn_form__select">
+                                        <label for="dealer_<?= $i ?>"><?= $field[0] ?><? if ($field[1]) : if ($FL_req == 0) $FL_req = 1; ?>
+                                                <span class="tn_form__required"><?= GetMessage("MFT_REQ") ?></span><? endif ?>
+                                        </label>
+                                        <select name="custom[<?= $i ?>]" id="dealer_<?= $i ?>"
+                                                class="<? if ($i == 'PRODUCT'): ?>product_select_js<? endif; ?> <?= $field['error'] ?>">
+                                            <option value=""
+                                                    disabled<? if (empty($arResult["custom_$i"])) echo ' selected' ?>>
+                                                --
+                                                choose
+                                                one --
+                                            </option>
+                                            <? foreach ($arParams['SELECT_VALUES'][$i] as $value): ?>
+                                                <option value="<?= $value ?>"<? if ($value == $arResult["custom_$i"]): ?> selected<? endif ?>><?= $value ?></option>
+                                            <? endforeach ?>
+                                        </select>
+                                    </div>
+                                <? endif; ?>
+                            <? endforeach ?>
+                        </div>
+                        <div class="tn_form__right">
+                            <? foreach ($arParams["NEW_EXT_FIELDS"] as $i => $field): ?>
+                                <? $field['error'] = ($errors && is_array($errors) && in_array($field[0], $errors)) ? ' error' : '' ?>
+                                <? if ($i == 'VERSION' || $i == 'EMAIL'): ?>
+                                    <div class="tn_form__item
+                                 <? if ($i == 'VERSION'): ?>version_block<? endif; ?>">
+                                        <label for="dealer_<?= $i ?>"><?= $field[0] ?><? if ($field[1]) : if ($FL_req == 0) $FL_req = 1; ?>
+                                                <span class="tn_form__required"><?= GetMessage("MFT_REQ") ?></span><? endif ?>
+                                        </label>
+                                        <input class="<?= $field['error'] ?>" type="text" name="custom[<?= $i ?>]"
+                                               value="<?= $arResult["custom_$i"] ?>" id="dealer_<?= $i ?>"
+                                               <? if ($cp == 0 && $arResult["custom_$i"] == '' && $auto_focus):
+                                               $cp = 1; ?>autofocus <? endif ?>
+                                               <? if ($i == 'VERSION'): ?>placeholder="Format x.x.x.xxxx"<? endif; ?>>
+                                    </div>
+                                <? endif; ?>
+                            <? endforeach ?>
+                        </div>
+                    </div>
+                    <!--END Mobile version-->
+
                     <div class="tn_form_center">
                         <? foreach ($arParams["NEW_EXT_FIELDS"] as $i => $field): ?>
                             <? if ($i == 'MESSAGE'): ?>

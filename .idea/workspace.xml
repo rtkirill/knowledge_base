@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c8100166-1591-4aa0-8141-73099d4a8feb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/php_interface/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/php_interface/init.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/template.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/detail/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/detail/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/faq/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,83 +31,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="293" column="55" selection-start-line="293" selection-start-column="32" selection-end-line="293" selection-end-column="55" />
+            <state relative-caret-position="733">
+              <caret line="289" lean-forward="true" selection-start-line="289" selection-end-line="289" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/template.php">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/components/sitebuild/kb/component.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2046" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faq/includes/faq-mail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="753" selection-start-line="753" selection-end-line="753" />
+            <state relative-caret-position="356">
+              <caret line="29" column="62" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="62" />
+              <folding>
+                <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/style.css">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faq/detail/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="288" column="52" selection-start-line="288" selection-start-column="52" selection-end-line="288" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/faq/includes/support_btn.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="69" lean-forward="true" selection-start-column="69" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/php_interface/init.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="154" column="86" lean-forward="true" selection-start-line="154" selection-start-column="86" selection-end-line="154" selection-end-column="86" />
+            <state relative-caret-position="542">
+              <caret line="1096" column="22" selection-start-line="1096" selection-start-column="22" selection-end-line="1096" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -131,8 +69,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>aside__wrapper</find>
-      <find>logo</find>
       <find>aside .tech_doc</find>
       <find>600</find>
       <find>index_faq_marginTop</find>
@@ -157,10 +93,12 @@
       <find>faq_rew_field__group</find>
       <find>textarea</find>
       <find>faq-button-center</find>
-      <find>faq_good</find>
       <find>faq_article_name</find>
       <find>faq-rew</find>
       <find>faq_rew_field__good-text</find>
+      <find>tn_popup</find>
+      <find>faq_good</find>
+      <find>tn_form</find>
     </findStrings>
     <replaceStrings>
       <replace>left_aside__sec-title_js</replace>
@@ -210,7 +148,6 @@
         <option value="$PROJECT_DIR$/faq/includes/faq-mail.php" />
         <option value="$PROJECT_DIR$/faq/techdoc/index.php" />
         <option value="$PROJECT_DIR$/faq/includes/tech_doc_article.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/template.php" />
         <option value="$PROJECT_DIR$/faq/includes/privacy_policy.php" />
         <option value="$PROJECT_DIR$/faq/index.php" />
@@ -222,6 +159,7 @@
         <option value="$PROJECT_DIR$/bitrix/php_interface/init.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js" />
         <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css" />
       </list>
     </option>
@@ -432,18 +370,18 @@
       <workItem from="1551438124396" duration="9600000" />
       <workItem from="1551861458436" duration="7944000" />
       <workItem from="1552303253000" duration="4720000" />
-      <workItem from="1555846017274" duration="8895000" />
+      <workItem from="1555846017274" duration="10468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155151000" />
+    <option name="totallyTimeSpent" value="156724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -738,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="293" column="55" selection-start-line="293" selection-start-column="32" selection-end-line="293" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/faq/ajax/feedback.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-783" />
@@ -769,17 +700,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="753" selection-start-line="753" selection-end-line="753" />
+        <state relative-caret-position="733">
+          <caret line="289" lean-forward="true" selection-start-line="289" selection-end-line="289" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="356">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="62" />
+          <folding>
+            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="1096" column="22" selection-start-line="1096" selection-start-column="22" selection-end-line="1096" selection-end-column="22" />
         </state>
       </provider>
     </entry>

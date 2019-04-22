@@ -542,6 +542,10 @@ section.index_faq .desc_faq p {
     align-items: center;
 }
 
+.tn_form__mobile {
+    display: none;
+}
+
 .right_aside--border-top {
     border-top: 1px solid #e0e0e0;
     padding-top: 20px;
@@ -1082,8 +1086,15 @@ ul.faq-print li a img {
         margin: 0;
     }
 
+    .tn_form__mobile {
+        display: block;
+    }
+
     .tn_form__captcha {
         margin-bottom: 0;
+    }
+    .tn_form__main {
+        display: none;
     }
 }
 
@@ -1110,6 +1121,9 @@ ul.faq-print li a img {
 
     .support_button {
         display: none;
+    }
+    .tn_popup {
+        padding: 10px;
     }
 }
 
