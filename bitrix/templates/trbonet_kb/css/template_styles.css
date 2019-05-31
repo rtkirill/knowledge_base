@@ -1096,9 +1096,19 @@ ul.faq-print li a img {
     overflow-y: hidden;
 }
 
+.mfp-wrap {
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translateZ(0);
+}
+
+html.mfp-helper {
+    height: 100%;
+}
+
 body.mfp-zoom-out-cur {
     overflow: hidden;
-    -webkit-overflow-scrolling: auto;
+    height: 100%;
+    -webkit-transform: translateZ(0);
 }
 
 /*Responsive*/

@@ -120,6 +120,25 @@ $(document).ready(function () {
         hljs.highlightBlock(block);
     });
 
+    //Util.js for magnific popup (problem with scroll on iPhones)
+    window.Utils = {
+        magnificPopupConfiguration: function() {
+            var startWindowScroll = 0;
+
+            return {
+                beforeOpen: function() {
+                    startWindowScroll = $(window).scrollTop();
+                    $('html').addClass('mfp-helper');
+                },
+                close: function() {
+                    $('html').removeClass('mfp-helper');
+                    setTimeout(function(){
+                        $('body').animate({ scrollTop: startWindowScroll }, 0);
+                    }, 0);
+                }
+            }
+        }
+    }
     //Init magnific popup (lightbox)
     $(document).ready(function () {
         $('.image-lightbox').magnificPopup({
@@ -130,6 +149,9 @@ $(document).ready(function () {
             image: {
                 verticalFit: true
             },
+            midClick: true,
+            fixedContentPos: true,
+            callbacks: Utils.magnificPopupConfiguration()
         });
     });
     //For lightbox get img src to put in <a> href wrapper

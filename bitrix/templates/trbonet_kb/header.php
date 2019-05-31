@@ -22,6 +22,7 @@ IncludeTemplateLangFile(__FILE__);
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/printThis.js');
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/highlight.pack.js');
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/jquery.magnific-popup.min.js');
+    $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/util.js');
     $APPLICATION->AddHeadScript(SITE_TEMPLATE_PATH . '/js/main.js');
     ?>
 
