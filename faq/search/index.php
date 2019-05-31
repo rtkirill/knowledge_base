@@ -33,7 +33,7 @@ $APPLICATION->SetTitle("Search");
 		"PAGER_SHOW_ALWAYS" => "N",
 		"PAGER_TEMPLATE" => "",
 		"PAGER_TITLE" => "Результаты поиска",
-		"PAGE_RESULT_COUNT" => "5",
+		"PAGE_RESULT_COUNT" => "10",
 		"PATH_TO_USER_PROFILE" => "",
 		"PERIOD_NEW_TAGS" => "",
 		"RESTART" => "Y",

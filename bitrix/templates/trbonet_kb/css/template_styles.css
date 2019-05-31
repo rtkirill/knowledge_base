@@ -18,9 +18,14 @@
     src: url('../font/opensans.woff');
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     /*background: #f3f3f3;*/
     position: relative;
+    -webkit-overflow-scrolling: touch;
 }
 
 .main {
@@ -29,6 +34,7 @@ body {
     background: #fff;
     /*box-shadow: 0 10px 50px rgba(0, 0, 0, .05);*/
     padding-bottom: 50px;
+    min-height: 100%;
 }
 
 article {
@@ -46,6 +52,10 @@ header {
     top: 0px;
     z-index: 200;
     justify-content: space-between;
+}
+
+footer {
+    margin-top: -50px;
 }
 
 .support_button {
@@ -77,6 +87,7 @@ header {
     width: 100%;
     position: fixed;
     z-index: 300;
+    overflow-y: auto;
 }
 
 .wrapper_mobile {
@@ -86,6 +97,10 @@ header {
 
 .wrapper_mobile_menu {
     display: none;
+}
+
+.mobile_menu, .mobile_menu .aside__wrapper {
+    min-height: 100%;
 }
 
 .mobile_search {
@@ -170,9 +185,9 @@ header {
     display: none;
     align-items: center;
     justify-content: flex-end;
-    position: fixed;
-    right: 20px;
-    top: 90px;
+    /* position: absolute;
+     right: 20px;
+     top: 90px;*/
     background-color: #fff;
     z-index: 50;
 }
@@ -332,36 +347,56 @@ aside.aside_right {
     color: #000;
 }
 
-aside .tech_doc {
+.tech_doc {
     margin-top: 30px;
     border-top: 1px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
 }
 
-aside .tech_doc svg {
+.tech_doc svg {
     max-height: 20px;
 }
 
-aside .tech_doc a {
+.tech_doc a {
     text-decoration: none;
     color: rgb(39, 140, 217);
     font-size: 14px;
     font-family: 'OpenSans-SB', sans-serif;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
 }
 
-aside .tech_doc a:hover {
+.tech_doc a:hover {
     color: #000;
 }
 
-aside .tech_doc a:hover svg path {
+.tech_doc a:hover svg path {
     fill: rgb(0, 0, 0) !important;
 }
 
-aside .tech_doc a p {
+.tech_doc a p {
     display: inline-block;
     opacity: 1;
-    line-height: 36px;
+    line-height: 1;
     margin-left: 10px;
+}
+
+.mobile_menu .tech_doc {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
 }
 
 section.index_faq {
@@ -1057,6 +1092,15 @@ ul.faq-print li a img {
 
 /*END DETAIL*/
 
+.hide_scroll_bar {
+    overflow-y: hidden;
+}
+
+body.mfp-zoom-out-cur {
+    overflow: hidden;
+    -webkit-overflow-scrolling: auto;
+}
+
 /*Responsive*/
 @media screen and (max-width: 1200px) {
     aside {
@@ -1093,13 +1137,17 @@ ul.faq-print li a img {
     .tn_form__captcha {
         margin-bottom: 0;
     }
+
     .tn_form__main {
         display: none;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .aside_right_responsive {
+    /*.aside_right_responsive {
+        display: none;
+    }*/
+    aside {
         display: none;
     }
 
@@ -1122,16 +1170,14 @@ ul.faq-print li a img {
     .support_button {
         display: none;
     }
+
     .tn_popup {
         padding: 10px;
     }
-}
 
-@media screen and (max-width: 500px) {
-    aside {
+    /*aside {
         display: none;
-    }
-
+    }*/
     section.index_faq h1 {
         font-size: 24px;
     }

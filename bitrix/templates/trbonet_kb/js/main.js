@@ -4,11 +4,21 @@ $(document).ready(function () {
 
     sec.on("click", function (e) {
         if ($(e.target).hasClass("left_aside__sec-title")) {
+            //Прокрутка для выпадающего меню
+            var offTopPx = 0;
+            $('.mobile_menu').css('height', 'calc(100% + '+offTopPx+'px)');
+            $('.mobile_menu .aside__wrapper').css('height', 'calc(100% + '+offTopPx+'px)');
             if (!$(this).hasClass("active")) {
                 sec.removeClass("active");
                 sec.find("ul").hide(200);
                 $(this).addClass("active");
-                $(this).find("ul").slideDown(200);
+                $(this).find("ul").slideDown(200, function () {
+                    //Прокрутка для выпадающего меню
+                    offTopPx = $(this).height();
+                    $('.mobile_menu').css('height', 'calc(100% + '+offTopPx+'px)');
+                    $('.mobile_menu .aside__wrapper').css('height', 'calc(100% + '+offTopPx+'px)');
+                    console.log(offTopPx);
+                });
             } else {
                 $(this).removeClass("active");
                 $(this).find("ul").hide(200);
@@ -116,9 +126,10 @@ $(document).ready(function () {
             type: 'image',
             closeOnContentClick: true,
             mainClass: 'mfp-img-mobile',
+            overflowY: 'hidden',
             image: {
                 verticalFit: true
-            }
+            },
         });
     });
     //For lightbox get img src to put in <a> href wrapper
@@ -138,7 +149,7 @@ $(document).ready(function () {
 
     //Set list right menu on detail
     arTitles = [];
-    if($(".news-detail").find("h2").length > 0) {
+    if ($(".news-detail").find("h2").length > 0) {
         $(".news-detail").find("h2").each(
             function (i, elem) {
                 $(elem).attr("id", "title" + i);
@@ -153,6 +164,7 @@ $(document).ready(function () {
         );
     } else {
         $('.title_list_js').hide();
+        $('.mobile_menu_detail_button').hide();
     }
 
     //Scrollspy right menu on detail
@@ -190,6 +202,7 @@ $(document).ready(function () {
         }, 0, function () {
             window.location.hash = hash;
             $(document).on("scroll", onScroll);
+            $(".close_menu_btn").click();
         });
     });
 
@@ -197,6 +210,11 @@ $(document).ready(function () {
     // Toggle mobile menu
     $(".mobile_menu_button").on("click", function () {
         $(".mobile_menu").toggle();
+        if ($(".mobile_menu").is(':visible')) {
+            $('body').addClass('hide_scroll_bar');
+        } else {
+            $('body').removeClass('hide_scroll_bar');
+        }
     });
     // Toggle mobile menu on detail
     $(".mobile_menu_detail_button").on("click", function () {
@@ -292,7 +310,7 @@ $(document).ready(function () {
     //Show textarea in feedback form on detail
     $("input[name = faq_problem]").on("change", function () {
         var textareaBlock = $(".faq_rew_field__textarea");
-        if($(this).attr("id") === "problem_4" ) {
+        if ($(this).attr("id") === "problem_4") {
             textareaBlock.show();
         } else {
             textareaBlock.hide();

@@ -178,6 +178,21 @@ IncludeTemplateLangFile(__FILE__);
                 false
             ); ?>
         </div>
+        <div class="tech_doc">
+            <? $APPLICATION->IncludeComponent(
+                "bitrix:main.include",
+                ".default",
+                array(
+                    "AREA_FILE_SHOW" => "file",
+                    "AREA_FILE_SUFFIX" => "inc",
+                    "AREA_FILE_RECURSIVE" => "Y",
+                    "EDIT_TEMPLATE" => "standard.php",
+                    "COMPONENT_TEMPLATE" => ".default",
+                    "PATH" => "/includes/tech_doc.php"
+                ),
+                false
+            ); ?>
+        </div>
     </div>
 
 

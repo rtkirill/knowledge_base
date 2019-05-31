@@ -122,7 +122,7 @@
                                       style="fill: rgb(39, 140, 217);"></path>
                             </g>
                         </svg>
-                        <span>Contents</span>
+                        <span>IN THIS ARTICLE</span>
                     </div>
                     <div class="mobile_menu_detail">
                         <span class="close_menu_btn">
