@@ -1,10 +1,1054 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8100166-1591-4aa0-8141-73099d4a8feb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js" afterDir="false" />
+    <list default="true" id="4e3c6479-0731-4d6e-950e-a218d47686d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trbonet_kb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/component.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/help/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/images/news_all.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/en/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/en/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/ru/.description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/ru/help/.tooltips.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/newstools.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/catalog.filter/.default/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/catalog.filter/.default/lang/la/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/catalog.filter/.default/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/catalog.filter/.default/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/component_epilog.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/close.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/font_quote.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/noavatar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/add.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/add_button.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/cut.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/delete.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/edit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/font_bold.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/font_code.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/font_color.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/font_image.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/font_italic.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/font_link.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/font_list.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/font_quote.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/font_translit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/font_underline.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/image.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/toolbarbg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/images/postform/video.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/lang/la/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/result_modifier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/ru/script.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/script.map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/script.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/forum.topic.reviews/.default/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/.default/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/.default/lang/la/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/.default/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/.default/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/images/empty.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/images/over.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/images/voted.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/lang/la/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/result_modifier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/iblock.vote/ajax/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/la/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.detail/.default/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.index/.default/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/la/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/la/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/.default/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/list/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/news.list/photo/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/rss.out/.default/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/rss.out/.default/lang/la/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/rss.out/.default/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/rss.out/.default/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.form/flat/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.form/flat/lang/la/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.form/flat/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.form/flat/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/chain_template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/lang/la/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/bitrix/search.page/.default/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/detail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/gif-dark/feed-icon-10x10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/gif-dark/feed-icon-12x12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/gif-dark/feed-icon-16x16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/gif-dark/feed-icon-24x24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/gif-dark/feed-icon-32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/gif-light/feed-icon-10x10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/gif-light/feed-icon-12x12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/gif-light/feed-icon-16x16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/gif-light/feed-icon-24x24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/gif-light/feed-icon-32x32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/jpg-black/feed-icon-10x10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/jpg-black/feed-icon-12x12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/jpg-black/feed-icon-16x16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/jpg-black/feed-icon-24x24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/jpg-black/feed-icon-32x32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/jpg-white/feed-icon-10x10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/jpg-white/feed-icon-12x12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/jpg-white/feed-icon-16x16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/jpg-white/feed-icon-24x24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/jpg-white/feed-icon-32x32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/png/feed-icon-10x10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/png/feed-icon-12x12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/png/feed-icon-14x14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/png/feed-icon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/png/feed-icon-24x24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/images/png/feed-icon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/detail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/news.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/en/section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/detail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/news.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/la/section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/detail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/news.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/lang/ru/section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/news.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/rss.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/rss_section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/search.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/php_interface/init.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/test/.styles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/test/description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/test/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/test/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/test/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/test/template_styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/.styles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/lang/la/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/la/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/result_modifier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/la/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/la/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/result_modifier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/la/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/la/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/result_modifier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/la/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/la/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/la/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/la/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/result_modifier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/bitrix/search.tags.cloud/.default/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/chain_template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/lang/en/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/lang/ru/.parameters.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.page/trbonet_faq_search/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_contacts/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_contacts/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_contacts/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_contacts/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_dealer/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_dealer/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_dealer/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_dealer/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_quote_popup/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_quote_popup/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_quote_popup/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_quote_popup/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/result_modifier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_popup/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_popup/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_popup/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_popup/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_request/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_request/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_request/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support_request/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/lang/en/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/lang/la/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/lang/ru/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/result_modifier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/components.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/layouts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/plugins.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/description.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/font/opensans.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/font/opensansbold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/font/opensansbolditalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/font/opensansextrabold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/font/opensansextrabolditalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/font/opensansitalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/font/opensanslight.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/font/opensanslightitalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/font/opensanssemibold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/font/opensanssemibolditalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/img/download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/img/external-link-symbol.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/img/mail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/img/paper-clip.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/img/pdf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/img/print.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/img/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/highlight.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/assets/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/assets/css/skeleton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/assets/images/cat1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/assets/images/cat2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/assets/images/cat3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/assets/images/print.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/printThis.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/printThis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bitrix/templates/trbonet_kb/template_styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/.access.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/.feedbackajax2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/.section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/.trbonetBeforeEventSend.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/ajax/feedback.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/bitrix_server_test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/detail/.access.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/detail/.section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/detail/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/images/.section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/images/800031/.section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/images/800031/800031_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/images/800084/.section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/images/800084/800084_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/CHANGELOG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/CREDITS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/barcode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/bmp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/cssmgr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/directw.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/gif.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/grad.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/indic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/meter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/mpdfform.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/myanmar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/otl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/otl_dump.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/sea.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/svg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/tocontents.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/ttfontsuni.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/ttfontsuni_analysis.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/ucdn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/classes/wmf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Afrikaans_South_Africa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Albanian_Albania.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Alsatian_France.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Algeria.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Bahrain.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Egypt.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Iraq.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Jordan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Kuwait.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Lebanon.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Libya.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Morocco.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Oman.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Pseudo_RTL.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Qatar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Saudi_Arabia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Syria.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Tunisia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Arabic_Yemen.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Azeri_(Cyrillic)_Azerbaijan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Azeri_(Latin)_Azerbaijan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Bashkir_Russia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Basque_Spain.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Belarusian_Belarus.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Bosnian_(Cyrillic)_Bosnia_and_Herzegovina.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Bosnian_(Latin)_Bosnia_and_Herzegovina.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Breton_France.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Bulgarian_Bulgaria.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Catalan_Spain.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Corsican_France.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Croatian_(Latin)_Bosnia_and_Herzegovina.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Croatian_Croatia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Czech_Czech_Republic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Danish_Denmark.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Dari_Afghanistan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Dutch_Belgium.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Dutch_Netherlands.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Australia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Belize.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Canada.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Caribbean.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_India.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Ireland.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Jamaica.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Malaysia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_New_Zealand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Republic_of_the_Philippines.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Singapore.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_South_Africa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Trinidad_and_Tobago.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_United_Kingdom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_United_States.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/English_Zimbabwe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Estonian_Estonia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Faroese_Faroe_Islands.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Filipino_Philippines.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Finnish_Finland.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Belgium.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Canada.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_France.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Luxembourg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Principality_of_Monaco.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/French_Switzerland.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Frisian_Netherlands.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Galician_Spain.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Austria.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Germany.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Liechtenstein.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Luxembourg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/German_Switzerland.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Greek_Greece.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Greenlandic_Greenland.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Hausa_(Latin)_Nigeria.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Hebrew_Israel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Hungarian_Hungary.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Icelandic_Iceland.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Igbo_Nigeria.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Indonesian_Indonesia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Inuktitut_(Latin)_Canada.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Invariant_Language_Invariant_Country.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Irish_Ireland.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Italian_Italy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Italian_Switzerland.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Kinyarwanda_Rwanda.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Kiswahili_Kenya.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Kyrgyz_Kyrgyzstan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Latvian_Latvia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Lithuanian_Lithuania.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Lower_Sorbian_Germany.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Luxembourgish_Luxembourg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Macedonian_(FYROM)_Macedonia_(FYROM).php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Malay_Brunei_Darussalam.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Malay_Malaysia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Mapudungun_Chile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Mohawk_Canada.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Mongolian_(Cyrillic)_Mongolia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Norwegian_(Nynorsk)_Norway.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Occitan_France.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Persian_Iran.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Polish_Poland.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Portuguese_Brazil.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Portuguese_Portugal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Quechua_Bolivia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Quechua_Ecuador.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Quechua_Peru.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Romanian_Romania.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Romansh_Switzerland.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Russian_Russia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Inari)_Finland.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Lule)_Norway.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Lule)_Sweden.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Northern)_Finland.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Northern)_Norway.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Northern)_Sweden.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Skolt)_Finland.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Southern)_Norway.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sami_(Southern)_Sweden.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Serbian_(Cyrillic)_Bosnia_and_Herzegovina.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Serbian_(Cyrillic)_Serbia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Serbian_(Latin)_Bosnia_and_Herzegovina.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Serbian_(Latin)_Serbia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Sesotho_sa_Leboa_South_Africa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Setswana_South_Africa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Slovak_Slovakia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Slovenian_Slovenia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Argentina.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Bolivia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Chile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Colombia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Costa_Rica.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Dominican_Republic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Ecuador.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_El_Salvador.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Guatemala.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Honduras.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Mexico.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Nicaragua.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Panama.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Paraguay.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Peru.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Puerto_Rico.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Spain.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_United_States.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Uruguay.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Spanish_Venezuela.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Swedish_Finland.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Swedish_Sweden.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Tajik_(Cyrillic)_Tajikistan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Tamazight_(Latin)_Algeria.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Tatar_Russia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Turkish_Turkey.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Turkmen_Turkmenistan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Ukrainian_Ukraine.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Upper_Sorbian_Germany.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Urdu_Islamic_Republic_of_Pakistan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Uzbek_(Cyrillic)_Uzbekistan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Uzbek_(Latin)_Uzbekistan.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Vietnamese_Vietnam.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Welsh_United_Kingdom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Wolof_Senegal.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Yakut_Russia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/Yoruba_Nigeria.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/isiXhosa_South_Africa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/collations/isiZulu_South_Africa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/compress.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/config_fonts-distr-without-OTL.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/config_fonts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/config_lang2fonts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/config_script2lang.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/BGR-Red-Ducati_WCS-Test-TriState.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/ColorGammaGradient.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/Lower_Left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/Lower_Right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/MathJaxProcess.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/MathJaxSample.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/Upper_Left.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/Upper_Right.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/alpha09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/alpha3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/alpha36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/bach1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/bayeux1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/bayeux2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/bgan6a16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/bgan6a162.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/bgbarcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/bgrock.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/borders2FF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/borders2IE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/borders3FF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/borders3IE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/borders4FF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/borders4IE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/bordersFF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/bordersIE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/butterfly_ProPhoto.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/butterfly_ProPhoto.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/cc9900.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/cc9900.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/cc9900_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/cc9900_003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/cc9900_004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/cc9900_005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/clematis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/colourTestFakeBRG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example01_basic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example02_CSS_styles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example03_backgrounds_and_borders.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example04_images.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example05_tables.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example06_tables_nested.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example07_tables_borders.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example08_lists.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example09_forms.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example10_floating_and_fixed_position_elements.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example11_overflow_auto.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example12_paging_html.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example13_paging_css.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example14_page_numbers_ToC_Index_Bookmarks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example16_headers_method_2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example18_headers_method_4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example19_page_sizes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example20_justify.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example21_hyphenation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example22_columns.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example23_orientation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example24_orientation_2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example26_RTL.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example27_CJK_using_Adobe_fonts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example28_CJK_using_embedded_fonts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example29_multilingual_autofont.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example32_indic.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example33_unicode_supplementary_planes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example34_invoice_example.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example35_watermarks.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example36_annotations_and_Attached_files.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example37_barcodes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example38_dot_tab.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example39_PDFA_compliance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example40_MPDFI_thumbnails.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example41_MPDFI_template.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example42_MPDFI_templatedoc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example43_MPDFI_booklet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example44_MPDFI_yearbook.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example46_progress_bars_simple.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example47_progress_bars_simple_custom.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example48_progress_bars_advanced.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example52_lineheight.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example52_new_mPDF_4-2_features.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example54_new_mPDF_v5-1_features_gradients_and_images.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example55_new_mPDF_v5-1_color_and_other_features.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example56_new_mPDF_v5-1_features_grayscale.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example57_new_mPDF_v5-3_active_forms.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example58_new_mPDF_v5-4_features.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example59_new_mPDF_v5-6_features.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example60_new_mPDF_v5-7_features.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example61_new_mPDF_v6-0_features.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example62_new_mPDF_v6-0_features Multilingual.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example63_new_mPDF_v6-0_features Images.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/example_test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/flowers-pattern.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/fonts-elem-01-t.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/formsubmit.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/goto.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/goto2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/goto2rtl.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/img3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/img4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/img5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/klematis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/layers_tab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/mpdfstyleA4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/mpdfstylePaged.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/mpdfstyletables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/sample_basic.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/sample_logoheader2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/sample_orientation2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/sample_orientation3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/sunset.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/test.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tiger.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tiger.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tiger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tiger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tiger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tiger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tiger.wmf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tiger2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tiger2.wmf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tiger24trns.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tiger300px300dpi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tiger300px96dpi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tiger8trns.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tigercmyk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/tux.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/examples/windmill.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/font/ccourier.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/font/ccourierb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/font/ccourierbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/font/ccourieri.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/font/chelvetica.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/font/chelveticab.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/font/chelveticabi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/font/chelveticai.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/font/csymbol.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/font/ctimes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/font/ctimesb.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/font/ctimesbi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/font/ctimesi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/font/czapfdingbats.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/graph.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/graph_cache/dummy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/iccprofiles/SWOP2006_Coated5v2.icc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/iccprofiles/sRGB_IEC61966-2-1.icc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/includes/CJKdata.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/includes/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/includes/linebrdictK.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/includes/linebrdictL.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/includes/linebrdictT.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/includes/no_image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/includes/out.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/includes/subs_core.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/includes/subs_win-1252.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/includes/upperCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/lang2fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/mpdf.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/mpdf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/mpdfi/filters/FilterASCII85.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/mpdfi/filters/FilterLZW.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/mpdfi/fpdi_pdf_parser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/mpdfi/pdf_context.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/mpdfi/pdf_parser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/patterns/NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/patterns/de.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/patterns/dictionary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/patterns/en.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/patterns/es.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/patterns/fi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/patterns/fr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/patterns/it.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/patterns/nl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/patterns/pl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/patterns/ru.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/patterns/sv.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/progbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/_LGPL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/_lisez_moi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele10.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele11.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele12.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele13.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele14.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele15.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele16.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele17.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele18.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele19.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele20.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele21.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele22.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele23.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele24.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele25.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele26.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele27.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele28.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele29.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele30.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele31.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele32.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele33.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele34.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele35.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele36.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele37.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele38.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele39.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele4.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele40.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele5.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele6.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele7.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele8.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/modele9.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv10_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv10_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv10_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv10_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv11_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv11_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv11_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv11_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv12_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv12_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv12_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv12_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv13_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv13_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv13_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv13_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv14_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv14_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv14_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv14_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv15_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv15_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv15_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv15_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv16_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv16_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv16_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv16_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv17_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv17_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv17_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv17_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv18_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv18_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv18_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv18_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv19_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv19_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv19_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv19_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv1_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv1_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv1_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv1_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv20_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv20_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv20_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv20_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv21_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv21_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv21_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv21_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv22_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv22_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv22_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv22_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv23_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv23_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv23_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv23_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv24_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv24_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv24_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv24_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv25_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv25_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv25_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv25_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv26_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv26_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv26_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv26_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv27_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv27_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv27_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv27_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv28_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv28_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv28_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv28_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv29_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv29_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv29_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv29_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv2_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv2_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv2_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv2_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv30_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv30_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv30_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv30_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv31_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv31_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv31_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv31_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv32_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv32_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv32_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv32_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv33_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv33_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv33_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv33_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv34_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv34_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv34_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv34_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv35_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv35_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv35_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv35_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv36_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv36_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv36_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv36_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv37_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv37_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv37_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv37_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv38_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv38_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv38_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv38_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv39_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv39_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv39_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv39_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv3_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv3_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv3_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv3_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv40_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv40_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv40_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv40_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv4_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv4_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv4_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv4_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv5_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv5_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv5_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv5_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv6_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv6_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv6_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv6_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv7_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv7_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv7_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv7_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv8_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv8_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv8_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv8_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv9_0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv9_1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv9_2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrv9_3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr10.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr11.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr12.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr13.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr14.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr15.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr16.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr17.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr18.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr19.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr2.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr20.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr21.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr22.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr23.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr24.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr25.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr26.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr27.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr28.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr29.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr3.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr30.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr31.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr32.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr33.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr34.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr35.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr36.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr37.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr38.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr39.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr4.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr40.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr5.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr6.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr7.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr8.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/qrvfr9.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc10.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc13.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc15.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc16.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc17.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc18.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc20.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc22.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc24.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc26.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc28.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc30.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc32.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc34.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc36.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc40.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc42.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc44.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc46.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc48.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc50.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc52.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc54.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc56.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc58.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc60.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc62.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc64.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc66.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc68.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/data/rsc7.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/qrcode/qrcode.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/tmp/dummy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensed.cw.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensed.gid.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensed.mtx.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensedB.cw.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensedB.gid.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensedB.mtx.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensedBI.cw.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensedBI.cw127.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensedBI.gid.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dejavuserifcondensedBI.mtx.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfontdata/dummy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSans-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSans-BoldOblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSans-Oblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSans.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSansCondensed-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSansCondensed-BoldOblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSansCondensed-Oblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSansCondensed.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSansMono-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSansMono-BoldOblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSansMono-Oblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSansMono.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSerif-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSerif-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSerif-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSerif.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSerifCondensed-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSerifCondensed-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSerifCondensed-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuSerifCondensed.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/DejaVuinfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/FreeMono.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/FreeMonoBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/FreeMonoBoldOblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/FreeMonoOblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/FreeSans.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/FreeSansBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/FreeSansBoldOblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/FreeSansOblique.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/FreeSerif.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/FreeSerifBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/FreeSerifBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/ttfonts/FreeSerifItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/utils/UnicodeData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/utils/UnicodeRanges.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/utils/font_collections.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/utils/font_coverage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/utils/font_dump.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/utils/font_dump_OTL.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/utils/font_names.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/utils/image_details.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/MPDF60/utils/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/faq-mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/privacy_policy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/support_btn.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/tech_doc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/tech_doc_article.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/includes/welcome.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/index.php_orig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/index_old.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/kb/.section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/kb/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/search/.section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/search/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/sitemap_iblock_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/techdoc/.section.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/techdoc/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq/urlrewrite.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,308 +1056,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="1098" selection-start-line="1098" selection-end-line="1098" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="68" lean-forward="true" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/util.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="827" column="2" selection-start-line="827" selection-start-column="2" selection-end-line="827" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>answer</find>
-      <find>rew_ti</find>
-      <find>.faq-rew</find>
-      <find>.faq-rew .improved-text textarea</find>
-      <find>$index</find>
-      <find>feedbackForm_faq</find>
-      <find>faq-send-email</find>
-      <find>win</find>
-      <find>.aside__wrapper_left</find>
-      <find>display: none;</find>
-      <find>support_button</find>
-      <find>faq_rew_field</find>
-      <find>input</find>
-      <find>radio</find>
-      <find>faq_rew_field__group</find>
-      <find>textarea</find>
-      <find>faq-button-center</find>
-      <find>faq_article_name</find>
-      <find>faq-rew</find>
-      <find>faq_rew_field__good-text</find>
-      <find>tn_popup</find>
-      <find>tn_form</find>
-      <find>faq_good</find>
-      <find>product_features</find>
-      <find>lightbo</find>
-      <find>con</find>
-      <find>menuBlock</find>
-      <find>post</find>
-      <find>AJAX</find>
-      <find>mfp</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>left_aside__sec-title_js</replace>
-      <replace>left_aside_inner_js</replace>
-    </replaceStrings>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/lang/en/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/lang/ru/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/sitebuild/kb/.description.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/ru/.description.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/sitebuild/kb/lang/en/.description.php" />
-        <option value="&lt;82db4595-0796-4214-849c-2883e5400754&gt;/bitrix/php_interface/include/define.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/result_modifier.php" />
-        <option value="$PROJECT_DIR$/bitrix/components/sitebuild/kb/templates/.default/news.php" />
-        <option value="&lt;82db4595-0796-4214-849c-2883e5400754&gt;/faq/urlrewrite.php" />
-        <option value="$PROJECT_DIR$/faq/includes/tech_doc.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/jquery.min.js" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/result_modifier.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/template.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/template_styles.css" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/header.php" />
-        <option value="&lt;82db4595-0796-4214-849c-2883e5400754&gt;/urlrewrite.php" />
-        <option value="$PROJECT_DIR$/faq/.htaccess" />
-        <option value="&lt;eaf17fb3-4d80-4d47-aab6-472ba739e245&gt;/bitrix/php_interface/include/eventHandlers.php" />
-        <option value="&lt;eaf17fb3-4d80-4d47-aab6-472ba739e245&gt;/bitrix/php_interface/init.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/component_epilog.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/result_modifier.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/result_modifier.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/template.php" />
-        <option value="&lt;82db4595-0796-4214-849c-2883e5400754&gt;/bitrix/php_interface/init.php" />
-        <option value="&lt;82db4595-0796-4214-849c-2883e5400754&gt;/bitrix/.settings.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/.styles.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/styles.css" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/result_modifier.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/template.php" />
-        <option value="$PROJECT_DIR$/faq/includes/faq-mail.php" />
-        <option value="$PROJECT_DIR$/faq/techdoc/index.php" />
-        <option value="$PROJECT_DIR$/faq/includes/tech_doc_article.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/template.php" />
-        <option value="$PROJECT_DIR$/faq/includes/privacy_policy.php" />
-        <option value="$PROJECT_DIR$/faq/index.php" />
-        <option value="$PROJECT_DIR$/faq/includes/welcome.php" />
-        <option value="$PROJECT_DIR$/faq/detail/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/footer.php" />
-        <option value="$PROJECT_DIR$/faq/includes/support_btn.php" />
-        <option value="$PROJECT_DIR$/bitrix/php_interface/init.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php" />
-        <option value="&lt;0a337952-0683-4c13-a804-14ade6de5442&gt;/bitrix/templates/trbonet/components/bitrix/news/trbonet_solutions/bitrix/news.detail/.default/template.php" />
-        <option value="&lt;0a337952-0683-4c13-a804-14ade6de5442&gt;/bitrix/templates/trbonet/components/bitrix/news/trbonet_dealers/bitrix/catalog.filterext2/.default/script.js" />
-        <option value="&lt;0a337952-0683-4c13-a804-14ade6de5442&gt;/bitrix/templates/trbonet/components/bitrix/news/trbonet_dealers/news.php" />
-        <option value="&lt;0a337952-0683-4c13-a804-14ade6de5442&gt;/bitrix/templates/trbonet/components/bitrix/news/trbonet_dealers/bitrix/news.list/.default/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/util.js" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css" />
-        <option value="$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js" />
-      </list>
-    </option>
-  </component>
-  <component name="PhpServers">
-    <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="466" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="php_interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="informunity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="informunity" type="462c0819:PsiDirectoryNode" />
-              <item name="feedbackajax" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="informunity" type="462c0819:PsiDirectoryNode" />
-              <item name="feedbackajax" type="462c0819:PsiDirectoryNode" />
-              <item name="trbonet_support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="sitebuild" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="sitebuild" type="462c0819:PsiDirectoryNode" />
-              <item name="faq_rew_feedback" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="bitrix" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="trbonet_kb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="trbonet_kb" type="462c0819:PsiDirectoryNode" />
-              <item name="faq" type="462c0819:PsiDirectoryNode" />
+              <item name="trbonet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trbonet" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,19 +1096,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="liveEdit" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Кирилл Терещенко\PhpstormProjects\trbonet_kb\bitrix\templates\trbonet_kb\js" />
-      <recent name="C:\Users\Кирилл Терещенко\PhpstormProjects\trbonet_kb\bitrix\templates\trbonet_kb\img" />
-      <recent name="C:\Users\Кирилл Терещенко\PhpstormProjects\trbonet_kb\bitrix\templates\trbonet_kb\font" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Кирилл Терещенко\PhpstormProjects\trbonet_kb\bitrix\templates\trbonet_kb\js" />
-      <recent name="C:\Users\Кирилл Терещенко\PhpstormProjects\trbonet_kb\bitrix\templates\trbonet_kb\img" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -352,413 +1109,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="header.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://194.58.58.96/bitrix/templates/trbonet_kb/header.php">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.header.php" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c8100166-1591-4aa0-8141-73099d4a8feb" name="Default Changelist" comment="" />
-      <created>1541600633450</created>
+      <changelist id="4e3c6479-0731-4d6e-950e-a218d47686d7" name="Default Changelist" comment="" />
+      <created>1563183560326</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541600633450</updated>
-      <workItem from="1541600634621" duration="861000" />
-      <workItem from="1541601509787" duration="5197000" />
-      <workItem from="1541758277761" duration="8434000" />
-      <workItem from="1542017094791" duration="9088000" />
-      <workItem from="1542195991667" duration="11437000" />
-      <workItem from="1542628940185" duration="3405000" />
-      <workItem from="1542632526096" duration="8806000" />
-      <workItem from="1542702707918" duration="13803000" />
-      <workItem from="1542889964780" duration="10294000" />
-      <workItem from="1543235657925" duration="11597000" />
-      <workItem from="1543400018778" duration="8127000" />
-      <workItem from="1543490915844" duration="3863000" />
-      <workItem from="1543499919217" duration="608000" />
-      <workItem from="1544104663823" duration="742000" />
-      <workItem from="1544613506662" duration="9369000" />
-      <workItem from="1544785638915" duration="395000" />
-      <workItem from="1551083622469" duration="4889000" />
-      <workItem from="1551351202612" duration="7981000" />
-      <workItem from="1551360556854" duration="1356000" />
-      <workItem from="1551438124396" duration="9600000" />
-      <workItem from="1551861458436" duration="7944000" />
-      <workItem from="1552303253000" duration="4720000" />
-      <workItem from="1555846017274" duration="12544000" />
-      <workItem from="1557752479787" duration="2227000" />
-      <workItem from="1557768045658" duration="4644000" />
-      <workItem from="1557841525269" duration="4563000" />
-      <workItem from="1558439043423" duration="376000" />
-      <workItem from="1558879364734" duration="747000" />
-      <workItem from="1559300527217" duration="615000" />
+      <updated>1563183560326</updated>
+      <workItem from="1563183562824" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171972000" />
+    <option name="totallyTimeSpent" value="41000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.3264418" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Remote Host" weight="0.32995737" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.24093817" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15565032" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.3264418" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.32995737" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/index_old.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="100" column="33" lean-forward="true" selection-start-line="100" selection-start-column="12" selection-end-line="100" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/result_modifier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/result_modifier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/left_main_section/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/500.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/call.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/template_styles.css" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/header.php" />
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/highlight.pack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="5858" selection-start-line="1" selection-start-column="5854" selection-end-line="1" selection-end-column="5858" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1357">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/component_epilog.php" />
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/result_modifier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.list/right_section/result_modifier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/template_styles.css">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/.styles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/img/download.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/img/external-link-symbol.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="140" column="18" selection-start-line="140" selection-start-column="18" selection-end-line="140" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/result_modifier.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis/printThis.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/printThis.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/news.detail/kb/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-547">
-          <caret line="89" column="40" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/font/opensans.woff">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb_mini/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="114" selection-start-line="15" selection-start-column="114" selection-end-line="15" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/techdoc/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/includes/tech_doc_article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/includes/tech_doc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/urlrewrite.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/search.form/kb/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="126" selection-start-line="15" selection-start-column="126" selection-end-line="15" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/includes/privacy_policy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/includes/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="173" column="16" selection-start-line="173" selection-start-column="16" selection-end-line="173" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/includes/support_btn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="69" lean-forward="true" selection-start-column="69" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/php_interface/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="154" column="86" lean-forward="true" selection-start-line="154" selection-start-column="86" selection-end-line="154" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/bitrix/main.feedback/kb/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/detail/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="288" column="52" selection-start-line="288" selection-start-column="52" selection-end-line="288" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/ajax/feedback.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-783" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/faq/includes/faq-mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/components/sitebuild/kb/component.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2046" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/sitebuild/faq_rew_feedback/kb/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/components/informunity/feedbackajax/trbonet_support/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="29" column="62" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="62" />
-          <folding>
-            <element signature="n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="68" lean-forward="true" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/css/template_styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="1098" selection-start-line="1098" selection-end-line="1098" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="827" column="2" selection-start-line="827" selection-start-column="2" selection-end-line="827" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/trbonet_kb/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="140" column="5" selection-start-line="140" selection-start-column="5" selection-end-line="140" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
   </component>
 </project>

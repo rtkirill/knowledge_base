@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" promptOnRemoteOverwrite="CHECK_TIMESTAMP" serverName="demo_.sitebuild" autoUploadExternalChanges="true" notifyRemoteChanges="true">
+  <component name="PublishConfigData">
     <serverData>
+      <paths name="31.186.98.28:8087">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="b24">
         <serverdata>
           <mappings>
@@ -21,13 +28,14 @@
             <excludedPath path="/dealer_locator" />
             <excludedPath path="/downloads" />
             <excludedPath path="/es" />
-            <excludedPath path="/faqxz" />
+            <excludedPath path="/faq" />
             <excludedPath path="/files" />
             <excludedPath path="/html" />
             <excludedPath path="/images" />
-            <excludedPath path="/kb" />
+            <excludedPath path="/includes" />
             <excludedPath path="/login" />
             <excludedPath path="/markets" />
+            <excludedPath path="/MPDF60" />
             <excludedPath path="/news" />
             <excludedPath path="/products" />
             <excludedPath path="/profile" />
@@ -39,6 +47,7 @@
             <excludedPath path="/success" />
             <excludedPath path="/support" />
             <excludedPath path="/support_request" />
+            <excludedPath path="/test" />
             <excludedPath path="/upload" />
             <excludedPath path="/video" />
             <excludedPath path="/.access.php" />
@@ -53,7 +62,6 @@
             <excludedPath path="/.htaccess" />
             <excludedPath path="/.htaccess.restore" />
             <excludedPath path="/.htaccess_" />
-            <excludedPath path="/.htaccess__" />
             <excludedPath path="/.htaccess_orig" />
             <excludedPath path="/.main.menu.php" />
             <excludedPath path="/.mobiletop.menu.php" />
@@ -71,23 +79,16 @@
             <excludedPath path="/apple-touch-icon-72x72.png" />
             <excludedPath path="/apple-touch-icon-76x76.png" />
             <excludedPath path="/apple-touch-icon.png" />
-            <excludedPath path="/archive_search.form.tar.gz" />
             <excludedPath path="/Brochure_August_2015_small.pdf" />
-            <excludedPath path="/components.zip" />
             <excludedPath path="/download.php" />
-            <excludedPath path="/faq.tar.gz" />
-            <excludedPath path="/faq.zip" />
             <excludedPath path="/favicon.ico" />
+            <excludedPath path="/favicon_16.ico" />
+            <excludedPath path="/favicon_old.ico" />
             <excludedPath path="/googlebc98f1975bec392b.html" />
             <excludedPath path="/index.php" />
-            <excludedPath path="/MPDF60.zip" />
             <excludedPath path="/new1.txt" />
-            <excludedPath path="/news.list.zip" />
             <excludedPath path="/pathLog.txt" />
-            <excludedPath path="/pt.tar.gz" />
             <excludedPath path="/robots.txt" />
-            <excludedPath path="/search.form.zip" />
-            <excludedPath path="/sitebuild.zip" />
             <excludedPath path="/sitemap.xml" />
             <excludedPath path="/sitemap_000.xml" />
             <excludedPath path="/sitemap_errors.xml" />
@@ -114,8 +115,6 @@
             <excludedPath path="/sitemap_index.xml" />
             <excludedPath path="/software.xml" />
             <excludedPath path="/test.php" />
-            <excludedPath path="/trbonet_faq.zip" />
-            <excludedPath path="/trbonet_faq_search.zip" />
             <excludedPath path="/urlrewrite.php" />
             <excludedPath path="/web.config" />
             <excludedPath path="/bitrix/activities" />
@@ -124,6 +123,7 @@
             <excludedPath path="/bitrix/blocks" />
             <excludedPath path="/bitrix/cache" />
             <excludedPath path="/bitrix/catalog_export" />
+            <excludedPath path="/bitrix/components" />
             <excludedPath path="/bitrix/css" />
             <excludedPath path="/bitrix/fonts" />
             <excludedPath path="/bitrix/gadgets" />
@@ -134,18 +134,27 @@
             <excludedPath path="/bitrix/modules" />
             <excludedPath path="/bitrix/otp" />
             <excludedPath path="/bitrix/panel" />
+            <excludedPath path="/bitrix/php_interface" />
             <excludedPath path="/bitrix/services" />
             <excludedPath path="/bitrix/sounds" />
             <excludedPath path="/bitrix/template" />
+            <excludedPath path="/bitrix/templates/landing24" />
+            <excludedPath path="/bitrix/templates/sps" />
+            <excludedPath path="/bitrix/templates/trbonet" />
+            <excludedPath path="/bitrix/templates/trbonet_es" />
+            <excludedPath path="/bitrix/templates/trbonet_pt" />
+            <excludedPath path="/bitrix/templates/trbonet_ru" />
             <excludedPath path="/bitrix/themes" />
             <excludedPath path="/bitrix/tmp" />
             <excludedPath path="/bitrix/tools" />
-            <excludedPath path="/bitrix/updates" />
             <excludedPath path="/bitrix/wizards" />
             <excludedPath path="/bitrix/.access.php" />
             <excludedPath path="/bitrix/.settings.php" />
             <excludedPath path="/bitrix/activity_limit.php" />
+            <excludedPath path="/bitrix/bitrix.php" />
             <excludedPath path="/bitrix/click.php" />
+            <excludedPath path="/bitrix/composer-bx.json" />
+            <excludedPath path="/bitrix/composer.json.example" />
             <excludedPath path="/bitrix/coupon_activation.php" />
             <excludedPath path="/bitrix/footer.php" />
             <excludedPath path="/bitrix/header.php" />
@@ -161,28 +170,6 @@
             <excludedPath path="/bitrix/urlrewrite.php" />
             <excludedPath path="/bitrix/virtual_file_system.php" />
             <excludedPath path="/bitrix/web.config" />
-            <excludedPath path="/bitrix/components/asd" />
-            <excludedPath path="/bitrix/components/bitrix" />
-            <excludedPath path="/bitrix/components/informunity" />
-            <excludedPath path="/bitrix/components/.access.php" />
-            <excludedPath path="/bitrix/components/sitebuild/faq" />
-            <excludedPath path="/bitrix/components/sitebuild/faq_list" />
-            <excludedPath path="/bitrix/components/sitebuild/faq_rew_feedback" />
-            <excludedPath path="/bitrix/components/sitebuild/faq_search" />
-            <excludedPath path="/bitrix/components/sitebuild/menu.elements" />
-            <excludedPath path="/bitrix/php_interface/include" />
-            <excludedPath path="/bitrix/php_interface/subscribe" />
-            <excludedPath path="/bitrix/php_interface/.htaccess" />
-            <excludedPath path="/bitrix/php_interface/after_connect.php" />
-            <excludedPath path="/bitrix/php_interface/after_connect_d7.php" />
-            <excludedPath path="/bitrix/php_interface/cron_events.php" />
-            <excludedPath path="/bitrix/php_interface/cron_events.php_" />
-            <excludedPath path="/bitrix/php_interface/dbconn.php" />
-            <excludedPath path="/bitrix/php_interface/dbconn.php.bak" />
-            <excludedPath path="/bitrix/templates/trbonet" />
-            <excludedPath path="/bitrix/templates/trbonet_es" />
-            <excludedPath path="/bitrix/templates/trbonet_pt" />
-            <excludedPath path="/bitrix/templates/trbonet_ru" />
           </excludedPaths>
         </serverdata>
       </paths>
@@ -194,6 +181,34 @@
         </serverdata>
       </paths>
       <paths name="hummel">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="maxiplace">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="msnet">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="mssoft">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="reg.1cfresh.com">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
@@ -222,6 +237,5 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

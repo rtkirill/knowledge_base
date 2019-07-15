@@ -1,1 +1,0 @@
-<a href="#get_support" class="support_button js-popup">Need Help?</a>
